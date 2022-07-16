@@ -18,6 +18,11 @@ public class TextManager : MonoBehaviour
 
     private float typeLetterSpeed = .03f;
 
+    [SerializeField]
+    GameObject statTextsObj;
+
+    [SerializeField]
+    private Text dateText;
 
     [SerializeField]
     private Text moneyText;
@@ -40,9 +45,19 @@ public class TextManager : MonoBehaviour
     [SerializeField]
     private Text cheatingText;
 
+    public GameObject StatTextsObj
+    {
+        get { return statTextsObj; }
+    }
+
     public Text MainText
     {
         get { return mainText; }
+    }
+
+    public Text DateText
+    {
+        get { return dateText; }
     }
 
     public Text MoneyText
@@ -121,8 +136,9 @@ public class TextManager : MonoBehaviour
         isTyping = true;
     }
 
-    public void SetAllStatUI (int money, int happiness, int luck, int dignity, int worker, int smarts, int cheating)
+    public void SetAllStatUI (int day, int money, int happiness, int luck, int dignity, int worker, int smarts, int cheating)
     {
+        UpdateDay(day);
         MoneyText.text = "Money: " + (money / 100) + "." + (money % 100).ToString("00");
 
         HappinessText.text = "Happiness: " + happiness;
@@ -131,5 +147,19 @@ public class TextManager : MonoBehaviour
         WorkerText.text = "Worker: " + worker;
         SmartsText.text = "Smarts: " + smarts;
         CheatingText.text = "Cheating: " + cheating;
+    }
+
+    public void UpdateDay(int day)
+    {
+        string dayString = "";
+        if (day < 7)
+            dayString = "" + 4 + "/" + (day + 25);
+        else if (day >= 7 && day != 37)
+            dayString = "" + 5 + "/" + (day - 6);
+        else if (day == 37)
+            dayString = "" + 6 + "/" + 1;
+        else
+            Debug.LogError("Invalid Day Update");
+        dateText.text = dayString;
     }
 }

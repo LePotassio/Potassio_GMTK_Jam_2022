@@ -106,13 +106,13 @@ public class OptionManager : MonoBehaviour
         options = newOptions;
         CurrentSelection = 0;
 
-        int hardCodeLength = 4;
-        for (int a = 0; a < 4; a++)
+        int hardCodeLength = 6;
+        for (int a = 0; a < hardCodeLength; a++)
         {
             if (a < options.Count)
             {
                 optionUIs[a].gameObject.SetActive(true);
-                optionUIs[a].OptionText.text = options[a].OptionText;
+                optionUIs[a].OptionText.text = "-" + options[a].OptionText;
             }
             else
             {

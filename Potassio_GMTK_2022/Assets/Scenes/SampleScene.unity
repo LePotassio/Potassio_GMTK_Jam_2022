@@ -153,11 +153,11 @@ RectTransform:
   m_LocalScale: {x: 0.53875, y: 0.53875, z: 0.53875}
   m_Children: []
   m_Father: {fileID: 2073276178}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 50, y: -55}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &148355200
@@ -232,11 +232,11 @@ RectTransform:
   m_LocalScale: {x: 0.53875, y: 0.53875, z: 0.53875}
   m_Children: []
   m_Father: {fileID: 2073276178}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 50, y: -35}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &222640339
@@ -308,15 +308,15 @@ RectTransform:
   m_GameObject: {fileID: 359687719}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.53875, y: 0.53875, z: 0.53875}
+  m_LocalScale: {x: 0.3, y: 0.3, z: 0.5}
   m_Children: []
   m_Father: {fileID: 1201528713}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: -210.14761, y: -123.304535}
-  m_SizeDelta: {x: 779.5932, y: 131.2402}
+  m_AnchoredPosition: {x: -211.93024, y: -123.304535}
+  m_SizeDelta: {x: 1413.9697, y: 226.4057}
   m_Pivot: {x: 0, y: 0}
 --- !u!114 &359687721
 MonoBehaviour:
@@ -340,7 +340,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 25
+    m_FontSize: 40
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
@@ -448,6 +448,85 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &653176239
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 653176240}
+  - component: {fileID: 653176242}
+  - component: {fileID: 653176241}
+  m_Layer: 5
+  m_Name: DayText
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &653176240
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 653176239}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.53875, y: 0.53875, z: 0.53875}
+  m_Children: []
+  m_Father: {fileID: 2073276178}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 50, y: -15}
+  m_SizeDelta: {x: 160, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &653176241
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 653176239}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 25
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 0
+    m_MaxSize: 40
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: X/X
+--- !u!222 &653176242
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 653176239}
+  m_CullTransparentMesh: 1
 --- !u!1 &829359607
 GameObject:
   m_ObjectHideFlags: 0
@@ -478,11 +557,11 @@ RectTransform:
   m_LocalScale: {x: 0.53875, y: 0.53875, z: 0.53875}
   m_Children: []
   m_Father: {fileID: 2073276178}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 50, y: -155}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &829359609
@@ -628,13 +707,36 @@ MonoBehaviour:
   optionManager: {fileID: 1396062529}
   playerInfo: {fileID: 873542899}
   dialogueList:
-  - text: Hello, My name is E
+  - text: '???: It''s time'
     optionsToLoad: []
     defaultDialogue: 1
-  - text: Yooo
+    advanceDay: 0
+    alts: []
+  - text: '???: It''s time to wake up and ROLL. THOSE. DICE.'
+    optionsToLoad: []
+    defaultDialogue: 2
+    advanceDay: 0
+    alts: []
+  - text: '???: You want to sleep just a minute longer?'
+    optionsToLoad: []
+    defaultDialogue: 3
+    advanceDay: 0
+    alts: []
+  - text: '???: Ok...'
+    optionsToLoad: []
+    defaultDialogue: 4
+    advanceDay: 0
+    alts: []
+  - text: '???: But answer me a few questions first'
+    optionsToLoad: []
+    defaultDialogue: 5
+    advanceDay: 0
+    alts: []
+  - text: '???: What are the odds of drawing two cards of the same suit?'
     optionsToLoad:
-    - optionText: Do The Dance
-      textNodeToLoad: 0
+    - optionText: 1 in 2
+      textNodeToLoad: 6
+      dayReq: 0
       moneyReq: 0
       happinessReq: 0
       dignityReq: 0
@@ -649,8 +751,10 @@ MonoBehaviour:
       adjustWorker: 0
       adjustSmarts: 0
       adjustCheating: 0
-    - optionText: Do Not Do The Dance
-      textNodeToLoad: 0
+      advanceProgression: 0
+    - optionText: 1 in 3
+      textNodeToLoad: 6
+      dayReq: 0
       moneyReq: 0
       happinessReq: 0
       dignityReq: 0
@@ -665,7 +769,1230 @@ MonoBehaviour:
       adjustWorker: 0
       adjustSmarts: 0
       adjustCheating: 0
-    defaultDialogue: 0
+      advanceProgression: 0
+    - optionText: 1 in 4
+      textNodeToLoad: 6
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+    - optionText: 1 in 6
+      textNodeToLoad: 6
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+    defaultDialogue: 6
+    advanceDay: 0
+    alts: []
+  - text: '???: I see... Interesting...'
+    optionsToLoad: []
+    defaultDialogue: 7
+    advanceDay: 0
+    alts: []
+  - text: '???: What about the odds of you winning a bet on 0 or 00 in Roulette?'
+    optionsToLoad:
+    - optionText: 1 in 16
+      textNodeToLoad: 8
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+    - optionText: 1 in 19
+      textNodeToLoad: 8
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+    - optionText: 1 in 21
+      textNodeToLoad: 8
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+    - optionText: 1 in 36
+      textNodeToLoad: 8
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+    defaultDialogue: 8
+    advanceDay: 0
+    alts: []
+  - text: '???: Is that right? Or are you thinking of European Roulette? Nevertheless...'
+    optionsToLoad: []
+    defaultDialogue: 9
+    advanceDay: 0
+    alts: []
+  - text: '???: The odds of becoming a millionaire?'
+    optionsToLoad:
+    - optionText: 1 in 16
+      textNodeToLoad: 10
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+    - optionText: 1 in 32
+      textNodeToLoad: 10
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+    - optionText: 1 in 48
+      textNodeToLoad: 10
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+    - optionText: 1 in 64
+      textNodeToLoad: 10
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+    defaultDialogue: 10
+    advanceDay: 0
+    alts: []
+  - text: '???: Hmm'
+    optionsToLoad: []
+    defaultDialogue: 11
+    advanceDay: 0
+    alts: []
+  - text: '???: The odds of being struck by lightening in your lifetime?'
+    optionsToLoad:
+    - optionText: 1 in 5,500
+      textNodeToLoad: 12
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+    - optionText: 1 in 8,700
+      textNodeToLoad: 12
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+    - optionText: 1 in 15,300
+      textNodeToLoad: 12
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+    - optionText: 1 in 42,000
+      textNodeToLoad: 12
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+    defaultDialogue: 12
+    advanceDay: 0
+    alts: []
+  - text: '???: The odds of being in a plane crash?'
+    optionsToLoad:
+    - optionText: 1 in 3,000,000
+      textNodeToLoad: 13
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+    - optionText: 1 in 11,000,000
+      textNodeToLoad: 13
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+    - optionText: 1 in 14,000,000
+      textNodeToLoad: 13
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+    - optionText: 1 in 17,000,000
+      textNodeToLoad: 13
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+    defaultDialogue: 13
+    advanceDay: 0
+    alts: []
+  - text: '???: The odds of flipping a coin on heads 100 times in a row?'
+    optionsToLoad:
+    - optionText: 1 in 1,267,650,600,228,229,401...
+      textNodeToLoad: 34
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+    - optionText: 1 in 2,356,235,646,295,257,123...
+      textNodeToLoad: 34
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+    - optionText: 1 in 3,982,387,267,145,636,178...
+      textNodeToLoad: 34
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+    - optionText: 1 in 7,328,509,823,580,328,509...
+      textNodeToLoad: 34
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+    defaultDialogue: 34
+    advanceDay: 0
+    alts: []
+  - text: '???: The odds of you accomplishing something meaningul today?'
+    optionsToLoad:
+    - optionText: Zero
+      textNodeToLoad: 15
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+    - optionText: Zero
+      textNodeToLoad: 15
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+    - optionText: Zero
+      textNodeToLoad: 15
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+    - optionText: Zero
+      textNodeToLoad: 15
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+    defaultDialogue: 15
+    advanceDay: 0
+    alts: []
+  - text: '???: The odds of you not wasting your last 10 dollars at the casino?'
+    optionsToLoad:
+    - optionText: Zero
+      textNodeToLoad: 16
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+    - optionText: Zero
+      textNodeToLoad: 16
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+    - optionText: Zero
+      textNodeToLoad: 16
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+    - optionText: Zero
+      textNodeToLoad: 16
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+    defaultDialogue: 16
+    advanceDay: 0
+    alts: []
+  - text: '???: The odds of you escaping this fate?'
+    optionsToLoad:
+    - optionText: Zero
+      textNodeToLoad: 35
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+    - optionText: Zero
+      textNodeToLoad: 35
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+    - optionText: Zero
+      textNodeToLoad: 35
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+    - optionText: Zero
+      textNodeToLoad: 35
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+    defaultDialogue: 35
+    advanceDay: 0
+    alts: []
+  - text: '???: The odds of rolling a six on a 6 sided die?'
+    optionsToLoad:
+    - optionText: 1 in 1
+      textNodeToLoad: 18
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+    - optionText: 1 in 1
+      textNodeToLoad: 18
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+    - optionText: 1 in 1
+      textNodeToLoad: 18
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+    - optionText: 1 in 1
+      textNodeToLoad: 18
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+    defaultDialogue: 18
+    advanceDay: 0
+    alts: []
+  - text: '???: Mmm, Yes...'
+    optionsToLoad: []
+    defaultDialogue: 19
+    advanceDay: 0
+    alts: []
+  - text: '???: My impatience is killing me...'
+    optionsToLoad: []
+    defaultDialogue: 20
+    advanceDay: 0
+    alts: []
+  - text: '???: Let''s get going, we have important business to take care of today...'
+    optionsToLoad: []
+    defaultDialogue: 21
+    advanceDay: 0
+    alts: []
+  - text: Where to Today?
+    optionsToLoad:
+    - optionText: The Casino
+      textNodeToLoad: 22
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+    - optionText: The Casino
+      textNodeToLoad: 22
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+    - optionText: The Casino
+      textNodeToLoad: 22
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+    - optionText: The Casino
+      textNodeToLoad: 22
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+    defaultDialogue: 22
+    advanceDay: 0
+    alts: []
+  - text: '???: Which game should we play?'
+    optionsToLoad: []
+    defaultDialogue: 23
+    advanceDay: 0
+    alts: []
+  - text: '???: (You know which one)...'
+    optionsToLoad: []
+    defaultDialogue: 24
+    advanceDay: 0
+    alts: []
+  - text: Which game?
+    optionsToLoad:
+    - optionText: Six Shooter
+      textNodeToLoad: 25
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+    - optionText: Six Shooter
+      textNodeToLoad: 25
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+    - optionText: Six Shooter
+      textNodeToLoad: 25
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+    - optionText: Six Shooter
+      textNodeToLoad: 25
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+    defaultDialogue: 25
+    advanceDay: 0
+    alts: []
+  - text: What number will you bet on?
+    optionsToLoad:
+    - optionText: 6
+      textNodeToLoad: 26
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+    - optionText: 6
+      textNodeToLoad: 26
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+    - optionText: 6
+      textNodeToLoad: 26
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+    - optionText: 6
+      textNodeToLoad: 26
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+    - optionText: 6
+      textNodeToLoad: 26
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+    - optionText: 6
+      textNodeToLoad: 26
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+    defaultDialogue: 26
+    advanceDay: 0
+    alts: []
+  - text: You watch in complete silence as the die is flung from the the die thrower's
+      gloved hands
+    optionsToLoad: []
+    defaultDialogue: 27
+    advanceDay: 0
+    alts: []
+  - text: At first it bounces deftly on the emerald felt table, steadily slowing
+      with each turn
+    optionsToLoad: []
+    defaultDialogue: 28
+    advanceDay: 0
+    alts: []
+  - text: Why even look?
+    optionsToLoad: []
+    defaultDialogue: 29
+    advanceDay: 0
+    alts: []
+  - text: You already know the outcome
+    optionsToLoad: []
+    defaultDialogue: 30
+    advanceDay: 0
+    alts: []
+  - text: It will definitely be a...
+    optionsToLoad:
+    - optionText: 6
+      textNodeToLoad: 31
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+    - optionText: 6
+      textNodeToLoad: 31
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+    - optionText: 6
+      textNodeToLoad: 31
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+    - optionText: 6
+      textNodeToLoad: 31
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+    - optionText: 6
+      textNodeToLoad: 31
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+    - optionText: 6
+      textNodeToLoad: 31
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+    defaultDialogue: 31
+    advanceDay: 0
+    alts: []
+  - text: A single, jet black dot crests over the side of the die as it comes to
+      a stop on the felt
+    optionsToLoad: []
+    defaultDialogue: 36
+    advanceDay: 0
+    alts: []
+  - text: What will you do?
+    optionsToLoad:
+    - optionText: Watch as your last 10 dollars get whisked away
+      textNodeToLoad: 33
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+    defaultDialogue: 33
+    advanceDay: 0
+    alts: []
+  - text: Title Card Here
+    optionsToLoad: []
+    defaultDialogue: -1
+    advanceDay: 0
+    alts: []
+  - text: '???: Mmmm...'
+    optionsToLoad: []
+    defaultDialogue: 14
+    advanceDay: 0
+    alts: []
+  - text: '???: And finally...'
+    optionsToLoad: []
+    defaultDialogue: 17
+    advanceDay: 0
+    alts: []
+  - text: It's a 1...
+    optionsToLoad: []
+    defaultDialogue: 32
+    advanceDay: 0
+    alts: []
 --- !u!4 &873542898
 Transform:
   m_ObjectHideFlags: 0
@@ -699,6 +2026,13 @@ MonoBehaviour:
   smarts: 1
   worker: 1
   happiness: 1
+  day: 1
+  oneProgression: 0
+  twoProgression: 0
+  threeProgression: 0
+  fourProgression: 0
+  fiveProgression: 0
+  sixProgression: 0
 --- !u!1 &910665454
 GameObject:
   m_ObjectHideFlags: 0
@@ -827,7 +2161,7 @@ RectTransform:
   m_GameObject: {fileID: 915719606}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
   m_Father: {fileID: 1396062528}
   m_RootOrder: 2
@@ -835,7 +2169,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 291.776, y: 30.7426}
+  m_SizeDelta: {x: 530.9756, y: 30.7426}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &915719608
 MonoBehaviour:
@@ -872,16 +2206,16 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 20
+    m_FontSize: 30
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 2
+    m_MinSize: 0
     m_MaxSize: 40
     m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
+    m_VerticalOverflow: 1
     m_LineSpacing: 1
   m_Text: Option 3
 --- !u!222 &915719610
@@ -922,11 +2256,11 @@ RectTransform:
   m_LocalScale: {x: 0.53875, y: 0.53875, z: 0.53875}
   m_Children: []
   m_Father: {fileID: 2073276178}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 50, y: -75}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &987066198
@@ -1001,11 +2335,11 @@ RectTransform:
   m_LocalScale: {x: 0.53875, y: 0.53875, z: 0.53875}
   m_Children: []
   m_Father: {fileID: 2073276178}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 50, y: -115}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1006295174
@@ -1080,11 +2414,11 @@ RectTransform:
   m_LocalScale: {x: 0.53875, y: 0.53875, z: 0.53875}
   m_Children: []
   m_Father: {fileID: 2073276178}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 50, y: -95}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1011003645
@@ -1158,8 +2492,8 @@ Transform:
   m_LocalScale: {x: 1.8561486, y: 1.8561486, z: 1.8561486}
   m_Children:
   - {fileID: 359687720}
-  - {fileID: 2073276178}
   - {fileID: 1396062528}
+  - {fileID: 1551314286}
   m_Father: {fileID: 910665458}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1176,6 +2510,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mainText: {fileID: 359687721}
+  statTextsObj: {fileID: 1551314285}
+  dateText: {fileID: 653176241}
   moneyText: {fileID: 222640339}
   happinessText: {fileID: 148355200}
   dignityText: {fileID: 987066198}
@@ -1183,6 +2519,99 @@ MonoBehaviour:
   workerText: {fileID: 1006295174}
   smartsText: {fileID: 2022190103}
   cheatingText: {fileID: 829359609}
+--- !u!1 &1363517693
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1363517694}
+  - component: {fileID: 1363517697}
+  - component: {fileID: 1363517696}
+  - component: {fileID: 1363517695}
+  m_Layer: 0
+  m_Name: Option6
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1363517694
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1363517693}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1396062528}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 530.9756, y: 30.7426}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1363517695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1363517693}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80e8103c93074964387b8b4c8afbfd64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  optionText: {fileID: 1363517696}
+--- !u!114 &1363517696
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1363517693}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 30
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 0
+    m_MaxSize: 40
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 1
+    m_LineSpacing: 1
+  m_Text: Option 6
+--- !u!222 &1363517697
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1363517693}
+  m_CullTransparentMesh: 1
 --- !u!1 &1396062527
 GameObject:
   m_ObjectHideFlags: 0
@@ -1216,13 +2645,15 @@ RectTransform:
   - {fileID: 1847176359}
   - {fileID: 915719607}
   - {fileID: 1470708281}
+  - {fileID: 1742386555}
+  - {fileID: 1363517694}
   m_Father: {fileID: 1201528713}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 52.488174, y: 51.097916}
-  m_SizeDelta: {x: 286.5764, y: 153.8042}
+  m_AnchoredPosition: {x: -71.2, y: 40}
+  m_SizeDelta: {x: 286.5764, y: 190.2972}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1396062529
 MonoBehaviour:
@@ -1243,6 +2674,8 @@ MonoBehaviour:
   - {fileID: 1847176360}
   - {fileID: 915719608}
   - {fileID: 1470708282}
+  - {fileID: 1742386556}
+  - {fileID: 1363517695}
   selectColor: {r: 0.5849056, g: 0.1305921, b: 0.1305921, a: 1}
   unselectColor: {r: 0, g: 0, b: 0, a: 1}
   selectLockedColor: {r: 0.509434, g: 0.503026, b: 0.503026, a: 1}
@@ -1260,7 +2693,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Padding:
-    m_Left: 0
+    m_Left: -120
     m_Right: 0
     m_Top: 0
     m_Bottom: 0
@@ -1301,7 +2734,7 @@ RectTransform:
   m_GameObject: {fileID: 1470708280}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
   m_Father: {fileID: 1396062528}
   m_RootOrder: 3
@@ -1309,7 +2742,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 291.776, y: 30.7426}
+  m_SizeDelta: {x: 530.9756, y: 30.7426}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1470708282
 MonoBehaviour:
@@ -1346,16 +2779,16 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 20
+    m_FontSize: 30
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 2
+    m_MinSize: 0
     m_MaxSize: 40
     m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
+    m_VerticalOverflow: 1
     m_LineSpacing: 1
   m_Text: Option 4
 --- !u!222 &1470708284
@@ -1394,7 +2827,7 @@ RectTransform:
   m_GameObject: {fileID: 1551051462}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
   m_Father: {fileID: 1396062528}
   m_RootOrder: 0
@@ -1402,7 +2835,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 291.776, y: 30.7426}
+  m_SizeDelta: {x: 530.9756, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1551051464
 MonoBehaviour:
@@ -1426,16 +2859,16 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 20
+    m_FontSize: 30
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 2
+    m_MinSize: 0
     m_MaxSize: 40
     m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
+    m_VerticalOverflow: 1
     m_LineSpacing: 1
   m_Text: Option 1
 --- !u!222 &1551051465
@@ -1459,6 +2892,136 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   optionText: {fileID: 1551051464}
+--- !u!1 &1551314285
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1551314286}
+  m_Layer: 0
+  m_Name: StatTextsShell
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &1551314286
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1551314285}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2135625211}
+  - {fileID: 2073276178}
+  m_Father: {fileID: 1201528713}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: -1, y: -0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &1742386554
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1742386555}
+  - component: {fileID: 1742386558}
+  - component: {fileID: 1742386557}
+  - component: {fileID: 1742386556}
+  m_Layer: 0
+  m_Name: Option5
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1742386555
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1742386554}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1396062528}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 530.9756, y: 30.7426}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1742386556
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1742386554}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80e8103c93074964387b8b4c8afbfd64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  optionText: {fileID: 1742386557}
+--- !u!114 &1742386557
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1742386554}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 30
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 0
+    m_MaxSize: 40
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 1
+    m_LineSpacing: 1
+  m_Text: Option 5
+--- !u!222 &1742386558
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1742386554}
+  m_CullTransparentMesh: 1
 --- !u!1 &1847176358
 GameObject:
   m_ObjectHideFlags: 0
@@ -1487,7 +3050,7 @@ RectTransform:
   m_GameObject: {fileID: 1847176358}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
   m_Father: {fileID: 1396062528}
   m_RootOrder: 1
@@ -1495,7 +3058,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 291.776, y: 30.7426}
+  m_SizeDelta: {x: 530.9756, y: 30.7426}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1847176360
 MonoBehaviour:
@@ -1532,16 +3095,16 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 20
+    m_FontSize: 30
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 2
+    m_MinSize: 0
     m_MaxSize: 40
     m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
+    m_VerticalOverflow: 1
     m_LineSpacing: 1
   m_Text: Option 2
 --- !u!222 &1847176362
@@ -1582,11 +3145,11 @@ RectTransform:
   m_LocalScale: {x: 0.53875, y: 0.53875, z: 0.53875}
   m_Children: []
   m_Father: {fileID: 2073276178}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 50, y: -135}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2022190103
@@ -1659,6 +3222,7 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+  - {fileID: 653176240}
   - {fileID: 222640338}
   - {fileID: 148355199}
   - {fileID: 987066197}
@@ -1666,7 +3230,7 @@ RectTransform:
   - {fileID: 1006295173}
   - {fileID: 2022190102}
   - {fileID: 829359608}
-  m_Father: {fileID: 1201528713}
+  m_Father: {fileID: 1551314286}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -1700,3 +3264,78 @@ MonoBehaviour:
   m_ChildScaleWidth: 0
   m_ChildScaleHeight: 0
   m_ReverseArrangement: 0
+--- !u!1 &2135625210
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2135625211}
+  - component: {fileID: 2135625213}
+  - component: {fileID: 2135625212}
+  m_Layer: 0
+  m_Name: Panel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2135625211
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2135625210}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1551314286}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: -117.5, y: 0.2519989}
+  m_SizeDelta: {x: 100, y: 174.0959}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2135625212
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2135625210}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.7830189, g: 0.7830189, b: 0.7830189, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &2135625213
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2135625210}
+  m_CullTransparentMesh: 1

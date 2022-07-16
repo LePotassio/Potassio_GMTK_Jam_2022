@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-public enum GameState { MainMenu, OptionSelection, Dialogue, DoingOption, NoOptionSelection, Waiting }
+public enum GameState { MainMenu, OptionSelection, Dialogue, DoingOption, NoOptionSelection, Waiting, Pause }
 public class GameManager : MonoBehaviour
 {
     public static GameManager Instance { get; private set; }
@@ -25,7 +25,8 @@ public class GameManager : MonoBehaviour
     private List<Dialogue> dialogueList;
 
     private Dialogue currentDialogue;
-    // Starting Text Node here...
+
+    private GameState cacheState;
 
     // Mini game data manager?
 
@@ -62,7 +63,10 @@ public class GameManager : MonoBehaviour
 
         DontDestroyOnLoad(gameObject);
 
-        textManager.SetAllStatUI(playerInfo.Money, playerInfo.Happiness, playerInfo.Luck, playerInfo.Dignity, playerInfo.Worker, playerInfo.Smarts, playerInfo.Cheating);
+        textManager.StatTextsObj.SetActive(false);
+        textManager.SetAllStatUI(playerInfo.Day, playerInfo.Money, playerInfo.Happiness, playerInfo.Luck, playerInfo.Dignity, playerInfo.Worker, playerInfo.Smarts, playerInfo.Cheating);
+        optionManager.SetOptions(new List<Option>());
+
 
         playerInfo.ChangeMoney += () => textManager.MoneyText.text = "Money: " + playerInfo.Money;
 
@@ -82,7 +86,22 @@ public class GameManager : MonoBehaviour
 
     private void Update()
     {
-        if (State == GameState.Dialogue)
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            if (State != GameState.Pause)
+            {
+                textManager.StatTextsObj.SetActive(true);
+                cacheState = State;
+                State = GameState.Pause;
+            }
+            else
+            {
+                textManager.StatTextsObj.SetActive(false);
+                State = cacheState;
+            }
+        }
+
+        else if (State == GameState.Dialogue)
             textManager.DoUpdate();
 
         else if (State == GameState.OptionSelection)
@@ -94,17 +113,29 @@ public class GameManager : MonoBehaviour
 
     public void DoDialogueNode(Dialogue d)
     {
-        currentDialogue = d;
+        Dialogue node = d;
+        int nodeAlt = node.CheckForAlts();
+        if (nodeAlt > -1 && nodeAlt < dialogueList.Count && dialogueList[nodeAlt] != null)
+            node = dialogueList[nodeAlt];
+
+        currentDialogue = node;
         State = GameState.Dialogue;
-        textManager.SetText(d.Text);
-        if (d.OptionsToLoad.Count > 0)
+        textManager.SetText(node.Text);
+        if (node.AdvanceDay)
+            AdvanceDay();
+        if (node.OptionsToLoad.Count > 0)
         {
-            optionManager.SetOptions(d.OptionsToLoad);
+            optionManager.SetOptions(node.OptionsToLoad);
             State = GameState.OptionSelection;
         }
         else
         {
             State = GameState.NoOptionSelection;
         }
+    }
+
+    private void AdvanceDay()
+    {
+        playerInfo.Day++;
     }
 }

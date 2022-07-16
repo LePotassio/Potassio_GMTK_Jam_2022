@@ -15,6 +15,10 @@ public class Option
     private int textNodeToLoad;
 
 
+    // that day or later
+    [SerializeField]
+    private int dayReq;
+
     [SerializeField]
     private int moneyReq;
 
@@ -52,6 +56,9 @@ public class Option
     [SerializeField]
     private int adjustCheating;
 
+    [SerializeField]
+    private int advanceProgression = -1;
+
     public string OptionText
     {
         get { return optionText; }
@@ -74,6 +81,20 @@ public class Option
         if (adjustCheating != 0)
             GameManager.Instance.PlayerInfo.Cheating += adjustCheating;
 
+        PlayerInfo p = GameManager.Instance.PlayerInfo;
+        if (advanceProgression == 1)
+            p.OneProgression++;
+        if (advanceProgression == 2)
+            p.TwoProgression++;
+        if (advanceProgression == 3)
+            p.ThreeProgression++;
+        if (advanceProgression == 4)
+            p.FourProgression++;
+        if (advanceProgression == 5)
+            p.FiveProgression++;
+        if (advanceProgression == 6)
+            p.SixProgression++;
+
         // Deal with mini games down here...
 
         //
@@ -84,6 +105,10 @@ public class Option
     public bool CheckReqs()
     {
         PlayerInfo p = GameManager.Instance.PlayerInfo;
+
+        if (p.Day < dayReq)
+            return false;
+
         if (p.Money < moneyReq)
             return false;
 

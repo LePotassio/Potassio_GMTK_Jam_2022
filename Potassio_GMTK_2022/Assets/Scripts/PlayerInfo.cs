@@ -89,4 +89,87 @@ public class PlayerInfo : MonoBehaviour
     public event Action ChangeWorker;
 
     public event Action ChangeHappiness;
+
+
+
+
+
+    // Progression (Could be its own class)
+    [SerializeField]
+    private int day = 1;
+
+    [SerializeField]
+    private int oneProgression;
+    [SerializeField]
+    private int twoProgression;
+    [SerializeField]
+    private int threeProgression;
+    [SerializeField]
+    private int fourProgression;
+    [SerializeField]
+    private int fiveProgression;
+    [SerializeField]
+    private int sixProgression;
+
+    public int Day
+    {
+        get { return day; }
+        set { day = value; GameManager.Instance.TextManager.UpdateDay(day); }
+    }
+
+    public int OneProgression
+    {
+        get { return oneProgression; }
+        set { oneProgression = value; }
+    }
+
+    public int TwoProgression
+    {
+        get { return twoProgression; }
+        set { twoProgression = value; }
+    }
+
+    public int ThreeProgression
+    {
+        get { return threeProgression; }
+        set { threeProgression = value; }
+    }
+
+    public int FourProgression
+    {
+        get { return fourProgression; }
+        set { fourProgression = value; }
+    }
+
+    public int FiveProgression
+    {
+        get { return fiveProgression; }
+        set { fiveProgression = value; }
+    }
+
+    public int SixProgression
+    {
+        get { return sixProgression; }
+        set { sixProgression = value; }
+    }
+
+    public int GetProgression(int i)
+    {
+        switch(i)
+        {
+            case 1:
+                return OneProgression;
+            case 2:
+                return TwoProgression;
+            case 3:
+                return ThreeProgression;
+            case 4:
+                return FourProgression;
+            case 5:
+                return FiveProgression;
+            case 6:
+                return SixProgression;
+            default: return -1;
+        }
+    }
 }
