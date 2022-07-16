@@ -150,15 +150,15 @@ RectTransform:
   m_GameObject: {fileID: 148355198}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.53875, y: 0.53875, z: 0.53875}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
   m_Father: {fileID: 2073276178}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 50, y: -55}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: 89.475006, y: -109.9615}
+  m_SizeDelta: {x: 298.95, y: 50.828}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &148355200
 MonoBehaviour:
@@ -182,11 +182,11 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 25
+    m_FontSize: 40
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
-    m_MaxSize: 40
+    m_MaxSize: 49
     m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -229,15 +229,15 @@ RectTransform:
   m_GameObject: {fileID: 222640337}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.53875, y: 0.53875, z: 0.53875}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
   m_Father: {fileID: 2073276178}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 50, y: -35}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: 89.475006, y: -67.68775}
+  m_SizeDelta: {x: 298.95, y: 50.828}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &222640339
 MonoBehaviour:
@@ -261,11 +261,11 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 25
+    m_FontSize: 40
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
-    m_MaxSize: 40
+    m_MaxSize: 49
     m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -308,7 +308,7 @@ RectTransform:
   m_GameObject: {fileID: 359687719}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.3, y: 0.3, z: 0.5}
+  m_LocalScale: {x: 0.1, y: 0.1, z: 0.5}
   m_Children: []
   m_Father: {fileID: 1201528713}
   m_RootOrder: 0
@@ -316,7 +316,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: -203.1, y: -122.4}
-  m_SizeDelta: {x: 1381.3257, y: 226.4057}
+  m_SizeDelta: {x: 4102.335, y: 721.1346}
   m_Pivot: {x: 0, y: 0}
 --- !u!114 &359687721
 MonoBehaviour:
@@ -340,11 +340,11 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 40
+    m_FontSize: 120
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 2
-    m_MaxSize: 80
+    m_MinSize: 0
+    m_MaxSize: 180
     m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -364,6 +364,99 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 359687719}
+  m_CullTransparentMesh: 1
+--- !u!1 &372485241
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 372485242}
+  - component: {fileID: 372485245}
+  - component: {fileID: 372485244}
+  - component: {fileID: 372485243}
+  m_Layer: 0
+  m_Name: Option7
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &372485242
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 372485241}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1396062528}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 1056.401, y: 50.834}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &372485243
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 372485241}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80e8103c93074964387b8b4c8afbfd64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  optionText: {fileID: 372485244}
+--- !u!114 &372485244
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 372485241}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 45
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 0
+    m_MaxSize: 45
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 1
+    m_LineSpacing: 1
+  m_Text: Option 7
+--- !u!222 &372485245
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 372485241}
   m_CullTransparentMesh: 1
 --- !u!1 &519420028
 GameObject:
@@ -475,15 +568,15 @@ RectTransform:
   m_GameObject: {fileID: 653176239}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.53875, y: 0.53875, z: 0.53875}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
   m_Father: {fileID: 2073276178}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 50, y: -15}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: 89.475006, y: -25.414}
+  m_SizeDelta: {x: 298.95, y: 50.828}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &653176241
 MonoBehaviour:
@@ -507,11 +600,11 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 25
+    m_FontSize: 40
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
-    m_MaxSize: 40
+    m_MaxSize: 49
     m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -591,7 +684,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 656088832}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1522992503}
@@ -629,15 +722,15 @@ RectTransform:
   m_GameObject: {fileID: 829359607}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.53875, y: 0.53875, z: 0.53875}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
   m_Father: {fileID: 2073276178}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 50, y: -155}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: 89.475006, y: -321.33023}
+  m_SizeDelta: {x: 298.95, y: 50.828}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &829359609
 MonoBehaviour:
@@ -661,11 +754,11 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 25
+    m_FontSize: 40
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
-    m_MaxSize: 40
+    m_MaxSize: 49
     m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -758,6 +851,7 @@ GameObject:
   - component: {fileID: 873542898}
   - component: {fileID: 873542897}
   - component: {fileID: 873542899}
+  - component: {fileID: 873542900}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -790,10 +884,11 @@ MonoBehaviour:
   brManager: {fileID: 1522992499}
   portraitManager: {fileID: 2098703532}
   playerInfo: {fileID: 873542899}
+  gamblerStats: {fileID: 873542900}
   dialogueList:
   - text: It's time
     optionsToLoad: []
-    defaultDialogue: 1
+    defaultDialogue: 75
     advanceDay: 0
     alts:
     - alt: 1
@@ -804,7 +899,8 @@ MonoBehaviour:
     newBackgroundIndex: 0
     changePortrait: 0
     newPortraitIndex: 0
-  - text: '???: It''s time to wake up and ROLL. THOSE. DICE.'
+    overrideWithRoll: 0
+  - text: '???: It''s time'
     optionsToLoad: []
     defaultDialogue: 2
     advanceDay: 0
@@ -813,6 +909,7 @@ MonoBehaviour:
     newBackgroundIndex: 0
     changePortrait: 0
     newPortraitIndex: 0
+    overrideWithRoll: 0
   - text: '???: You want to sleep just a minute longer?'
     optionsToLoad: []
     defaultDialogue: 3
@@ -822,6 +919,7 @@ MonoBehaviour:
     newBackgroundIndex: 0
     changePortrait: 0
     newPortraitIndex: 0
+    overrideWithRoll: 0
   - text: '???: Ok...'
     optionsToLoad: []
     defaultDialogue: 4
@@ -831,6 +929,7 @@ MonoBehaviour:
     newBackgroundIndex: 0
     changePortrait: 0
     newPortraitIndex: 0
+    overrideWithRoll: 0
   - text: '???: But answer me a few questions first'
     optionsToLoad: []
     defaultDialogue: 5
@@ -840,6 +939,7 @@ MonoBehaviour:
     newBackgroundIndex: 0
     changePortrait: 0
     newPortraitIndex: 0
+    overrideWithRoll: 0
   - text: '???: What are the odds of drawing two cards of the same suit?'
     optionsToLoad:
     - optionText: 1 in 2
@@ -860,6 +960,8 @@ MonoBehaviour:
       adjustSmarts: 0
       adjustCheating: 0
       advanceProgression: 0
+      setBetNumber: -1
+      setBetAmount: -1
     - optionText: 1 in 3
       textNodeToLoad: 6
       dayReq: 0
@@ -878,6 +980,8 @@ MonoBehaviour:
       adjustSmarts: 0
       adjustCheating: 0
       advanceProgression: 0
+      setBetNumber: -1
+      setBetAmount: -1
     - optionText: 1 in 4
       textNodeToLoad: 6
       dayReq: 0
@@ -896,6 +1000,8 @@ MonoBehaviour:
       adjustSmarts: 0
       adjustCheating: 0
       advanceProgression: 0
+      setBetNumber: -1
+      setBetAmount: -1
     - optionText: 1 in 6
       textNodeToLoad: 6
       dayReq: 0
@@ -914,6 +1020,8 @@ MonoBehaviour:
       adjustSmarts: 0
       adjustCheating: 0
       advanceProgression: 0
+      setBetNumber: -1
+      setBetAmount: -1
     defaultDialogue: 6
     advanceDay: 0
     alts: []
@@ -921,6 +1029,7 @@ MonoBehaviour:
     newBackgroundIndex: 0
     changePortrait: 0
     newPortraitIndex: 0
+    overrideWithRoll: 0
   - text: '???: I see... Interesting...'
     optionsToLoad: []
     defaultDialogue: 7
@@ -930,6 +1039,7 @@ MonoBehaviour:
     newBackgroundIndex: 0
     changePortrait: 0
     newPortraitIndex: 0
+    overrideWithRoll: 0
   - text: '???: What about the odds of you winning a bet on 0 or 00 in Roulette?'
     optionsToLoad:
     - optionText: 1 in 16
@@ -950,6 +1060,8 @@ MonoBehaviour:
       adjustSmarts: 0
       adjustCheating: 0
       advanceProgression: 0
+      setBetNumber: -1
+      setBetAmount: -1
     - optionText: 1 in 19
       textNodeToLoad: 8
       dayReq: 0
@@ -968,6 +1080,8 @@ MonoBehaviour:
       adjustSmarts: 0
       adjustCheating: 0
       advanceProgression: 0
+      setBetNumber: -1
+      setBetAmount: -1
     - optionText: 1 in 21
       textNodeToLoad: 8
       dayReq: 0
@@ -986,6 +1100,8 @@ MonoBehaviour:
       adjustSmarts: 0
       adjustCheating: 0
       advanceProgression: 0
+      setBetNumber: -1
+      setBetAmount: -1
     - optionText: 1 in 36
       textNodeToLoad: 8
       dayReq: 0
@@ -1004,6 +1120,8 @@ MonoBehaviour:
       adjustSmarts: 0
       adjustCheating: 0
       advanceProgression: 0
+      setBetNumber: -1
+      setBetAmount: -1
     defaultDialogue: 8
     advanceDay: 0
     alts: []
@@ -1011,6 +1129,7 @@ MonoBehaviour:
     newBackgroundIndex: 0
     changePortrait: 0
     newPortraitIndex: 0
+    overrideWithRoll: 0
   - text: '???: Is that right? Or are you thinking of European Roulette? Nevertheless...'
     optionsToLoad: []
     defaultDialogue: 9
@@ -1020,6 +1139,7 @@ MonoBehaviour:
     newBackgroundIndex: 0
     changePortrait: 0
     newPortraitIndex: 0
+    overrideWithRoll: 0
   - text: '???: The odds of becoming a millionaire?'
     optionsToLoad:
     - optionText: 1 in 16
@@ -1040,6 +1160,8 @@ MonoBehaviour:
       adjustSmarts: 0
       adjustCheating: 0
       advanceProgression: 0
+      setBetNumber: -1
+      setBetAmount: -1
     - optionText: 1 in 32
       textNodeToLoad: 10
       dayReq: 0
@@ -1058,6 +1180,8 @@ MonoBehaviour:
       adjustSmarts: 0
       adjustCheating: 0
       advanceProgression: 0
+      setBetNumber: -1
+      setBetAmount: -1
     - optionText: 1 in 48
       textNodeToLoad: 10
       dayReq: 0
@@ -1076,6 +1200,8 @@ MonoBehaviour:
       adjustSmarts: 0
       adjustCheating: 0
       advanceProgression: 0
+      setBetNumber: -1
+      setBetAmount: -1
     - optionText: 1 in 64
       textNodeToLoad: 10
       dayReq: 0
@@ -1094,6 +1220,8 @@ MonoBehaviour:
       adjustSmarts: 0
       adjustCheating: 0
       advanceProgression: 0
+      setBetNumber: -1
+      setBetAmount: -1
     defaultDialogue: 10
     advanceDay: 0
     alts: []
@@ -1101,6 +1229,7 @@ MonoBehaviour:
     newBackgroundIndex: 0
     changePortrait: 0
     newPortraitIndex: 0
+    overrideWithRoll: 0
   - text: '???: Hmm'
     optionsToLoad: []
     defaultDialogue: 11
@@ -1110,6 +1239,7 @@ MonoBehaviour:
     newBackgroundIndex: 0
     changePortrait: 0
     newPortraitIndex: 0
+    overrideWithRoll: 0
   - text: '???: The odds of being struck by lightening in your lifetime?'
     optionsToLoad:
     - optionText: 1 in 5,500
@@ -1130,6 +1260,8 @@ MonoBehaviour:
       adjustSmarts: 0
       adjustCheating: 0
       advanceProgression: 0
+      setBetNumber: -1
+      setBetAmount: -1
     - optionText: 1 in 8,700
       textNodeToLoad: 12
       dayReq: 0
@@ -1148,6 +1280,8 @@ MonoBehaviour:
       adjustSmarts: 0
       adjustCheating: 0
       advanceProgression: 0
+      setBetNumber: -1
+      setBetAmount: -1
     - optionText: 1 in 15,300
       textNodeToLoad: 12
       dayReq: 0
@@ -1166,6 +1300,8 @@ MonoBehaviour:
       adjustSmarts: 0
       adjustCheating: 0
       advanceProgression: 0
+      setBetNumber: -1
+      setBetAmount: -1
     - optionText: 1 in 42,000
       textNodeToLoad: 12
       dayReq: 0
@@ -1184,6 +1320,8 @@ MonoBehaviour:
       adjustSmarts: 0
       adjustCheating: 0
       advanceProgression: 0
+      setBetNumber: -1
+      setBetAmount: -1
     defaultDialogue: 12
     advanceDay: 0
     alts: []
@@ -1191,6 +1329,7 @@ MonoBehaviour:
     newBackgroundIndex: 0
     changePortrait: 0
     newPortraitIndex: 0
+    overrideWithRoll: 0
   - text: '???: The odds of being in a plane crash?'
     optionsToLoad:
     - optionText: 1 in 3,000,000
@@ -1211,6 +1350,8 @@ MonoBehaviour:
       adjustSmarts: 0
       adjustCheating: 0
       advanceProgression: 0
+      setBetNumber: -1
+      setBetAmount: -1
     - optionText: 1 in 11,000,000
       textNodeToLoad: 13
       dayReq: 0
@@ -1229,6 +1370,8 @@ MonoBehaviour:
       adjustSmarts: 0
       adjustCheating: 0
       advanceProgression: 0
+      setBetNumber: -1
+      setBetAmount: -1
     - optionText: 1 in 14,000,000
       textNodeToLoad: 13
       dayReq: 0
@@ -1247,6 +1390,8 @@ MonoBehaviour:
       adjustSmarts: 0
       adjustCheating: 0
       advanceProgression: 0
+      setBetNumber: -1
+      setBetAmount: -1
     - optionText: 1 in 17,000,000
       textNodeToLoad: 13
       dayReq: 0
@@ -1265,6 +1410,8 @@ MonoBehaviour:
       adjustSmarts: 0
       adjustCheating: 0
       advanceProgression: 0
+      setBetNumber: -1
+      setBetAmount: -1
     defaultDialogue: 13
     advanceDay: 0
     alts: []
@@ -1272,6 +1419,7 @@ MonoBehaviour:
     newBackgroundIndex: 0
     changePortrait: 0
     newPortraitIndex: 0
+    overrideWithRoll: 0
   - text: '???: The odds of flipping a coin on heads 100 times in a row?'
     optionsToLoad:
     - optionText: 1 in 1,267,650,600,228,229,401...
@@ -1292,6 +1440,8 @@ MonoBehaviour:
       adjustSmarts: 0
       adjustCheating: 0
       advanceProgression: 0
+      setBetNumber: -1
+      setBetAmount: -1
     - optionText: 1 in 2,356,235,646,295,257,123...
       textNodeToLoad: 34
       dayReq: 0
@@ -1310,6 +1460,8 @@ MonoBehaviour:
       adjustSmarts: 0
       adjustCheating: 0
       advanceProgression: 0
+      setBetNumber: -1
+      setBetAmount: -1
     - optionText: 1 in 3,982,387,267,145,636,178...
       textNodeToLoad: 34
       dayReq: 0
@@ -1328,6 +1480,8 @@ MonoBehaviour:
       adjustSmarts: 0
       adjustCheating: 0
       advanceProgression: 0
+      setBetNumber: -1
+      setBetAmount: -1
     - optionText: 1 in 7,328,509,823,580,328,509...
       textNodeToLoad: 34
       dayReq: 0
@@ -1346,6 +1500,8 @@ MonoBehaviour:
       adjustSmarts: 0
       adjustCheating: 0
       advanceProgression: 0
+      setBetNumber: -1
+      setBetAmount: -1
     defaultDialogue: 34
     advanceDay: 0
     alts: []
@@ -1353,6 +1509,7 @@ MonoBehaviour:
     newBackgroundIndex: 0
     changePortrait: 0
     newPortraitIndex: 0
+    overrideWithRoll: 0
   - text: '???: The odds of you accomplishing something meaningul today?'
     optionsToLoad:
     - optionText: Zero
@@ -1373,6 +1530,8 @@ MonoBehaviour:
       adjustSmarts: 0
       adjustCheating: 0
       advanceProgression: 0
+      setBetNumber: -1
+      setBetAmount: -1
     - optionText: Zero
       textNodeToLoad: 15
       dayReq: 0
@@ -1391,6 +1550,8 @@ MonoBehaviour:
       adjustSmarts: 0
       adjustCheating: 0
       advanceProgression: 0
+      setBetNumber: -1
+      setBetAmount: -1
     - optionText: Zero
       textNodeToLoad: 15
       dayReq: 0
@@ -1409,6 +1570,8 @@ MonoBehaviour:
       adjustSmarts: 0
       adjustCheating: 0
       advanceProgression: 0
+      setBetNumber: -1
+      setBetAmount: -1
     - optionText: Zero
       textNodeToLoad: 15
       dayReq: 0
@@ -1427,6 +1590,8 @@ MonoBehaviour:
       adjustSmarts: 0
       adjustCheating: 0
       advanceProgression: 0
+      setBetNumber: -1
+      setBetAmount: -1
     defaultDialogue: 15
     advanceDay: 0
     alts: []
@@ -1434,6 +1599,7 @@ MonoBehaviour:
     newBackgroundIndex: 0
     changePortrait: 0
     newPortraitIndex: 0
+    overrideWithRoll: 0
   - text: '???: The odds of you not wasting your last 10 dollars at the casino?'
     optionsToLoad:
     - optionText: Zero
@@ -1454,6 +1620,8 @@ MonoBehaviour:
       adjustSmarts: 0
       adjustCheating: 0
       advanceProgression: 0
+      setBetNumber: -1
+      setBetAmount: -1
     - optionText: Zero
       textNodeToLoad: 16
       dayReq: 0
@@ -1472,6 +1640,8 @@ MonoBehaviour:
       adjustSmarts: 0
       adjustCheating: 0
       advanceProgression: 0
+      setBetNumber: -1
+      setBetAmount: -1
     - optionText: Zero
       textNodeToLoad: 16
       dayReq: 0
@@ -1490,6 +1660,8 @@ MonoBehaviour:
       adjustSmarts: 0
       adjustCheating: 0
       advanceProgression: 0
+      setBetNumber: -1
+      setBetAmount: -1
     - optionText: Zero
       textNodeToLoad: 16
       dayReq: 0
@@ -1508,6 +1680,8 @@ MonoBehaviour:
       adjustSmarts: 0
       adjustCheating: 0
       advanceProgression: 0
+      setBetNumber: -1
+      setBetAmount: -1
     defaultDialogue: 16
     advanceDay: 0
     alts: []
@@ -1515,7 +1689,8 @@ MonoBehaviour:
     newBackgroundIndex: 0
     changePortrait: 0
     newPortraitIndex: 0
-  - text: '???: The odds of you escaping this fate?'
+    overrideWithRoll: 0
+  - text: '???: The odds of you escaping this torment?'
     optionsToLoad:
     - optionText: Zero
       textNodeToLoad: 35
@@ -1535,6 +1710,8 @@ MonoBehaviour:
       adjustSmarts: 0
       adjustCheating: 0
       advanceProgression: 0
+      setBetNumber: -1
+      setBetAmount: -1
     - optionText: Zero
       textNodeToLoad: 35
       dayReq: 0
@@ -1553,6 +1730,8 @@ MonoBehaviour:
       adjustSmarts: 0
       adjustCheating: 0
       advanceProgression: 0
+      setBetNumber: -1
+      setBetAmount: -1
     - optionText: Zero
       textNodeToLoad: 35
       dayReq: 0
@@ -1571,6 +1750,8 @@ MonoBehaviour:
       adjustSmarts: 0
       adjustCheating: 0
       advanceProgression: 0
+      setBetNumber: -1
+      setBetAmount: -1
     - optionText: Zero
       textNodeToLoad: 35
       dayReq: 0
@@ -1589,6 +1770,8 @@ MonoBehaviour:
       adjustSmarts: 0
       adjustCheating: 0
       advanceProgression: 0
+      setBetNumber: -1
+      setBetAmount: -1
     defaultDialogue: 35
     advanceDay: 0
     alts: []
@@ -1596,6 +1779,7 @@ MonoBehaviour:
     newBackgroundIndex: 0
     changePortrait: 0
     newPortraitIndex: 0
+    overrideWithRoll: 0
   - text: '???: The odds of rolling a six on a 6 sided die?'
     optionsToLoad:
     - optionText: 1 in 1
@@ -1616,6 +1800,8 @@ MonoBehaviour:
       adjustSmarts: 0
       adjustCheating: 0
       advanceProgression: 0
+      setBetNumber: -1
+      setBetAmount: -1
     - optionText: 1 in 1
       textNodeToLoad: 18
       dayReq: 0
@@ -1634,6 +1820,8 @@ MonoBehaviour:
       adjustSmarts: 0
       adjustCheating: 0
       advanceProgression: 0
+      setBetNumber: -1
+      setBetAmount: -1
     - optionText: 1 in 1
       textNodeToLoad: 18
       dayReq: 0
@@ -1652,6 +1840,8 @@ MonoBehaviour:
       adjustSmarts: 0
       adjustCheating: 0
       advanceProgression: 0
+      setBetNumber: -1
+      setBetAmount: -1
     - optionText: 1 in 1
       textNodeToLoad: 18
       dayReq: 0
@@ -1670,6 +1860,8 @@ MonoBehaviour:
       adjustSmarts: 0
       adjustCheating: 0
       advanceProgression: 0
+      setBetNumber: -1
+      setBetAmount: -1
     defaultDialogue: 18
     advanceDay: 0
     alts: []
@@ -1677,6 +1869,7 @@ MonoBehaviour:
     newBackgroundIndex: 0
     changePortrait: 0
     newPortraitIndex: 0
+    overrideWithRoll: 0
   - text: '???: Mmm, Yes...'
     optionsToLoad: []
     defaultDialogue: 19
@@ -1686,6 +1879,7 @@ MonoBehaviour:
     newBackgroundIndex: 0
     changePortrait: 0
     newPortraitIndex: 0
+    overrideWithRoll: 0
   - text: '???: My impatience is killing me...'
     optionsToLoad: []
     defaultDialogue: 20
@@ -1695,6 +1889,7 @@ MonoBehaviour:
     newBackgroundIndex: 0
     changePortrait: 0
     newPortraitIndex: 0
+    overrideWithRoll: 0
   - text: '???: Let''s get going, we have important business to take care of today...'
     optionsToLoad: []
     defaultDialogue: 21
@@ -1704,6 +1899,7 @@ MonoBehaviour:
     newBackgroundIndex: 0
     changePortrait: 0
     newPortraitIndex: 0
+    overrideWithRoll: 0
   - text: Where to Today?
     optionsToLoad:
     - optionText: The Casino
@@ -1724,6 +1920,8 @@ MonoBehaviour:
       adjustSmarts: 0
       adjustCheating: 0
       advanceProgression: 0
+      setBetNumber: -1
+      setBetAmount: -1
     - optionText: The Casino
       textNodeToLoad: 22
       dayReq: 0
@@ -1742,6 +1940,8 @@ MonoBehaviour:
       adjustSmarts: 0
       adjustCheating: 0
       advanceProgression: 0
+      setBetNumber: -1
+      setBetAmount: -1
     - optionText: The Casino
       textNodeToLoad: 22
       dayReq: 0
@@ -1760,6 +1960,8 @@ MonoBehaviour:
       adjustSmarts: 0
       adjustCheating: 0
       advanceProgression: 0
+      setBetNumber: -1
+      setBetAmount: -1
     - optionText: The Casino
       textNodeToLoad: 22
       dayReq: 0
@@ -1778,6 +1980,8 @@ MonoBehaviour:
       adjustSmarts: 0
       adjustCheating: 0
       advanceProgression: 0
+      setBetNumber: -1
+      setBetAmount: -1
     defaultDialogue: 22
     advanceDay: 0
     alts: []
@@ -1785,6 +1989,7 @@ MonoBehaviour:
     newBackgroundIndex: 0
     changePortrait: 0
     newPortraitIndex: 0
+    overrideWithRoll: 0
   - text: '???: Which game should we play?'
     optionsToLoad: []
     defaultDialogue: 23
@@ -1794,6 +1999,7 @@ MonoBehaviour:
     newBackgroundIndex: 0
     changePortrait: 0
     newPortraitIndex: 0
+    overrideWithRoll: 0
   - text: '???: (You know which one)...'
     optionsToLoad: []
     defaultDialogue: 24
@@ -1803,6 +2009,7 @@ MonoBehaviour:
     newBackgroundIndex: 0
     changePortrait: 0
     newPortraitIndex: 0
+    overrideWithRoll: 0
   - text: Which game?
     optionsToLoad:
     - optionText: Six Shooter
@@ -1823,6 +2030,8 @@ MonoBehaviour:
       adjustSmarts: 0
       adjustCheating: 0
       advanceProgression: 0
+      setBetNumber: -1
+      setBetAmount: -1
     - optionText: Six Shooter
       textNodeToLoad: 25
       dayReq: 0
@@ -1841,6 +2050,8 @@ MonoBehaviour:
       adjustSmarts: 0
       adjustCheating: 0
       advanceProgression: 0
+      setBetNumber: -1
+      setBetAmount: -1
     - optionText: Six Shooter
       textNodeToLoad: 25
       dayReq: 0
@@ -1859,6 +2070,8 @@ MonoBehaviour:
       adjustSmarts: 0
       adjustCheating: 0
       advanceProgression: 0
+      setBetNumber: -1
+      setBetAmount: -1
     - optionText: Six Shooter
       textNodeToLoad: 25
       dayReq: 0
@@ -1877,6 +2090,8 @@ MonoBehaviour:
       adjustSmarts: 0
       adjustCheating: 0
       advanceProgression: 0
+      setBetNumber: -1
+      setBetAmount: -1
     defaultDialogue: 25
     advanceDay: 0
     alts: []
@@ -1884,6 +2099,7 @@ MonoBehaviour:
     newBackgroundIndex: 0
     changePortrait: 0
     newPortraitIndex: 0
+    overrideWithRoll: 0
   - text: What number will you bet on?
     optionsToLoad:
     - optionText: 6
@@ -1904,6 +2120,8 @@ MonoBehaviour:
       adjustSmarts: 0
       adjustCheating: 0
       advanceProgression: 0
+      setBetNumber: -1
+      setBetAmount: -1
     - optionText: 6
       textNodeToLoad: 26
       dayReq: 0
@@ -1922,6 +2140,8 @@ MonoBehaviour:
       adjustSmarts: 0
       adjustCheating: 0
       advanceProgression: 0
+      setBetNumber: -1
+      setBetAmount: -1
     - optionText: 6
       textNodeToLoad: 26
       dayReq: 0
@@ -1940,6 +2160,8 @@ MonoBehaviour:
       adjustSmarts: 0
       adjustCheating: 0
       advanceProgression: 0
+      setBetNumber: -1
+      setBetAmount: -1
     - optionText: 6
       textNodeToLoad: 26
       dayReq: 0
@@ -1958,6 +2180,8 @@ MonoBehaviour:
       adjustSmarts: 0
       adjustCheating: 0
       advanceProgression: 0
+      setBetNumber: -1
+      setBetAmount: -1
     - optionText: 6
       textNodeToLoad: 26
       dayReq: 0
@@ -1976,6 +2200,8 @@ MonoBehaviour:
       adjustSmarts: 0
       adjustCheating: 0
       advanceProgression: 0
+      setBetNumber: -1
+      setBetAmount: -1
     - optionText: 6
       textNodeToLoad: 26
       dayReq: 0
@@ -1994,6 +2220,8 @@ MonoBehaviour:
       adjustSmarts: 0
       adjustCheating: 0
       advanceProgression: 0
+      setBetNumber: -1
+      setBetAmount: -1
     defaultDialogue: 26
     advanceDay: 0
     alts: []
@@ -2001,6 +2229,7 @@ MonoBehaviour:
     newBackgroundIndex: 0
     changePortrait: 0
     newPortraitIndex: 0
+    overrideWithRoll: 0
   - text: You watch in complete silence as the die is flung from the the die thrower's
       gloved hands
     optionsToLoad: []
@@ -2011,6 +2240,7 @@ MonoBehaviour:
     newBackgroundIndex: 0
     changePortrait: 0
     newPortraitIndex: 0
+    overrideWithRoll: 0
   - text: At first it bounces deftly on the emerald felt table, steadily slowing
       with each turn
     optionsToLoad: []
@@ -2021,7 +2251,8 @@ MonoBehaviour:
     newBackgroundIndex: 0
     changePortrait: 0
     newPortraitIndex: 0
-  - text: Why even look?
+    overrideWithRoll: 0
+  - text: '???: Why even look?'
     optionsToLoad: []
     defaultDialogue: 29
     advanceDay: 0
@@ -2030,7 +2261,8 @@ MonoBehaviour:
     newBackgroundIndex: 0
     changePortrait: 0
     newPortraitIndex: 0
-  - text: You already know the outcome
+    overrideWithRoll: 0
+  - text: '???: You already know the outcome'
     optionsToLoad: []
     defaultDialogue: 30
     advanceDay: 0
@@ -2039,6 +2271,7 @@ MonoBehaviour:
     newBackgroundIndex: 0
     changePortrait: 0
     newPortraitIndex: 0
+    overrideWithRoll: 0
   - text: It will definitely be a...
     optionsToLoad:
     - optionText: 6
@@ -2059,6 +2292,8 @@ MonoBehaviour:
       adjustSmarts: 0
       adjustCheating: 0
       advanceProgression: 0
+      setBetNumber: -1
+      setBetAmount: -1
     - optionText: 6
       textNodeToLoad: 37
       dayReq: 0
@@ -2077,6 +2312,8 @@ MonoBehaviour:
       adjustSmarts: 0
       adjustCheating: 0
       advanceProgression: 0
+      setBetNumber: -1
+      setBetAmount: -1
     - optionText: 6
       textNodeToLoad: 37
       dayReq: 0
@@ -2095,6 +2332,8 @@ MonoBehaviour:
       adjustSmarts: 0
       adjustCheating: 0
       advanceProgression: 0
+      setBetNumber: -1
+      setBetAmount: -1
     - optionText: 6
       textNodeToLoad: 37
       dayReq: 0
@@ -2113,6 +2352,8 @@ MonoBehaviour:
       adjustSmarts: 0
       adjustCheating: 0
       advanceProgression: 0
+      setBetNumber: -1
+      setBetAmount: -1
     - optionText: 6
       textNodeToLoad: 37
       dayReq: 0
@@ -2131,6 +2372,8 @@ MonoBehaviour:
       adjustSmarts: 0
       adjustCheating: 0
       advanceProgression: 0
+      setBetNumber: -1
+      setBetAmount: -1
     - optionText: 6
       textNodeToLoad: 37
       dayReq: 0
@@ -2149,6 +2392,8 @@ MonoBehaviour:
       adjustSmarts: 0
       adjustCheating: 0
       advanceProgression: 0
+      setBetNumber: -1
+      setBetAmount: -1
     defaultDialogue: 37
     advanceDay: 0
     alts: []
@@ -2156,6 +2401,7 @@ MonoBehaviour:
     newBackgroundIndex: 0
     changePortrait: 0
     newPortraitIndex: 0
+    overrideWithRoll: 0
   - text: A single, jet black dot crests over the side of the die as it comes to
       a stop on the felt
     optionsToLoad: []
@@ -2166,6 +2412,7 @@ MonoBehaviour:
     newBackgroundIndex: 0
     changePortrait: 0
     newPortraitIndex: 0
+    overrideWithRoll: 0
   - text: What will you do?
     optionsToLoad:
     - optionText: Watch as your last 10 dollars get whisked away
@@ -2186,6 +2433,8 @@ MonoBehaviour:
       adjustSmarts: 0
       adjustCheating: 0
       advanceProgression: 0
+      setBetNumber: -1
+      setBetAmount: -1
     defaultDialogue: 33
     advanceDay: 0
     alts: []
@@ -2193,7 +2442,8 @@ MonoBehaviour:
     newBackgroundIndex: 0
     changePortrait: 0
     newPortraitIndex: 0
-  - text: Title Card Here
+    overrideWithRoll: 0
+  - text: '6: A Game by Potassio'
     optionsToLoad: []
     defaultDialogue: 38
     advanceDay: 0
@@ -2202,6 +2452,7 @@ MonoBehaviour:
     newBackgroundIndex: 0
     changePortrait: 0
     newPortraitIndex: 0
+    overrideWithRoll: 0
   - text: '???: Mmmm...'
     optionsToLoad: []
     defaultDialogue: 14
@@ -2211,6 +2462,7 @@ MonoBehaviour:
     newBackgroundIndex: 0
     changePortrait: 0
     newPortraitIndex: 0
+    overrideWithRoll: 0
   - text: '???: And finally...'
     optionsToLoad: []
     defaultDialogue: 17
@@ -2220,6 +2472,7 @@ MonoBehaviour:
     newBackgroundIndex: 0
     changePortrait: 0
     newPortraitIndex: 0
+    overrideWithRoll: 0
   - text: It's a 1...
     optionsToLoad: []
     defaultDialogue: 32
@@ -2229,6 +2482,7 @@ MonoBehaviour:
     newBackgroundIndex: 0
     changePortrait: 0
     newPortraitIndex: 0
+    overrideWithRoll: 0
   - text: Yet you still eagerly await it's final resting position...
     optionsToLoad: []
     defaultDialogue: 31
@@ -2238,6 +2492,7 @@ MonoBehaviour:
     newBackgroundIndex: 0
     changePortrait: 0
     newPortraitIndex: 0
+    overrideWithRoll: 0
   - text: Another day ends...
     optionsToLoad: []
     defaultDialogue: 39
@@ -2247,39 +2502,45 @@ MonoBehaviour:
     newBackgroundIndex: 0
     changePortrait: 0
     newPortraitIndex: 0
+    overrideWithRoll: 0
   - text: You sleep undisturbed all night
     optionsToLoad: []
-    defaultDialogue: -1
+    defaultDialogue: 0
     advanceDay: 0
     alts:
     - alt: 40
       characterProgressionNeeded: -1
       characterProgressionLevel: -1
-      exactDayRequirement: 6
-    - alt: 46
+      exactDayRequirement: 7
+    - alt: 45
       characterProgressionNeeded: -1
       characterProgressionLevel: -1
-      exactDayRequirement: 12
-    - alt: 52
+      exactDayRequirement: 13
+    - alt: 51
       characterProgressionNeeded: -1
       characterProgressionLevel: -1
-      exactDayRequirement: 18
-    - alt: 58
+      exactDayRequirement: 19
+    - alt: 57
       characterProgressionNeeded: -1
       characterProgressionLevel: -1
-      exactDayRequirement: 24
-    - alt: 62
+      exactDayRequirement: 25
+    - alt: 63
       characterProgressionNeeded: -1
       characterProgressionLevel: -1
-      exactDayRequirement: 30
-    - alt: 68
+      exactDayRequirement: 31
+    - alt: 69
       characterProgressionNeeded: -1
       characterProgressionLevel: -1
-      exactDayRequirement: 36
+      exactDayRequirement: 37
+    - alt: -1
+      characterProgressionNeeded: -1
+      characterProgressionLevel: -1
+      exactDayRequirement: 38
     changeBackground: 0
     newBackgroundIndex: 0
     changePortrait: 0
     newPortraitIndex: 0
+    overrideWithRoll: 0
   - text: '???: Yes, it''s me again'
     optionsToLoad: []
     defaultDialogue: 41
@@ -2289,6 +2550,7 @@ MonoBehaviour:
     newBackgroundIndex: 0
     changePortrait: 0
     newPortraitIndex: 0
+    overrideWithRoll: 0
   - text: '???: How have you been?'
     optionsToLoad: []
     defaultDialogue: 42
@@ -2298,6 +2560,7 @@ MonoBehaviour:
     newBackgroundIndex: 0
     changePortrait: 0
     newPortraitIndex: 0
+    overrideWithRoll: 0
   - text: '???: A Penny for your thoughts...'
     optionsToLoad:
     - optionText: Accept "Penny"
@@ -2318,6 +2581,8 @@ MonoBehaviour:
       adjustSmarts: 0
       adjustCheating: 0
       advanceProgression: 0
+      setBetNumber: -1
+      setBetAmount: -1
     defaultDialogue: 43
     advanceDay: 0
     alts: []
@@ -2325,6 +2590,7 @@ MonoBehaviour:
     newBackgroundIndex: 0
     changePortrait: 0
     newPortraitIndex: 0
+    overrideWithRoll: 0
   - text: '???: Why are you like this?'
     optionsToLoad:
     - optionText: I'm just doing what brings me joy
@@ -2345,6 +2611,8 @@ MonoBehaviour:
       adjustSmarts: 0
       adjustCheating: 0
       advanceProgression: 0
+      setBetNumber: -1
+      setBetAmount: -1
     - optionText: I need something to take my mind off other problems
       textNodeToLoad: 44
       dayReq: 0
@@ -2363,6 +2631,8 @@ MonoBehaviour:
       adjustSmarts: 0
       adjustCheating: 0
       advanceProgression: 0
+      setBetNumber: -1
+      setBetAmount: -1
     - optionText: So I can utilize my natural luck
       textNodeToLoad: 44
       dayReq: 0
@@ -2381,6 +2651,8 @@ MonoBehaviour:
       adjustSmarts: 0
       adjustCheating: 0
       advanceProgression: 0
+      setBetNumber: -1
+      setBetAmount: -1
     - optionText: Big corporations that only care about my money
       textNodeToLoad: 44
       dayReq: 0
@@ -2399,6 +2671,8 @@ MonoBehaviour:
       adjustSmarts: 0
       adjustCheating: 0
       advanceProgression: 0
+      setBetNumber: -1
+      setBetAmount: -1
     - optionText: The rush of chemicals in my brain
       textNodeToLoad: 44
       dayReq: 0
@@ -2417,6 +2691,8 @@ MonoBehaviour:
       adjustSmarts: 0
       adjustCheating: 0
       advanceProgression: 0
+      setBetNumber: -1
+      setBetAmount: -1
     - optionText: I need to win it all back
       textNodeToLoad: 44
       dayReq: 0
@@ -2435,6 +2711,8 @@ MonoBehaviour:
       adjustSmarts: 0
       adjustCheating: 0
       advanceProgression: 0
+      setBetNumber: -1
+      setBetAmount: -1
     defaultDialogue: 44
     advanceDay: 0
     alts: []
@@ -2442,6 +2720,7 @@ MonoBehaviour:
     newBackgroundIndex: 0
     changePortrait: 0
     newPortraitIndex: 0
+    overrideWithRoll: 0
   - text: '???: Thanks for your honesty, I really mean it'
     optionsToLoad:
     - optionText: Take extra "gift"
@@ -2454,7 +2733,7 @@ MonoBehaviour:
       workerReq: 0
       smartsReq: 0
       cheatingReq: 0
-      adjustMoney: 5
+      adjustMoney: 500
       adjustHappiness: 0
       adjustDignity: 0
       adjustLuck: 0
@@ -2462,6 +2741,8 @@ MonoBehaviour:
       adjustSmarts: 0
       adjustCheating: 0
       advanceProgression: 0
+      setBetNumber: -1
+      setBetAmount: -1
     defaultDialogue: 0
     advanceDay: 0
     alts: []
@@ -2469,6 +2750,7 @@ MonoBehaviour:
     newBackgroundIndex: 0
     changePortrait: 0
     newPortraitIndex: 0
+    overrideWithRoll: 0
   - text: '???: Oh, hello there'
     optionsToLoad: []
     defaultDialogue: 47
@@ -2478,7 +2760,8 @@ MonoBehaviour:
     newBackgroundIndex: 0
     changePortrait: 0
     newPortraitIndex: 0
-  - text: '???: Making some new frieds around town are we?'
+    overrideWithRoll: 0
+  - text: '???: Making some new friends around town are we?'
     optionsToLoad: []
     defaultDialogue: 48
     advanceDay: 0
@@ -2487,6 +2770,7 @@ MonoBehaviour:
     newBackgroundIndex: 0
     changePortrait: 0
     newPortraitIndex: 0
+    overrideWithRoll: 0
   - text: '???: Have a favorite yet?'
     optionsToLoad: []
     defaultDialogue: 49
@@ -2496,6 +2780,7 @@ MonoBehaviour:
     newBackgroundIndex: 0
     changePortrait: 0
     newPortraitIndex: 0
+    overrideWithRoll: 0
   - text: '???: Have a favorite yet?'
     optionsToLoad:
     - optionText: I like one
@@ -2516,6 +2801,8 @@ MonoBehaviour:
       adjustSmarts: 0
       adjustCheating: 0
       advanceProgression: 0
+      setBetNumber: -1
+      setBetAmount: -1
     - optionText: Two are both cool
       textNodeToLoad: 50
       dayReq: 0
@@ -2534,6 +2821,8 @@ MonoBehaviour:
       adjustSmarts: 0
       adjustCheating: 0
       advanceProgression: 0
+      setBetNumber: -1
+      setBetAmount: -1
     - optionText: There's something about three...
       textNodeToLoad: 50
       dayReq: 0
@@ -2552,6 +2841,8 @@ MonoBehaviour:
       adjustSmarts: 0
       adjustCheating: 0
       advanceProgression: 0
+      setBetNumber: -1
+      setBetAmount: -1
     - optionText: Four is admirable
       textNodeToLoad: 50
       dayReq: 0
@@ -2570,6 +2861,8 @@ MonoBehaviour:
       adjustSmarts: 0
       adjustCheating: 0
       advanceProgression: 0
+      setBetNumber: -1
+      setBetAmount: -1
     - optionText: I can learn from five
       textNodeToLoad: 50
       dayReq: 0
@@ -2588,6 +2881,8 @@ MonoBehaviour:
       adjustSmarts: 0
       adjustCheating: 0
       advanceProgression: 0
+      setBetNumber: -1
+      setBetAmount: -1
     defaultDialogue: 50
     advanceDay: 0
     alts: []
@@ -2595,6 +2890,7 @@ MonoBehaviour:
     newBackgroundIndex: 0
     changePortrait: 0
     newPortraitIndex: 0
+    overrideWithRoll: 0
   - text: '???: What? It''s not me? We''re friends right?'
     optionsToLoad: []
     defaultDialogue: 51
@@ -2604,6 +2900,7 @@ MonoBehaviour:
     newBackgroundIndex: 0
     changePortrait: 0
     newPortraitIndex: 0
+    overrideWithRoll: 0
   - text: '???: Just kidding, here, have some more money to "invest"; on me'
     optionsToLoad:
     - optionText: Take investment money
@@ -2624,6 +2921,8 @@ MonoBehaviour:
       adjustSmarts: 0
       adjustCheating: 0
       advanceProgression: 0
+      setBetNumber: -1
+      setBetAmount: -1
     defaultDialogue: 0
     advanceDay: 0
     alts: []
@@ -2631,6 +2930,7 @@ MonoBehaviour:
     newBackgroundIndex: 0
     changePortrait: 0
     newPortraitIndex: 0
+    overrideWithRoll: 0
   - text: '???: Have you been avoiding me lately?'
     optionsToLoad: []
     defaultDialogue: 53
@@ -2640,6 +2940,7 @@ MonoBehaviour:
     newBackgroundIndex: 0
     changePortrait: 0
     newPortraitIndex: 0
+    overrideWithRoll: 0
   - text: '???: Where''s all the money I''ve been giving you?'
     optionsToLoad: []
     defaultDialogue: 54
@@ -2649,6 +2950,7 @@ MonoBehaviour:
     newBackgroundIndex: 0
     changePortrait: 0
     newPortraitIndex: 0
+    overrideWithRoll: 0
   - text: '???: Why don''t you want to play anymore?'
     optionsToLoad:
     - optionText: For my own good
@@ -2669,6 +2971,8 @@ MonoBehaviour:
       adjustSmarts: 0
       adjustCheating: 0
       advanceProgression: 0
+      setBetNumber: -1
+      setBetAmount: -1
     - optionText: For my loved ones
       textNodeToLoad: 55
       dayReq: 0
@@ -2687,6 +2991,8 @@ MonoBehaviour:
       adjustSmarts: 0
       adjustCheating: 0
       advanceProgression: 0
+      setBetNumber: -1
+      setBetAmount: -1
     - optionText: To prove I have self control
       textNodeToLoad: 55
       dayReq: 0
@@ -2705,6 +3011,8 @@ MonoBehaviour:
       adjustSmarts: 0
       adjustCheating: 0
       advanceProgression: 0
+      setBetNumber: -1
+      setBetAmount: -1
     - optionText: So I can succeed
       textNodeToLoad: 55
       dayReq: 0
@@ -2723,6 +3031,8 @@ MonoBehaviour:
       adjustSmarts: 0
       adjustCheating: 0
       advanceProgression: 0
+      setBetNumber: -1
+      setBetAmount: -1
     - optionText: It's a losing game
       textNodeToLoad: 55
       dayReq: 0
@@ -2741,6 +3051,8 @@ MonoBehaviour:
       adjustSmarts: 0
       adjustCheating: 0
       advanceProgression: 0
+      setBetNumber: -1
+      setBetAmount: -1
     - optionText: All of the above
       textNodeToLoad: 55
       dayReq: 0
@@ -2759,6 +3071,8 @@ MonoBehaviour:
       adjustSmarts: 0
       adjustCheating: 0
       advanceProgression: 0
+      setBetNumber: -1
+      setBetAmount: -1
     defaultDialogue: 55
     advanceDay: 0
     alts: []
@@ -2766,6 +3080,7 @@ MonoBehaviour:
     newBackgroundIndex: 0
     changePortrait: 0
     newPortraitIndex: 0
+    overrideWithRoll: 0
   - text: '???: Hmm'
     optionsToLoad: []
     defaultDialogue: 56
@@ -2775,15 +3090,17 @@ MonoBehaviour:
     newBackgroundIndex: 0
     changePortrait: 0
     newPortraitIndex: 0
+    overrideWithRoll: 0
   - text: '???: How disappointing'
     optionsToLoad: []
-    defaultDialogue: 57
+    defaultDialogue: 56
     advanceDay: 0
     alts: []
     changeBackground: 0
     newBackgroundIndex: 0
     changePortrait: 0
     newPortraitIndex: 0
+    overrideWithRoll: 0
   - text: '???: I guess you can just quit after all...'
     optionsToLoad: []
     defaultDialogue: 0
@@ -2793,15 +3110,17 @@ MonoBehaviour:
     newBackgroundIndex: 0
     changePortrait: 0
     newPortraitIndex: 0
+    overrideWithRoll: 0
   - text: '???: ...'
     optionsToLoad: []
-    defaultDialogue: 59
+    defaultDialogue: 58
     advanceDay: 0
     alts: []
     changeBackground: 0
     newBackgroundIndex: 0
     changePortrait: 0
     newPortraitIndex: 0
+    overrideWithRoll: 0
   - text: '???: Let me properly introduce myself'
     optionsToLoad: []
     defaultDialogue: 59
@@ -2811,6 +3130,7 @@ MonoBehaviour:
     newBackgroundIndex: 0
     changePortrait: 0
     newPortraitIndex: 0
+    overrideWithRoll: 0
   - text: '???: I am Six'
     optionsToLoad: []
     defaultDialogue: 60
@@ -2820,6 +3140,7 @@ MonoBehaviour:
     newBackgroundIndex: 0
     changePortrait: 0
     newPortraitIndex: 0
+    overrideWithRoll: 0
   - text: '???: I think you could have guessed that by now'
     optionsToLoad: []
     defaultDialogue: 61
@@ -2829,6 +3150,7 @@ MonoBehaviour:
     newBackgroundIndex: 0
     changePortrait: 0
     newPortraitIndex: 0
+    overrideWithRoll: 0
   - text: 'Six: But what am I really?'
     optionsToLoad:
     - optionText: You are evil incarnate
@@ -2849,6 +3171,8 @@ MonoBehaviour:
       adjustSmarts: 0
       adjustCheating: 0
       advanceProgression: 0
+      setBetNumber: -1
+      setBetAmount: -1
     - optionText: You are everyone else judging me and telling me to "just get better""
       textNodeToLoad: 62
       dayReq: 0
@@ -2867,6 +3191,8 @@ MonoBehaviour:
       adjustSmarts: 0
       adjustCheating: 0
       advanceProgression: 0
+      setBetNumber: -1
+      setBetAmount: -1
     - optionText: You are the bad luck thats haunting me
       textNodeToLoad: 62
       dayReq: 0
@@ -2885,6 +3211,8 @@ MonoBehaviour:
       adjustSmarts: 0
       adjustCheating: 0
       advanceProgression: 0
+      setBetNumber: -1
+      setBetAmount: -1
     - optionText: You are the greedy corporations feeding on the innocent
       textNodeToLoad: 62
       dayReq: 0
@@ -2903,6 +3231,8 @@ MonoBehaviour:
       adjustSmarts: 0
       adjustCheating: 0
       advanceProgression: 0
+      setBetNumber: -1
+      setBetAmount: -1
     - optionText: You are everything that is wrong with me
       textNodeToLoad: 62
       dayReq: 0
@@ -2921,6 +3251,8 @@ MonoBehaviour:
       adjustSmarts: 0
       adjustCheating: 0
       advanceProgression: 0
+      setBetNumber: -1
+      setBetAmount: -1
     - optionText: All of the above
       textNodeToLoad: 62
       dayReq: 0
@@ -2939,6 +3271,8 @@ MonoBehaviour:
       adjustSmarts: 0
       adjustCheating: 0
       advanceProgression: 0
+      setBetNumber: -1
+      setBetAmount: -1
     defaultDialogue: 62
     advanceDay: 0
     alts: []
@@ -2946,6 +3280,7 @@ MonoBehaviour:
     newBackgroundIndex: 0
     changePortrait: 0
     newPortraitIndex: 0
+    overrideWithRoll: 0
   - text: 'Six: ...'
     optionsToLoad: []
     defaultDialogue: 0
@@ -2955,16 +3290,8 @@ MonoBehaviour:
     newBackgroundIndex: 0
     changePortrait: 0
     newPortraitIndex: 0
+    overrideWithRoll: 0
   - text: 'Six: You can feel it'
-    optionsToLoad: []
-    defaultDialogue: 63
-    advanceDay: 0
-    alts: []
-    changeBackground: 0
-    newBackgroundIndex: 0
-    changePortrait: 0
-    newPortraitIndex: 0
-  - text: 'Six: No matter what'
     optionsToLoad: []
     defaultDialogue: 64
     advanceDay: 0
@@ -2973,7 +3300,8 @@ MonoBehaviour:
     newBackgroundIndex: 0
     changePortrait: 0
     newPortraitIndex: 0
-  - text: 'Six: I''ll be there'
+    overrideWithRoll: 0
+  - text: 'Six: No matter what'
     optionsToLoad: []
     defaultDialogue: 65
     advanceDay: 0
@@ -2982,7 +3310,8 @@ MonoBehaviour:
     newBackgroundIndex: 0
     changePortrait: 0
     newPortraitIndex: 0
-  - text: 'Six: In the back of your mind'
+    overrideWithRoll: 0
+  - text: 'Six: I''ll be there'
     optionsToLoad: []
     defaultDialogue: 66
     advanceDay: 0
@@ -2991,7 +3320,8 @@ MonoBehaviour:
     newBackgroundIndex: 0
     changePortrait: 0
     newPortraitIndex: 0
-  - text: 'Six: Gnawing at you'
+    overrideWithRoll: 0
+  - text: 'Six: In the back of your mind'
     optionsToLoad: []
     defaultDialogue: 67
     advanceDay: 0
@@ -3000,6 +3330,17 @@ MonoBehaviour:
     newBackgroundIndex: 0
     changePortrait: 0
     newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: 'Six: Gnawing at you'
+    optionsToLoad: []
+    defaultDialogue: 68
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
   - text: 'Six: Until you BREAK'
     optionsToLoad: []
     defaultDialogue: 0
@@ -3009,15 +3350,7 @@ MonoBehaviour:
     newBackgroundIndex: 0
     changePortrait: 0
     newPortraitIndex: 0
-  - text: 'Six: ......'
-    optionsToLoad: []
-    defaultDialogue: 69
-    advanceDay: 0
-    alts: []
-    changeBackground: 0
-    newBackgroundIndex: 0
-    changePortrait: 0
-    newPortraitIndex: 0
+    overrideWithRoll: 0
   - text: 'Six: ......'
     optionsToLoad: []
     defaultDialogue: 70
@@ -3027,6 +3360,7 @@ MonoBehaviour:
     newBackgroundIndex: 0
     changePortrait: 0
     newPortraitIndex: 0
+    overrideWithRoll: 0
   - text: 'Six: ......'
     optionsToLoad: []
     defaultDialogue: 71
@@ -3036,6 +3370,7 @@ MonoBehaviour:
     newBackgroundIndex: 0
     changePortrait: 0
     newPortraitIndex: 0
+    overrideWithRoll: 0
   - text: 'Six: ......'
     optionsToLoad: []
     defaultDialogue: 72
@@ -3045,6 +3380,7 @@ MonoBehaviour:
     newBackgroundIndex: 0
     changePortrait: 0
     newPortraitIndex: 0
+    overrideWithRoll: 0
   - text: 'Six: ......'
     optionsToLoad: []
     defaultDialogue: 73
@@ -3054,6 +3390,17 @@ MonoBehaviour:
     newBackgroundIndex: 0
     changePortrait: 0
     newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: 'Six: ......'
+    optionsToLoad: []
+    defaultDialogue: 74
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
   - text: 'Six: ......'
     optionsToLoad: []
     defaultDialogue: 0
@@ -3063,6 +3410,447 @@ MonoBehaviour:
     newBackgroundIndex: 0
     changePortrait: 0
     newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: Time to wake up again
+    optionsToLoad: []
+    defaultDialogue: 76
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: Where to Today?
+    optionsToLoad:
+    - optionText: The Casino
+      textNodeToLoad: 77
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+      setBetNumber: -1
+      setBetAmount: -1
+    - optionText: High Roller Bar
+      textNodeToLoad: -1
+      dayReq: 7
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+      setBetNumber: -1
+      setBetAmount: -1
+    defaultDialogue: 77
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: Which game?
+    optionsToLoad:
+    - optionText: Six Shooter
+      textNodeToLoad: 78
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+      setBetNumber: -1
+      setBetAmount: -1
+    - optionText: Go Back
+      textNodeToLoad: 76
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+      setBetNumber: -1
+      setBetAmount: -1
+    defaultDialogue: 78
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: What number will you bet on?
+    optionsToLoad:
+    - optionText: 1
+      textNodeToLoad: 79
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+      setBetNumber: 1
+      setBetAmount: -1
+    - optionText: 2
+      textNodeToLoad: 79
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+      setBetNumber: 2
+      setBetAmount: -1
+    - optionText: 3
+      textNodeToLoad: 79
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+      setBetNumber: 3
+      setBetAmount: -1
+    - optionText: 4
+      textNodeToLoad: 79
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+      setBetNumber: 4
+      setBetAmount: -1
+    - optionText: 5
+      textNodeToLoad: 79
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+      setBetNumber: 5
+      setBetAmount: -1
+    - optionText: 6
+      textNodeToLoad: 79
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+      setBetNumber: 6
+      setBetAmount: -1
+    - optionText: Go Back
+      textNodeToLoad: 77
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+      setBetNumber: -1
+      setBetAmount: -1
+    defaultDialogue: 79
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: How much will you bet?
+    optionsToLoad:
+    - optionText: Just Watch
+      textNodeToLoad: 80
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+      setBetNumber: -1
+      setBetAmount: 0
+    - optionText: 1
+      textNodeToLoad: 80
+      dayReq: 0
+      moneyReq: 100
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+      setBetNumber: -1
+      setBetAmount: 100
+    - optionText: 5
+      textNodeToLoad: 80
+      dayReq: 0
+      moneyReq: 500
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+      setBetNumber: -1
+      setBetAmount: 500
+    - optionText: 10
+      textNodeToLoad: 80
+      dayReq: 0
+      moneyReq: 1000
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+      setBetNumber: -1
+      setBetAmount: 1000
+    - optionText: 20
+      textNodeToLoad: 80
+      dayReq: 0
+      moneyReq: 2000
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+      setBetNumber: -1
+      setBetAmount: 2000
+    - optionText: 50
+      textNodeToLoad: 80
+      dayReq: 0
+      moneyReq: 5000
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+      setBetNumber: -1
+      setBetAmount: 5000
+    - optionText: Go Back
+      textNodeToLoad: 78
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+      setBetNumber: -1
+      setBetAmount: -1
+    defaultDialogue: 80
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: You patiently await the roll of the die...
+    optionsToLoad: []
+    defaultDialogue: 81
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: '!Override this spot with outcome!'
+    optionsToLoad: []
+    defaultDialogue: 38
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 1
+  - text: Better go home.. now
+    optionsToLoad: []
+    defaultDialogue: 0
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
 --- !u!4 &873542898
 Transform:
   m_ObjectHideFlags: 0
@@ -3103,6 +3891,18 @@ MonoBehaviour:
   fourProgression: 0
   fiveProgression: 0
   sixProgression: 0
+--- !u!114 &873542900
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 873542896}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3bc517dd4d41f44fb808c4190674dd1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &910665454
 GameObject:
   m_ObjectHideFlags: 0
@@ -3239,7 +4039,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 609.3217, y: 30.7426}
+  m_SizeDelta: {x: 1056.401, y: 50.834}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &915719608
 MonoBehaviour:
@@ -3276,11 +4076,11 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 30
+    m_FontSize: 45
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
-    m_MaxSize: 40
+    m_MaxSize: 45
     m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -3323,15 +4123,15 @@ RectTransform:
   m_GameObject: {fileID: 987066196}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.53875, y: 0.53875, z: 0.53875}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
   m_Father: {fileID: 2073276178}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 50, y: -75}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: 89.475006, y: -152.23524}
+  m_SizeDelta: {x: 298.95, y: 50.828}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &987066198
 MonoBehaviour:
@@ -3355,11 +4155,11 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 25
+    m_FontSize: 40
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
-    m_MaxSize: 40
+    m_MaxSize: 49
     m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -3402,15 +4202,15 @@ RectTransform:
   m_GameObject: {fileID: 1006295172}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.53875, y: 0.53875, z: 0.53875}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
   m_Father: {fileID: 2073276178}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 50, y: -115}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: 89.475006, y: -236.78275}
+  m_SizeDelta: {x: 298.95, y: 50.828}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1006295174
 MonoBehaviour:
@@ -3434,11 +4234,11 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 25
+    m_FontSize: 40
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
-    m_MaxSize: 40
+    m_MaxSize: 49
     m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -3481,15 +4281,15 @@ RectTransform:
   m_GameObject: {fileID: 1011003643}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.53875, y: 0.53875, z: 0.53875}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
   m_Father: {fileID: 2073276178}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 50, y: -95}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: 89.475006, y: -194.509}
+  m_SizeDelta: {x: 298.95, y: 50.828}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1011003645
 MonoBehaviour:
@@ -3513,11 +4313,11 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 25
+    m_FontSize: 40
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
-    m_MaxSize: 40
+    m_MaxSize: 49
     m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -3597,7 +4397,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1027337664}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2098703536}
@@ -3700,7 +4500,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 609.3217, y: 30.7426}
+  m_SizeDelta: {x: 1056.401, y: 50.834}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1363517695
 MonoBehaviour:
@@ -3737,11 +4537,11 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 30
+    m_FontSize: 45
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
-    m_MaxSize: 40
+    m_MaxSize: 45
     m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -3784,7 +4584,7 @@ RectTransform:
   m_GameObject: {fileID: 1396062527}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children:
   - {fileID: 1551051463}
   - {fileID: 1847176359}
@@ -3792,13 +4592,14 @@ RectTransform:
   - {fileID: 1470708281}
   - {fileID: 1742386555}
   - {fileID: 1363517694}
+  - {fileID: 372485242}
   m_Father: {fileID: 1201528713}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -71.2, y: 40}
-  m_SizeDelta: {x: 286.5764, y: 190.2972}
+  m_AnchoredPosition: {x: -54.833687, y: 41.59368}
+  m_SizeDelta: {x: 642.6437, y: 369.1353}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1396062529
 MonoBehaviour:
@@ -3821,6 +4622,7 @@ MonoBehaviour:
   - {fileID: 1470708282}
   - {fileID: 1742386556}
   - {fileID: 1363517695}
+  - {fileID: 372485243}
   selectColor: {r: 0.5849056, g: 0.1305921, b: 0.1305921, a: 1}
   unselectColor: {r: 0, g: 0, b: 0, a: 1}
   selectLockedColor: {r: 0.509434, g: 0.503026, b: 0.503026, a: 1}
@@ -3838,7 +4640,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Padding:
-    m_Left: -140
+    m_Left: -250
     m_Right: 0
     m_Top: 0
     m_Bottom: 0
@@ -3887,7 +4689,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 609.3217, y: 30.7426}
+  m_SizeDelta: {x: 1056.401, y: 50.834}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1470708282
 MonoBehaviour:
@@ -3924,11 +4726,11 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 30
+    m_FontSize: 45
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
-    m_MaxSize: 40
+    m_MaxSize: 45
     m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -4037,7 +4839,7 @@ Canvas:
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -2
   m_TargetDisplay: 0
 --- !u!224 &1522992503
 RectTransform:
@@ -4095,7 +4897,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 609.3217, y: 30}
+  m_SizeDelta: {x: 1056.401, y: 49.605}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1551051464
 MonoBehaviour:
@@ -4119,11 +4921,11 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 30
+    m_FontSize: 45
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
-    m_MaxSize: 40
+    m_MaxSize: 45
     m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -4225,7 +5027,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 609.3217, y: 30.7426}
+  m_SizeDelta: {x: 1056.401, y: 50.834}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1742386556
 MonoBehaviour:
@@ -4262,11 +5064,11 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 30
+    m_FontSize: 45
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
-    m_MaxSize: 40
+    m_MaxSize: 45
     m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -4318,7 +5120,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 609.3217, y: 30.7426}
+  m_SizeDelta: {x: 1056.401, y: 50.834}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1847176360
 MonoBehaviour:
@@ -4355,11 +5157,11 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 30
+    m_FontSize: 45
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
-    m_MaxSize: 40
+    m_MaxSize: 45
     m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -4402,15 +5204,15 @@ RectTransform:
   m_GameObject: {fileID: 2022190101}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.53875, y: 0.53875, z: 0.53875}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
   m_Father: {fileID: 2073276178}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 50, y: -135}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: 89.475006, y: -279.0565}
+  m_SizeDelta: {x: 298.95, y: 50.828}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2022190103
 MonoBehaviour:
@@ -4434,11 +5236,11 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 25
+    m_FontSize: 40
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
-    m_MaxSize: 40
+    m_MaxSize: 49
     m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -4480,7 +5282,7 @@ RectTransform:
   m_GameObject: {fileID: 2073276177}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children:
   - {fileID: 653176240}
   - {fileID: 222640338}
@@ -4495,8 +5297,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -162.7, y: 65.05344}
-  m_SizeDelta: {x: 100, y: 144.4932}
+  m_AnchoredPosition: {x: -167.5, y: 50.252}
+  m_SizeDelta: {x: 200, y: 348.19}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2073276179
 MonoBehaviour:
@@ -4511,7 +5313,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Padding:
-    m_Left: -30
+    m_Left: -60
     m_Right: 0
     m_Top: 0
     m_Bottom: 0
@@ -4617,7 +5419,7 @@ Canvas:
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_TargetDisplay: 0
 --- !u!224 &2098703536
 RectTransform:

@@ -35,6 +35,9 @@ public class Dialogue
     [SerializeField]
     private int newPortraitIndex;
 
+    [SerializeField]
+    private bool overrideWithRoll = false;
+
     public string Text
     {
         get { return text; }
@@ -73,6 +76,11 @@ public class Dialogue
     public int NewPortraitIndex
     {
         get { return newPortraitIndex; }
+    }
+
+    public bool OverrideWithRoll
+    {
+        get { return overrideWithRoll; }
     }
 
     // Honestly a terrible way to code this but least taxing brain wise, Prioritizes in order of iteration

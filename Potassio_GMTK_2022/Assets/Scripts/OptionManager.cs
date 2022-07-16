@@ -48,6 +48,8 @@ public class OptionManager : MonoBehaviour
         {
             // DO current selection action
             Option o = options[CurrentSelection];
+            if (!o.CheckReqs())
+                return;
             //SetOptions(new List<Option>());
             GameManager.Instance.State = GameState.DoingOption;
             o.DoOption();
@@ -74,7 +76,7 @@ public class OptionManager : MonoBehaviour
     private void UpdateSelection()
     {
         int c = 0;
-        foreach(Option o in options)
+        foreach(Option o in FilterOutDayReqs(options))
         {
             if (c == CurrentSelection)
             {
@@ -108,13 +110,15 @@ public class OptionManager : MonoBehaviour
 
     public void SetOptions(List<Option> newOptions)
     {
+        newOptions = FilterOutDayReqs(newOptions);
+
         options = newOptions;
         CurrentSelection = 0;
 
-        int hardCodeLength = 6;
+        int hardCodeLength = optionUIs.Count;
         for (int a = 0; a < hardCodeLength; a++)
         {
-            if (a < options.Count && options[a].DayReq <= GameManager.Instance.PlayerInfo.Day)
+            if (a < options.Count)
             {
                 optionUIs[a].gameObject.SetActive(true);
                 optionUIs[a].OptionText.text = "-" + options[a].OptionText + options[a].GetReqText();
@@ -128,9 +132,20 @@ public class OptionManager : MonoBehaviour
         }
     }
 
+    public List<Option> FilterOutDayReqs(List<Option> newOptions)
+    {
+        List<Option> filteredOptions = new List<Option>();
+        foreach (Option o in newOptions)
+        {
+            if (o.DayReq <= GameManager.Instance.PlayerInfo.Day)
+                filteredOptions.Add(o);
+        }
+        return filteredOptions;
+    }
+
     public IEnumerator FadeOptionsIn(float speed)
     {
-        int hardCodedLength = 6;
+        int hardCodedLength = optionUIs.Count;
         for  (int a = 0; a < hardCodedLength; a++)
         {
             if (optionUIs[a].gameObject.activeInHierarchy)
@@ -140,7 +155,7 @@ public class OptionManager : MonoBehaviour
 
     public IEnumerator FadeOptionsOut(float speed, float intermissionSpeed)
     {
-        int hardCodedLength = 6;
+        int hardCodedLength = optionUIs.Count;
         for (int a = 0; a < hardCodedLength; a++)
         {
             if (optionUIs[a].gameObject.activeInHierarchy)

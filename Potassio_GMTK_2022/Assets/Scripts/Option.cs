@@ -59,6 +59,13 @@ public class Option
     [SerializeField]
     private int advanceProgression = -1;
 
+
+    [SerializeField]
+    private int setBetNumber = -1;
+
+    [SerializeField]
+    private int setBetAmount = -1;
+
     public string OptionText
     {
         get { return optionText; }
@@ -100,6 +107,12 @@ public class Option
         if (advanceProgression == 6)
             p.SixProgression++;
 
+        if (setBetNumber > -1)
+            GameManager.Instance.GamblerStats.Guess = setBetNumber;
+
+        if (setBetAmount > -1)
+            GameManager.Instance.GamblerStats.Bet = setBetAmount;
+
         // Deal with mini games down here...
 
         //
@@ -137,7 +150,7 @@ public class Option
         string res = "(";
 
         if (moneyReq > 0)
-            res += " -$" + moneyReq+ " ";
+            res += " -$" + moneyReq / 100 + "." + (moneyReq % 100).ToString("00") + " ";
 
         if (happinessReq > 0)
             res += " " + happinessReq + " Happiness ";

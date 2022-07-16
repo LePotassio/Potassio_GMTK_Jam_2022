@@ -48,6 +48,9 @@ public class GameManager : MonoBehaviour
     [SerializeField]
     private PlayerInfo playerInfo;
 
+    [SerializeField]
+    private GamblerStats gamblerStats;
+
 
     [SerializeField]
     private List<Dialogue> dialogueList;
@@ -82,6 +85,11 @@ public class GameManager : MonoBehaviour
     public PlayerInfo PlayerInfo
     {
         get { return playerInfo; }
+    }
+
+    public GamblerStats GamblerStats
+    {
+        get { return gamblerStats; }
     }
 
     public List<Dialogue> DialogueList
@@ -180,7 +188,11 @@ public class GameManager : MonoBehaviour
         if (node.ChangePortrait)
             yield return portraitManager.SwitchPortrait(node.NewPortraitIndex, portraitSwitchSpeed);
 
-        textManager.SetText(node.Text);
+        if (!node.OverrideWithRoll)
+            textManager.SetText(node.Text);
+        else
+            textManager.SetText(gamblerStats.PlaySixShooter());
+
         if (doTextTransitions)
             yield return AnimationUtils.FadeTextIn(textManager.MainText, mainTextSpeed);
 
