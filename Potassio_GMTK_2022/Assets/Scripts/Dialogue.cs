@@ -43,7 +43,7 @@ public class Dialogue
     }
 
     // Honestly a terrible way to code this but least taxing brain wise, Prioritizes in order of iteration
-    public int CheckForAlts ()
+    public int CheckForAlts()
     {
         PlayerInfo p = GameManager.Instance.PlayerInfo;
         foreach (DialogueAlt alt in alts)

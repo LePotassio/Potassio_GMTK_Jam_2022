@@ -32,6 +32,11 @@ public class OptionManager : MonoBehaviour
         set { currentSelection = Mathf.Clamp(value, 0, options.Count - 1); ; UpdateSelection(); }
     }
 
+    public int OptionsCount
+    {
+        get { return options.Count; }
+    }
+
     private void Start()
     {
         currentSelection = 0;
@@ -43,7 +48,7 @@ public class OptionManager : MonoBehaviour
         {
             // DO current selection action
             Option o = options[CurrentSelection];
-            SetOptions(new List<Option>());
+            //SetOptions(new List<Option>());
             GameManager.Instance.State = GameState.DoingOption;
             o.DoOption();
         }
@@ -109,15 +114,60 @@ public class OptionManager : MonoBehaviour
         int hardCodeLength = 6;
         for (int a = 0; a < hardCodeLength; a++)
         {
-            if (a < options.Count)
+            if (a < options.Count && options[a].DayReq <= GameManager.Instance.PlayerInfo.Day)
             {
                 optionUIs[a].gameObject.SetActive(true);
-                optionUIs[a].OptionText.text = "-" + options[a].OptionText;
+                optionUIs[a].OptionText.text = "-" + options[a].OptionText + options[a].GetReqText();
+                if (GameManager.Instance.DoTextTransitions)
+                    optionUIs[a].OptionText.color = AnimationUtils.GetZeroAlphaColor(optionUIs[a].OptionText.color);
             }
             else
             {
                 optionUIs[a].gameObject.SetActive(false);
             }
         }
+    }
+
+    public IEnumerator FadeOptionsIn(float speed)
+    {
+        int hardCodedLength = 6;
+        for  (int a = 0; a < hardCodedLength; a++)
+        {
+            if (optionUIs[a].gameObject.activeInHierarchy)
+            yield return AnimationUtils.FadeTextIn(optionUIs[a].OptionText, speed);
+        }
+    }
+
+    public IEnumerator FadeOptionsOut(float speed, float intermissionSpeed)
+    {
+        int hardCodedLength = 6;
+        for (int a = 0; a < hardCodedLength; a++)
+        {
+            if (optionUIs[a].gameObject.activeInHierarchy)
+            {
+                if (a == currentSelection)
+                {
+                    yield return AnimationUtils.FadeTextOut(optionUIs[a].OptionText, speed);
+                }
+            }       
+        }
+
+        yield return new WaitForSeconds(intermissionSpeed);
+
+        int c = 0;
+        int d = 0;
+        for (int a = 0; a < hardCodedLength; a++)
+        {
+            if (optionUIs[a].gameObject.activeInHierarchy)
+            {
+                if (a != currentSelection)
+                {
+                    c++;
+                    StartCoroutine(AnimationUtils.FadeTextOut(optionUIs[a].OptionText, speed, () => d++));
+                }
+            }
+        }
+
+        //yield return new WaitUntil(() => c == d);
     }
 }

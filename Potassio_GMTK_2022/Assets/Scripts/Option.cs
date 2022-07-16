@@ -15,7 +15,7 @@ public class Option
     private int textNodeToLoad;
 
 
-    // that day or later
+    // that day or later -> Avoid using for now, likely buggy with option handler current selection
     [SerializeField]
     private int dayReq;
 
@@ -64,6 +64,11 @@ public class Option
         get { return optionText; }
     }
 
+    public int DayReq
+    {
+        get { return dayReq;}
+    }
+
     public void DoOption()
     {
         if (adjustMoney != 0)
@@ -99,7 +104,7 @@ public class Option
 
         //
 
-        GameManager.Instance.DoDialogueNode(GameManager.Instance.DialogueList[textNodeToLoad]);
+        GameManager.Instance.StartCoroutine(GameManager.Instance.DoDialogueNode(GameManager.Instance.DialogueList[textNodeToLoad]));
     }
 
     public bool CheckReqs()
@@ -125,5 +130,37 @@ public class Option
         if (p.Cheating < cheatingReq)
             return false;
         return true;
+    }
+
+    public string GetReqText()
+    {
+        string res = "(";
+
+        if (moneyReq > 0)
+            res += " -$" + moneyReq+ " ";
+
+        if (happinessReq > 0)
+            res += " " + happinessReq + " Happiness ";
+
+        if (dignityReq > 0)
+            res += " " + dignityReq + " Dignity ";
+
+        if (luckReq > 0)
+            res += " " + luckReq + " Luck ";
+
+        if (workerReq > 0)
+            res += " " + workerReq + " Worker ";
+
+        if (smartsReq > 0)
+            res += " " + smartsReq + " Smarts ";
+
+        if (cheatingReq > 0)
+            res += " " + cheatingReq + " Cheating ";
+
+        res += ")";
+        if (res == "()")
+            return "";
+        else
+            return res;
     }
 }

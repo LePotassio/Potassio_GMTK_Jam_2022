@@ -12,6 +12,22 @@ public class GameManager : MonoBehaviour
     private GameState state;
 
     [SerializeField]
+    private bool doTextTransitions;
+
+    [SerializeField]
+    private float mainTextSpeed;
+
+    [SerializeField]
+    private float optionTextSpeed;
+
+    [SerializeField]
+    private float optionTextIntermissionSpeed;
+
+    [SerializeField]
+    private float optionMainIntermissionSpeed;
+
+
+    [SerializeField]
     private TextManager textManager;
 
     [SerializeField]
@@ -34,6 +50,11 @@ public class GameManager : MonoBehaviour
     {
         get { return state; }
         set { state = value; }
+    }
+
+    public bool DoTextTransitions
+    {
+        get { return doTextTransitions; }
     }
 
     public TextManager TextManager
@@ -59,6 +80,7 @@ public class GameManager : MonoBehaviour
     private void Start()
     {
         State = GameState.Dialogue;
+        textManager.MainText.text = "";
         Instance = this;
 
         DontDestroyOnLoad(gameObject);
@@ -81,7 +103,7 @@ public class GameManager : MonoBehaviour
         //PlayerInfo.Luck = 5;
         //textManager.TypeText("JIOFHE(UIFHIWEUHBF(IOUB");
 
-        DoDialogueNode(dialogueList[0]);
+        StartCoroutine(DoDialogueNode(dialogueList[0]));
     }
 
     private void Update()
@@ -108,24 +130,45 @@ public class GameManager : MonoBehaviour
             optionManager.DoUpdate();
 
         else if (State == GameState.NoOptionSelection && Input.GetKeyDown(KeyCode.Return))
-            DoDialogueNode(dialogueList[currentDialogue.DefaultDialogue]);
+        {
+            State = GameState.Waiting;
+            StartCoroutine(DoDialogueNode(dialogueList[currentDialogue.DefaultDialogue]));
+        }
     }
 
-    public void DoDialogueNode(Dialogue d)
+    public IEnumerator DoDialogueNode(Dialogue d)
     {
+        yield return null;
+
+        if (doTextTransitions)
+        {
+            yield return optionManager.FadeOptionsOut(optionTextSpeed, optionTextIntermissionSpeed);
+            if (optionManager.OptionsCount != 0)
+                yield return new WaitForSeconds(optionMainIntermissionSpeed);
+            yield return AnimationUtils.FadeTextOut(textManager.MainText, mainTextSpeed);
+        }
+
+        optionManager.SetOptions(new List<Option>());
+
         Dialogue node = d;
         int nodeAlt = node.CheckForAlts();
         if (nodeAlt > -1 && nodeAlt < dialogueList.Count && dialogueList[nodeAlt] != null)
             node = dialogueList[nodeAlt];
 
         currentDialogue = node;
-        State = GameState.Dialogue;
         textManager.SetText(node.Text);
+        if (doTextTransitions)
+            yield return AnimationUtils.FadeTextIn(textManager.MainText, mainTextSpeed);
+
         if (node.AdvanceDay)
             AdvanceDay();
         if (node.OptionsToLoad.Count > 0)
         {
             optionManager.SetOptions(node.OptionsToLoad);
+            if (doTextTransitions)
+            {
+                yield return optionManager.FadeOptionsIn(optionTextSpeed);
+            }
             State = GameState.OptionSelection;
         }
         else
