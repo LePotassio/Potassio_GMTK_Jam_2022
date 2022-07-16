@@ -52,6 +52,11 @@ public class GameManager : MonoBehaviour
     private GamblerStats gamblerStats;
 
 
+    // "Cheeky"
+    [SerializeField]
+    public List<string> saveCodes;
+
+
     [SerializeField]
     private List<Dialogue> dialogueList;
 
@@ -174,7 +179,9 @@ public class GameManager : MonoBehaviour
         Dialogue node = d;
 
         if (node.AdvanceDay)
+        {
             AdvanceDay();
+        }
 
         int nodeAlt = node.CheckForAlts();
         if (nodeAlt > -1 && nodeAlt < dialogueList.Count && dialogueList[nodeAlt] != null)
@@ -216,5 +223,12 @@ public class GameManager : MonoBehaviour
     private void AdvanceDay()
     {
         playerInfo.Day++;
+        saveCodes.Clear();
+
+        // EXTREMLY INNEFICIENT, just for game jam
+        foreach (Dialogue d in dialogueList)
+        {
+            d.ChangeAlts();
+        }
     }
 }

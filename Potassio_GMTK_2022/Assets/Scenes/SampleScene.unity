@@ -315,7 +315,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: -203.1, y: -122.4}
+  m_AnchoredPosition: {x: -204, y: -140}
   m_SizeDelta: {x: 4102.335, y: 721.1346}
   m_Pivot: {x: 0, y: 0}
 --- !u!114 &359687721
@@ -885,6 +885,7 @@ MonoBehaviour:
   portraitManager: {fileID: 2098703532}
   playerInfo: {fileID: 873542899}
   gamblerStats: {fileID: 873542900}
+  saveCodes: []
   dialogueList:
   - text: It's time
     optionsToLoad: []
@@ -895,6 +896,8 @@ MonoBehaviour:
       characterProgressionNeeded: -1
       characterProgressionLevel: -1
       exactDayRequirement: 1
+      chance: 100
+      chanceCode: 
     changeBackground: 0
     newBackgroundIndex: 0
     changePortrait: 0
@@ -2512,30 +2515,44 @@ MonoBehaviour:
       characterProgressionNeeded: -1
       characterProgressionLevel: -1
       exactDayRequirement: 7
+      chance: 100
+      chanceCode: 
     - alt: 45
       characterProgressionNeeded: -1
       characterProgressionLevel: -1
       exactDayRequirement: 13
+      chance: 100
+      chanceCode: 
     - alt: 51
       characterProgressionNeeded: -1
       characterProgressionLevel: -1
       exactDayRequirement: 19
+      chance: 100
+      chanceCode: 
     - alt: 57
       characterProgressionNeeded: -1
       characterProgressionLevel: -1
       exactDayRequirement: 25
+      chance: 100
+      chanceCode: 
     - alt: 63
       characterProgressionNeeded: -1
       characterProgressionLevel: -1
       exactDayRequirement: 31
+      chance: 100
+      chanceCode: 
     - alt: 69
       characterProgressionNeeded: -1
       characterProgressionLevel: -1
       exactDayRequirement: 37
+      chance: 100
+      chanceCode: 
     - alt: -1
       characterProgressionNeeded: -1
       characterProgressionLevel: -1
       exactDayRequirement: 38
+      chance: 100
+      chanceCode: 
     changeBackground: 0
     newBackgroundIndex: 0
     changePortrait: 0
@@ -3844,6 +3861,16 @@ MonoBehaviour:
   - text: Better go home.. now
     optionsToLoad: []
     defaultDialogue: 0
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: No, you NEED to go to the Casino today
+    optionsToLoad: []
+    defaultDialogue: 76
     advanceDay: 0
     alts: []
     changeBackground: 0

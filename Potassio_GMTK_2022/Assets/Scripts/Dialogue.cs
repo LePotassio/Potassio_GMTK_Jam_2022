@@ -89,16 +89,41 @@ public class Dialogue
         PlayerInfo p = GameManager.Instance.PlayerInfo;
         foreach (DialogueAlt alt in alts)
         {
-            if (p.Day == alt.ExactDayRequirement || p.Day == -1)
+            if (p.Day == alt.ExactDayRequirement || alt.ExactDayRequirement == -1)
             {
                 if (alt.CharacterProgressionNeeded == -1 || p.GetProgression(alt.CharacterProgressionNeeded) >= alt.CharacterProgressionLevel)
                 {
+                    if (alt.Chance != 100 && !GameManager.Instance.saveCodes.Contains(alt.ChanceCode) && !GameManager.Instance.saveCodes.Contains(alt.ChanceCode + "FAIL"))
+                    {
+                        int r = Random.Range(1, 101);
+                        if (r <= alt.Chance)
+                        {
+                            GameManager.Instance.saveCodes.Add(alt.ChanceCode);
+                        }
+                        else
+                        {
+                            GameManager.Instance.saveCodes.Add(alt.ChanceCode + " FAIL");
+                            continue;
+                        }
+                    }
+                    else if (GameManager.Instance.saveCodes.Contains(alt.ChanceCode + "FAIL"))
+                    {
+                        continue;
+                    }
                     return alt.Alt;
                 }
             }
         }
 
         return -1;
+    }
+
+    public void ChangeAlts()
+    {
+        foreach (DialogueAlt a in alts)
+        {
+            a.ChangeChanceDaily();
+        }
     }
 }
 
@@ -115,6 +140,14 @@ public class DialogueAlt
 
     [SerializeField]
     int exactDayRequirement = -1;
+
+    [SerializeField]
+    int chance = 100;
+    [SerializeField]
+    string chanceCode;
+
+    [SerializeField]
+    int chanceChangePerDay;
 
     public int Alt
     {
@@ -134,5 +167,24 @@ public class DialogueAlt
     public int ExactDayRequirement
     {
         get { return exactDayRequirement; }
+    }
+
+    public int Chance
+    {
+        get { return chance; }
+    }
+
+    public string ChanceCode
+    {
+        get { return chanceCode; }
+    }
+
+    public void ChangeChanceDaily()
+    {
+        chance += chanceChangePerDay;
+        if (chance < 0)
+            chance = 0;
+        if (chance > 100)
+            chance = 100;
     }
 }
