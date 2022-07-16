@@ -22,6 +22,19 @@ public class Dialogue
     [SerializeField]
     private List<DialogueAlt> alts;
 
+
+    [SerializeField]
+    private bool changeBackground;
+
+    [SerializeField]
+    private int newBackgroundIndex;
+
+    [SerializeField]
+    private bool changePortrait;
+
+    [SerializeField]
+    private int newPortraitIndex;
+
     public string Text
     {
         get { return text; }
@@ -40,6 +53,26 @@ public class Dialogue
     public bool AdvanceDay
     {
         get { return advanceDay; }
+    }
+
+    public bool ChangeBackground
+    {
+        get { return changeBackground; }
+    }
+
+    public int NewBackgroundIndex
+    {
+        get { return newBackgroundIndex; }
+    }
+
+    public bool ChangePortrait
+    {
+        get { return changePortrait; }
+    }
+
+    public int NewPortraitIndex
+    {
+        get { return newPortraitIndex; }
     }
 
     // Honestly a terrible way to code this but least taxing brain wise, Prioritizes in order of iteration

@@ -26,12 +26,24 @@ public class GameManager : MonoBehaviour
     [SerializeField]
     private float optionMainIntermissionSpeed;
 
+    [SerializeField]
+    private float brSwitchSpeed;
+
+    [SerializeField]
+    private float portraitSwitchSpeed;
+
 
     [SerializeField]
     private TextManager textManager;
 
     [SerializeField]
     private OptionManager optionManager;
+
+    [SerializeField]
+    private BRManager brManager;
+
+    [SerializeField]
+    private PortraitManager portraitManager;
 
     [SerializeField]
     private PlayerInfo playerInfo;
@@ -85,6 +97,7 @@ public class GameManager : MonoBehaviour
 
         DontDestroyOnLoad(gameObject);
 
+        StartCoroutine(portraitManager.SwitchPortrait(-1, portraitSwitchSpeed));
         textManager.StatTextsObj.SetActive(false);
         textManager.SetAllStatUI(playerInfo.Day, playerInfo.Money, playerInfo.Happiness, playerInfo.Luck, playerInfo.Dignity, playerInfo.Worker, playerInfo.Smarts, playerInfo.Cheating);
         optionManager.SetOptions(new List<Option>());
@@ -151,17 +164,28 @@ public class GameManager : MonoBehaviour
         optionManager.SetOptions(new List<Option>());
 
         Dialogue node = d;
+
+        if (node.AdvanceDay)
+            AdvanceDay();
+
         int nodeAlt = node.CheckForAlts();
         if (nodeAlt > -1 && nodeAlt < dialogueList.Count && dialogueList[nodeAlt] != null)
             node = dialogueList[nodeAlt];
 
         currentDialogue = node;
+
+        if (node.ChangeBackground)
+            yield return brManager.SwitchBackground(node.NewBackgroundIndex, brSwitchSpeed);
+
+        if (node.ChangePortrait)
+            yield return portraitManager.SwitchPortrait(node.NewPortraitIndex, portraitSwitchSpeed);
+
         textManager.SetText(node.Text);
         if (doTextTransitions)
             yield return AnimationUtils.FadeTextIn(textManager.MainText, mainTextSpeed);
 
-        if (node.AdvanceDay)
-            AdvanceDay();
+        /*if (node.AdvanceDay)
+            AdvanceDay();*/
         if (node.OptionsToLoad.Count > 0)
         {
             optionManager.SetOptions(node.OptionsToLoad);
