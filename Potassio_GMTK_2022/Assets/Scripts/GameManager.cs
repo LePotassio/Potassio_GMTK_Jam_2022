@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 
@@ -136,6 +137,9 @@ public class GameManager : MonoBehaviour
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape))
+            Application.Quit();
+
+        if (Input.GetKeyDown(KeyCode.X))
         {
             if (State != GameState.Pause)
             {
@@ -193,11 +197,15 @@ public class GameManager : MonoBehaviour
         if (node.EndGame)
             Application.Quit();
 
+        /*
         if (node.ChangeBackground)
             yield return brManager.SwitchBackground(node.NewBackgroundIndex, brSwitchSpeed);
-
-        if (node.ChangePortrait)
+        */
+        /*if (node.ChangePortrait)
             yield return portraitManager.SwitchPortrait(node.NewPortraitIndex, portraitSwitchSpeed);
+        */
+
+        yield return DialoguePortraitLoader();
 
         if (node.OverrideWithDate)
             textManager.SetText(textManager.UpdateDay(playerInfo.Day));
@@ -236,5 +244,43 @@ public class GameManager : MonoBehaviour
         {
             d.ChangeAlts();
         }
+    }
+
+    // Spaghetti this, we are running out of time!
+    private string currentSpeaker;
+    private IEnumerator DialoguePortraitLoader()
+    {
+        string newSpeaker = "";
+        int index = 7;
+        // parse for speaker
+        List<string> split = currentDialogue.Text.Split(' ').ToList();
+        if (split.Count > 0 && split[0].Contains(":"))
+        {
+            newSpeaker = split[0];
+        }
+
+        // check if same as current
+        if (currentSpeaker == newSpeaker || ((currentSpeaker + newSpeaker).Contains("Marcey") && (currentSpeaker + newSpeaker).Contains("Hal")))
+            yield break;
+
+        currentSpeaker = newSpeaker;
+        // load sprite
+        if (newSpeaker.Contains("???"))
+            index = 0;
+        else if (newSpeaker.Contains("One"))
+            index = 1;
+        else if (newSpeaker.Contains("Marcey") || newSpeaker.Contains("Hal"))
+            index = 2;
+        else if (newSpeaker.Contains("Three"))
+            index = 3;
+        else if (newSpeaker.Contains("Four"))
+            index = 4;
+        else if (newSpeaker.Contains("Five"))
+            index = 5;
+        else if (newSpeaker.Contains("Six"))
+            index = 6;
+        // Debug.Log(index);
+        // set new portrit sprite
+        yield return portraitManager.SwitchPortrait(index, portraitSwitchSpeed);
     }
 }

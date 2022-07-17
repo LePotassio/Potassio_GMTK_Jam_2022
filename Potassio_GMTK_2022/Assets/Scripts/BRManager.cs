@@ -13,7 +13,7 @@ public class BRManager : MonoBehaviour
 
     public IEnumerator SwitchBackground(int index, float speed)
     {
-        if (backgroundImg.sprite != null)
+        if (backgroundImg.sprite != null && backgroundImg.color.a > 0)
             yield return AnimationUtils.FadeImgOut(backgroundImg, speed);
         if (backgroundImages.Count <= 0 || index == -1)
         {

@@ -21,8 +21,12 @@ public class PortraitManager : MonoBehaviour
             portraitImg.enabled = false;
             yield break;
         }
+
+        yield return new WaitForSeconds(.5f);
+
         portraitImg.enabled = true;
         portraitImg.sprite = portraitImages[index];
-        yield return AnimationUtils.FadeImgIn(portraitImg, speed);
+        if (index != 7)
+            yield return AnimationUtils.FadeImgIn(portraitImg, speed);
     }
 }
