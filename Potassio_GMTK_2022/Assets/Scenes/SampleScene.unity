@@ -900,11 +900,21 @@ MonoBehaviour:
       chance: 100
       chanceCode: 
       chanceChangePerDay: 0
+    - alt: 298
+      characterProgressionNeeded: -1
+      characterProgressionLevel: -1
+      characterProgressionLevelMax: -1
+      exactDayRequirement: 37
+      chance: 100
+      chanceCode: 
+      chanceChangePerDay: 0
     changeBackground: 0
     newBackgroundIndex: 0
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 1
+    EndGame: 0
   - text: '???: It''s time'
     optionsToLoad: []
     defaultDialogue: 2
@@ -915,7 +925,10 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
-  - text: '???: You want to sleep just a minute longer?'
+    overrideWithDate: 1
+    EndGame: 0
+  - text: '???: You want to sleep just a minute longer? But you only have till 6/1
+      to win big!'
     optionsToLoad: []
     defaultDialogue: 3
     advanceDay: 0
@@ -925,6 +938,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: '???: Ok...'
     optionsToLoad: []
     defaultDialogue: 4
@@ -935,6 +950,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: '???: But answer me a few questions first'
     optionsToLoad: []
     defaultDialogue: 5
@@ -945,6 +962,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: '???: What are the odds of drawing two cards of the same suit?'
     optionsToLoad:
     - optionText: 1 in 2
@@ -1035,6 +1054,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: '???: I see... Interesting...'
     optionsToLoad: []
     defaultDialogue: 7
@@ -1045,6 +1066,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: '???: What about the odds of you winning a bet on 0 or 00 in Roulette?'
     optionsToLoad:
     - optionText: 1 in 16
@@ -1135,6 +1158,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: '???: Is that right? Or are you thinking of European Roulette? Nevertheless...'
     optionsToLoad: []
     defaultDialogue: 9
@@ -1145,6 +1170,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: '???: The odds of becoming a millionaire?'
     optionsToLoad:
     - optionText: 1 in 16
@@ -1235,6 +1262,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: '???: Hmm'
     optionsToLoad: []
     defaultDialogue: 11
@@ -1245,6 +1274,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: '???: The odds of being struck by lightening in your lifetime?'
     optionsToLoad:
     - optionText: 1 in 5,500
@@ -1335,6 +1366,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: '???: The odds of being in a plane crash?'
     optionsToLoad:
     - optionText: 1 in 3,000,000
@@ -1425,6 +1458,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: '???: The odds of flipping a coin on heads 100 times in a row?'
     optionsToLoad:
     - optionText: 1 in 1,267,650,600,228,229,401...
@@ -1515,6 +1550,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: '???: The odds of you accomplishing something meaningul today?'
     optionsToLoad:
     - optionText: Zero
@@ -1605,6 +1642,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: '???: The odds of you not wasting your last 10 dollars at the casino?'
     optionsToLoad:
     - optionText: Zero
@@ -1695,6 +1734,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: '???: The odds of you escaping this torment?'
     optionsToLoad:
     - optionText: Zero
@@ -1785,6 +1826,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: '???: The odds of rolling a six on a 6 sided die?'
     optionsToLoad:
     - optionText: 1 in 1
@@ -1875,6 +1918,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: '???: Mmm, Yes...'
     optionsToLoad: []
     defaultDialogue: 19
@@ -1885,6 +1930,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: '???: My impatience is killing me...'
     optionsToLoad: []
     defaultDialogue: 20
@@ -1895,6 +1942,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: '???: Let''s get going, we have important business to take care of today...'
     optionsToLoad: []
     defaultDialogue: 21
@@ -1905,6 +1954,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: Where to Today?
     optionsToLoad:
     - optionText: The Casino
@@ -1995,6 +2046,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: '???: Which game should we play?'
     optionsToLoad: []
     defaultDialogue: 23
@@ -2005,6 +2058,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: '???: (You know which one)...'
     optionsToLoad: []
     defaultDialogue: 24
@@ -2015,6 +2070,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: Which game?
     optionsToLoad:
     - optionText: Six Shooter
@@ -2105,6 +2162,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: What number will you bet on?
     optionsToLoad:
     - optionText: 6
@@ -2235,6 +2294,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: You watch in complete silence as the die is flung from the the die thrower's
       gloved hands
     optionsToLoad: []
@@ -2246,6 +2307,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: At first it bounces deftly on the emerald felt table, steadily slowing
       with each turn
     optionsToLoad: []
@@ -2257,6 +2320,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: '???: Why even look?'
     optionsToLoad: []
     defaultDialogue: 29
@@ -2267,6 +2332,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: '???: You already know the outcome'
     optionsToLoad: []
     defaultDialogue: 30
@@ -2277,6 +2344,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: It will definitely be a...
     optionsToLoad:
     - optionText: 6
@@ -2407,6 +2476,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: A single, jet black dot crests over the side of the die as it comes to
       a stop on the felt
     optionsToLoad: []
@@ -2418,6 +2489,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: What will you do?
     optionsToLoad:
     - optionText: Watch as your last 10 dollars get whisked away
@@ -2448,6 +2521,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: '6: A Game by Potassio'
     optionsToLoad: []
     defaultDialogue: 38
@@ -2458,6 +2533,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: '???: Mmmm...'
     optionsToLoad: []
     defaultDialogue: 14
@@ -2468,6 +2545,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: '???: And finally...'
     optionsToLoad: []
     defaultDialogue: 17
@@ -2478,6 +2557,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: It's a 1...
     optionsToLoad: []
     defaultDialogue: 32
@@ -2488,6 +2569,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: Yet you still eagerly await it's final resting position...
     optionsToLoad: []
     defaultDialogue: 31
@@ -2498,6 +2581,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: It's time to go home and sleep...
     optionsToLoad: []
     defaultDialogue: 39
@@ -2508,6 +2593,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: You sleep undisturbed all night
     optionsToLoad: []
     defaultDialogue: 0
@@ -2561,19 +2648,13 @@ MonoBehaviour:
       chance: 100
       chanceCode: 
       chanceChangePerDay: 0
-    - alt: -1
-      characterProgressionNeeded: -1
-      characterProgressionLevel: -1
-      characterProgressionLevelMax: -1
-      exactDayRequirement: 38
-      chance: 100
-      chanceCode: 
-      chanceChangePerDay: 0
     changeBackground: 0
     newBackgroundIndex: 0
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: '???: Yes, it''s me again'
     optionsToLoad: []
     defaultDialogue: 41
@@ -2584,6 +2665,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: '???: How have you been?'
     optionsToLoad: []
     defaultDialogue: 42
@@ -2594,6 +2677,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: '???: A Penny for your thoughts...'
     optionsToLoad:
     - optionText: Accept "Penny"
@@ -2624,6 +2709,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: '???: Why are you like this?'
     optionsToLoad:
     - optionText: I'm just doing what brings me joy
@@ -2754,6 +2841,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: '???: Thanks for your honesty, I really mean it'
     optionsToLoad:
     - optionText: Take extra "gift"
@@ -2784,6 +2873,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: '???: Oh, hello there'
     optionsToLoad: []
     defaultDialogue: 47
@@ -2794,6 +2885,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: '???: Making some new friends around town are we?'
     optionsToLoad: []
     defaultDialogue: 48
@@ -2804,6 +2897,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: '???: Have a favorite yet?'
     optionsToLoad: []
     defaultDialogue: 49
@@ -2814,6 +2909,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: '???: Have a favorite yet?'
     optionsToLoad:
     - optionText: I like one
@@ -2924,6 +3021,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: '???: What? It''s not me? We''re friends right?'
     optionsToLoad: []
     defaultDialogue: 51
@@ -2934,6 +3033,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: '???: Just kidding, here, have some more money to "invest"; on me'
     optionsToLoad:
     - optionText: Take investment money
@@ -2964,6 +3065,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: '???: Have you been avoiding me lately?'
     optionsToLoad: []
     defaultDialogue: 53
@@ -2974,6 +3077,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: '???: Where''s all the money I''ve been giving you?'
     optionsToLoad: []
     defaultDialogue: 54
@@ -2984,6 +3089,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: '???: Why don''t you want to play anymore?'
     optionsToLoad:
     - optionText: For my own good
@@ -3114,6 +3221,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: '???: Hmm'
     optionsToLoad: []
     defaultDialogue: 56
@@ -3124,6 +3233,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: '???: How disappointing'
     optionsToLoad: []
     defaultDialogue: 56
@@ -3134,6 +3245,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: '???: I guess you can just quit after all...'
     optionsToLoad: []
     defaultDialogue: 0
@@ -3144,6 +3257,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: '???: ...'
     optionsToLoad: []
     defaultDialogue: 58
@@ -3154,6 +3269,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: '???: Let me properly introduce myself'
     optionsToLoad: []
     defaultDialogue: 59
@@ -3164,6 +3281,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: '???: I am Six'
     optionsToLoad: []
     defaultDialogue: 60
@@ -3174,6 +3293,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: '???: I think you could have guessed that by now'
     optionsToLoad: []
     defaultDialogue: 61
@@ -3184,6 +3305,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: 'Six: But what am I really?'
     optionsToLoad:
     - optionText: You are evil incarnate
@@ -3314,6 +3437,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: 'Six: ...'
     optionsToLoad: []
     defaultDialogue: 0
@@ -3324,6 +3449,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: 'Six: You can feel it'
     optionsToLoad: []
     defaultDialogue: 64
@@ -3334,6 +3461,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: 'Six: No matter what'
     optionsToLoad: []
     defaultDialogue: 65
@@ -3344,6 +3473,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: 'Six: I''ll be there'
     optionsToLoad: []
     defaultDialogue: 66
@@ -3354,6 +3485,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: 'Six: In the back of your mind'
     optionsToLoad: []
     defaultDialogue: 67
@@ -3364,6 +3497,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: 'Six: Gnawing at you'
     optionsToLoad: []
     defaultDialogue: 68
@@ -3374,6 +3509,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: 'Six: Until you BREAK'
     optionsToLoad: []
     defaultDialogue: 0
@@ -3384,6 +3521,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: 'Six: ......'
     optionsToLoad: []
     defaultDialogue: 70
@@ -3394,6 +3533,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: 'Six: ......'
     optionsToLoad: []
     defaultDialogue: 71
@@ -3404,6 +3545,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: 'Six: ......'
     optionsToLoad: []
     defaultDialogue: 72
@@ -3414,6 +3557,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: 'Six: ......'
     optionsToLoad: []
     defaultDialogue: 73
@@ -3424,6 +3569,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: 'Six: ......'
     optionsToLoad: []
     defaultDialogue: 74
@@ -3434,6 +3581,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: 'Six: ......'
     optionsToLoad: []
     defaultDialogue: 0
@@ -3444,6 +3593,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: Time to wake up again
     optionsToLoad: []
     defaultDialogue: 76
@@ -3454,6 +3605,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: Where to Today?
     optionsToLoad:
     - optionText: The Casino
@@ -3504,6 +3657,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: Which game?
     optionsToLoad:
     - optionText: Six Shooter
@@ -3554,6 +3709,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: What number will you bet on?
     optionsToLoad:
     - optionText: 1
@@ -3704,6 +3861,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: How much will you bet?
     optionsToLoad:
     - optionText: Just Watch
@@ -3854,6 +4013,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: You patiently await the roll of the die...
     optionsToLoad: []
     defaultDialogue: 81
@@ -3864,6 +4025,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: '!Override this spot with outcome!'
     optionsToLoad: []
     defaultDialogue: 38
@@ -3874,6 +4037,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 1
+    overrideWithDate: 0
+    EndGame: 0
   - text: Better go home.. now
     optionsToLoad: []
     defaultDialogue: 0
@@ -3884,6 +4049,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: No, you NEED to go to the Casino today
     optionsToLoad: []
     defaultDialogue: 76
@@ -3894,6 +4061,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: The sounds of light conversation fill your ears as you scan the room
     optionsToLoad:
     - optionText: Look at the close end of the bar
@@ -4024,6 +4193,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: No one is there
     optionsToLoad: []
     defaultDialogue: 84
@@ -4074,6 +4245,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: No one is there
     optionsToLoad: []
     defaultDialogue: 84
@@ -4124,6 +4297,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: No one is there
     optionsToLoad: []
     defaultDialogue: 84
@@ -4174,6 +4349,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: CUT CONTENT (I ran out of time for Four)
     optionsToLoad: []
     defaultDialogue: 84
@@ -4184,6 +4361,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: No one is there
     optionsToLoad: []
     defaultDialogue: 84
@@ -4234,6 +4413,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: "You spot a tall, sleek man seated at the close end of the bar, perhaps
       the only one in the room that emanates \u201Ccool\u201D"
     optionsToLoad: []
@@ -4245,6 +4426,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: "He can\u2019t be more than 30 years old"
     optionsToLoad: []
     defaultDialogue: 92
@@ -4255,6 +4438,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: "He caught you scanning the room and comes up to you\u2026"
     optionsToLoad: []
     defaultDialogue: 93
@@ -4265,6 +4450,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: 'One: And you are?'
     optionsToLoad:
     - optionText: Uh...
@@ -4355,6 +4542,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: 'One: Mhm'
     optionsToLoad: []
     defaultDialogue: 98
@@ -4365,6 +4554,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: 'One: Mhm'
     optionsToLoad: []
     defaultDialogue: 98
@@ -4375,6 +4566,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: 'One: Ha! Right'
     optionsToLoad: []
     defaultDialogue: 98
@@ -4385,6 +4578,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: 'One: Just someone trying to relax'
     optionsToLoad: []
     defaultDialogue: 98
@@ -4395,6 +4590,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: "One: Well, my name is One, remember it well, it\u2019s pretty hard to
       forget it, Ha!"
     optionsToLoad: []
@@ -4406,6 +4603,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: 'One: Have a drink on me, can I recommend something off non-alcoholic menu,
       Chance here makes a mean Shirley Temple'
     optionsToLoad:
@@ -4537,6 +4736,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: You spend the night chatting with One, moreso just admiring the suaveness
       he emanates
     optionsToLoad: []
@@ -4548,6 +4749,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: 'One: My beverage friend is back!'
     optionsToLoad: []
     defaultDialogue: 102
@@ -4558,6 +4761,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: 'One: Having more fun at the Six Shooter table?'
     optionsToLoad: []
     defaultDialogue: 103
@@ -4568,6 +4773,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: 'One: Well sorry to cut our convo short today but I gotta get back to the
       family, they were pretty pissed after our last convo lasted so long! Ha!'
     optionsToLoad: []
@@ -4579,6 +4786,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: "One: Hey hey! You already made eye contact! It\u2019s too late now! Ha!"
     optionsToLoad: []
     defaultDialogue: 105
@@ -4589,6 +4798,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: "One: I was talking with Fives here and we were discussin\u2019 those Roulette
       tables downstairs"
     optionsToLoad: []
@@ -4600,6 +4811,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: "Five: It\u2019s FIVE not Fives"
     optionsToLoad: []
     defaultDialogue: 107
@@ -4610,6 +4823,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: "Five: More precisely, we were disagreeing about why people play such an
       obviously rigged game, There\u2019s a green ZERO right on the wheel! How much
       more obvious could it get?"
@@ -4622,6 +4837,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: "Five: He thinks people just play it because it\u2019s fun"
     optionsToLoad: []
     defaultDialogue: 109
@@ -4632,6 +4849,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: 'Five: But really, people are just blind to the zero, off the atmosphere,
       drinks, and the illusion the wheel can make them rich'
     optionsToLoad:
@@ -4704,6 +4923,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: "Five: I wasn\u2019t asking for your opinion"
     optionsToLoad: []
     defaultDialogue: 113
@@ -4714,6 +4935,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: "Five: I know, people are so dumb\u2026 (he takes a sip of his water)"
     optionsToLoad: []
     defaultDialogue: 113
@@ -4724,6 +4947,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: 'Marcey: Sure'
     optionsToLoad: []
     defaultDialogue: 113
@@ -4734,6 +4959,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: "One: Hey come on now Fives! I mean Five! It\u2019s just a game. You watch
       the ball go round and round and sometimes it lands on green! Ha!"
     optionsToLoad: []
@@ -4745,6 +4972,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: "Neither side budges as the discussion ages, It\u2019s Exhausting"
     optionsToLoad: []
     defaultDialogue: 38
@@ -4755,6 +4984,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: 'One: Hey I just wanted to say sorry for dragging you into our yapping
       the other day'
     optionsToLoad: []
@@ -4766,6 +4997,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: 'One: I was thinking we could discuss something a little more uplifting'
     optionsToLoad: []
     defaultDialogue: 117
@@ -4776,6 +5009,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: 'One: What makes you happy?'
     optionsToLoad:
     - optionText: Being myself
@@ -4906,6 +5141,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: 'One: Hmm, A drink for two of us Chance! '
     optionsToLoad: []
     defaultDialogue: 119
@@ -4916,6 +5153,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: The two of you talk about the sweet things in life (mostly his wife and
       son) for hours
     optionsToLoad: []
@@ -4927,6 +5166,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: 'One: Hey! Come over! I want you to meet my beautiful wife and son Una
       and Ace.'
     optionsToLoad: []
@@ -4938,6 +5179,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: He escorts you to the kid-friendly pub area
     optionsToLoad: []
     defaultDialogue: 122
@@ -4948,6 +5191,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: "Ace: Nice to meet you Dad\u2019s friend!"
     optionsToLoad: []
     defaultDialogue: 123
@@ -4958,6 +5203,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: 'Una: Indoor voice Ace!'
     optionsToLoad: []
     defaultDialogue: 124
@@ -4968,6 +5215,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: 'Una: Nice to meet you'
     optionsToLoad: []
     defaultDialogue: 125
@@ -4978,6 +5227,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: One slides away, getting caught up in another conversation
     optionsToLoad: []
     defaultDialogue: 126
@@ -4988,6 +5239,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: 'Una: One says you remind him of me '
     optionsToLoad:
     - optionText: Really? I haven't known him that long
@@ -5018,6 +5271,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: 'Una: I know I just met you too, but I think I get it'
     optionsToLoad: []
     defaultDialogue: 128
@@ -5028,6 +5283,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: "Una: As cool as One tries to look all the time, he\u2019s really a dumb,
       loveable goofball underneath it all"
     optionsToLoad: []
@@ -5039,6 +5296,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: 'Una: When I first met him, it was difficult for me to comprehend his view
       on things'
     optionsToLoad: []
@@ -5050,6 +5309,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: 'Una: I though he was just Naive'
     optionsToLoad: []
     defaultDialogue: 131
@@ -5060,6 +5321,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: 'Una: But the more I got to know him, he just cherishes everything that
       makes him happy'
     optionsToLoad: []
@@ -5071,6 +5334,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: "Una: Playing card games, being with his family, making complete strangers\u2019
       days just a little bit better"
     optionsToLoad: []
@@ -5082,6 +5347,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: One comes back with an assortment of various colored drinks
     optionsToLoad: []
     defaultDialogue: 134
@@ -5092,6 +5359,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: The four of you talk all night
     optionsToLoad: []
     defaultDialogue: 38
@@ -5102,6 +5371,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: A young lady, in her early 20s sits at one of the tables across the room
     optionsToLoad: []
     defaultDialogue: 136
@@ -5112,6 +5383,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: She takes a couple sips from some exquisiteltly shaped glass, and darts
       her eyes across the room in a repetitive cycle
     optionsToLoad: []
@@ -5123,6 +5396,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: Not to you, but a girl with a remarkably similar face chatting up some
       others at the pool table
     optionsToLoad: []
@@ -5134,6 +5409,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: "It\u2019s remarkable she hasn\u2019t spilled any juice on her classy,
       blue suit when darting her head back and forth"
     optionsToLoad: []
@@ -5145,6 +5422,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: The face is where the similarities end
     optionsToLoad: []
     defaultDialogue: 140
@@ -5155,6 +5434,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: "Notably, billiards girl\u2019s hair is in a long ponytail and wears what
       looks like a punk rock jacket with a turtle neck underneath, whilst suit girl
       has a short military cut"
@@ -5167,6 +5448,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: You strike up your best conversation starter
     optionsToLoad:
     - optionText: Who's that?
@@ -5237,6 +5520,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: "Marcey: Yeah, that\u2019s Hal Two, my sister over there getting all the
       attention, I\u2019m Marcy and my last name is Two too, And no, I\u2019m not
       jealous"
@@ -5269,6 +5554,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: 'Marcey: Its more of a glare. Hal, is what we call a gambling addict, and
       she always drags me along to this casino just so she can occasionally point
       at me when she meets new people'
@@ -5281,6 +5568,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: 'Marcey: Now you know, so now you can leave me alone'
     optionsToLoad: []
     defaultDialogue: 145
@@ -5291,6 +5580,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: That was cold. Colder than the ice cubes in her fancy glass
     optionsToLoad: []
     defaultDialogue: 38
@@ -5301,6 +5592,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: "Hal: Hey! Yoo hoo! Aren\u2019t you the one that was talking up Marcey
       when I was focusing on destroying some fools in pool?"
     optionsToLoad: []
@@ -5312,6 +5605,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: "Hal: Are you trying to scam her or something? I love Marcey, but no one
       ever comes up to talk to her, she\u2019s too intimidating"
     optionsToLoad: []
@@ -5323,6 +5618,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: "Marcey: I\u2019m right here you know"
     optionsToLoad: []
     defaultDialogue: 149
@@ -5333,6 +5630,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: 'Hal: Give me a break, I know you were probably just whining to him about
       being here'
     optionsToLoad: []
@@ -5344,6 +5643,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: It seems she answered her own question
     optionsToLoad: []
     defaultDialogue: 151
@@ -5354,6 +5655,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: 'Marcey: Watch your mouth, if you want to be playing Sixes later tonight'
     optionsToLoad: []
     defaultDialogue: 152
@@ -5364,6 +5667,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: "Hal: Oh oh, sorry sis, I didn\u2019t mean it"
     optionsToLoad: []
     defaultDialogue: 153
@@ -5374,6 +5679,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: 'Marcey: When are you going to stop this Hal?'
     optionsToLoad: []
     defaultDialogue: 154
@@ -5384,6 +5691,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: "Hal goes silent, completely the opposite of everything you\u2019ve seen
       of her before, you need to break the silence"
     optionsToLoad:
@@ -5495,6 +5804,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: 'Marcey: You don''t know her like I do'
     optionsToLoad: []
     defaultDialogue: 157
@@ -5505,6 +5816,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: -Ignore this line-
     optionsToLoad: []
     defaultDialogue: 0
@@ -5515,6 +5828,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: "It\u2019s getting real awkward in here, too awkward, like sweating six
       shooter bullets awkward, how is she remaining so cold? You basically run for
       the door."
@@ -5527,6 +5842,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: You avoid making anything to suggest you want to talk to Marcey
     optionsToLoad: []
     defaultDialogue: 159
@@ -5537,6 +5854,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: "Hal has her you in her sights though and she\u2019s bringing someone with
       her, she seems to have recovered from last time\u2026"
     optionsToLoad: []
@@ -5548,6 +5867,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: 'Hal: This is FOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO'
     optionsToLoad: []
     defaultDialogue: 161
@@ -5558,6 +5879,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: 'Hal: -ur'
     optionsToLoad: []
     defaultDialogue: 162
@@ -5568,6 +5891,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: 'Four: She means Four'
     optionsToLoad: []
     defaultDialogue: 163
@@ -5578,6 +5903,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: 'Hal: Care to join us for some FRIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII'
     optionsToLoad: []
     defaultDialogue: 164
@@ -5588,6 +5915,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: 'Hal: -es?'
     optionsToLoad: []
     defaultDialogue: 165
@@ -5598,6 +5927,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: "Hal: Come on, don\u2019t worry about last time"
     optionsToLoad: []
     defaultDialogue: 166
@@ -5608,6 +5939,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: She seems to have answered her question for you again
     optionsToLoad: []
     defaultDialogue: 167
@@ -5618,6 +5951,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: Off to the Fry table with you
     optionsToLoad: []
     defaultDialogue: 168
@@ -5628,6 +5963,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: You try to not make eye contact with Marcey
     optionsToLoad: []
     defaultDialogue: 169
@@ -5638,6 +5975,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: The atmosphere is below freezing
     optionsToLoad: []
     defaultDialogue: 170
@@ -5648,6 +5987,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: "It\u2019s so cold, it feels like the fries and going to unfry and turn
       back into potatoes at any second"
     optionsToLoad: []
@@ -5659,6 +6000,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: Ice potatoes
     optionsToLoad: []
     defaultDialogue: 172
@@ -5669,6 +6012,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: "Four: So uh, how\u2019s your project going at the office?"
     optionsToLoad: []
     defaultDialogue: 173
@@ -5679,6 +6024,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: 'Marcey: You never talk about work out of the office Four'
     optionsToLoad: []
     defaultDialogue: 174
@@ -5689,6 +6036,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: "Four: Hahaha, yeah, i guess I don\u2019t"
     optionsToLoad: []
     defaultDialogue: 175
@@ -5699,6 +6048,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: "He\u2019s picking up on the tenseness too\u2026"
     optionsToLoad: []
     defaultDialogue: 176
@@ -5709,6 +6060,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: Awkward Silence
     optionsToLoad: []
     defaultDialogue: 177
@@ -5719,6 +6072,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: 'Four: Um, why do you think they sell these fancy fries here?'
     optionsToLoad:
     - optionText: They taste good!
@@ -5849,6 +6204,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: "Four: Yeah, ha\u2026 ha\u2026"
     optionsToLoad: []
     defaultDialogue: 179
@@ -5859,6 +6216,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: She is much more concerned with not succumbing to frostbite from staying
       too close to the Ice Queen, Marcey
     optionsToLoad: []
@@ -5870,6 +6229,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: 'Hal: FAAAAAAAAAAAAANNNNNNNNNNNNNNCCCCCCCCCCCCCYYYYYYYYYYYYYYYYYYYYYY FRIIIIIIIIIIIIIIIIIIIIIII-'
     optionsToLoad: []
     defaultDialogue: 181
@@ -5880,6 +6241,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: At least Hal seems to be shaking it off
     optionsToLoad: []
     defaultDialogue: 182
@@ -5890,6 +6253,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: "Four: Soooo, what else can we talk about\u2026"
     optionsToLoad: []
     defaultDialogue: 183
@@ -5900,6 +6265,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: You only feel pain, for the next 30 minutes as you stumble through a rigid
       conversation, then you leave with 3/4ths a basket of cold fries
     optionsToLoad: []
@@ -5911,6 +6278,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: Marcey surprisingly comes over to you, looking around to make sure Hal
       is lost in an intense billiards duel
     optionsToLoad: []
@@ -5922,6 +6291,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: She invites you to sit down in a cold, yet almost apologetic fashion
     optionsToLoad: []
     defaultDialogue: 186
@@ -5932,6 +6303,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: "Marcey: I\u2019ll keep this brief"
     optionsToLoad: []
     defaultDialogue: 187
@@ -5942,6 +6315,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: 'Marcey: I know we got off on the wrong foot '
     optionsToLoad: []
     defaultDialogue: 188
@@ -5952,6 +6327,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: 'Marcey: But I just wanted to clarify some things'
     optionsToLoad: []
     defaultDialogue: 189
@@ -5962,6 +6339,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: 'Marcey: I really care about Haley'
     optionsToLoad: []
     defaultDialogue: 190
@@ -5972,6 +6351,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: "She\u2019s refering to Hal"
     optionsToLoad: []
     defaultDialogue: 191
@@ -5982,6 +6363,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: "Marcey: I know I\u2019m not helping things by giving her money or even
       by agreeing to come here with her"
     optionsToLoad: []
@@ -5993,6 +6376,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: 'Marcey: But I just want to see her be happy '
     optionsToLoad: []
     defaultDialogue: 193
@@ -6003,6 +6388,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: "Marcey: This is where she\u2019s the happiest, and she can say the meanest
       things to me when I tell her I won\u2019t do things for her"
     optionsToLoad: []
@@ -6014,6 +6401,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: 'Marcey: Am I a bad sister?'
     optionsToLoad:
     - optionText: They call it tough love for a reason, you need to stop
@@ -6104,6 +6493,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: 'Marcey: Yeah'
     optionsToLoad: []
     defaultDialogue: 196
@@ -6114,6 +6505,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: 'Hal: YES! In your face LOSER!'
     optionsToLoad: []
     defaultDialogue: 197
@@ -6124,6 +6517,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: Even from across the room, it is evident that the pool game has concluded
     optionsToLoad: []
     defaultDialogue: 198
@@ -6134,6 +6529,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: "Marcey: Don\u2019t go thinking you magically just fixed all of my issues
       with your life advice"
     optionsToLoad: []
@@ -6145,6 +6542,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: 'Marcey: But thank you for listening to me with open ears'
     optionsToLoad: []
     defaultDialogue: 38
@@ -6155,6 +6554,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: Before you can even realize, Hal has sat you down at their booth and you
       are staring at some quite lukewarm fries
     optionsToLoad: []
@@ -6166,6 +6567,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: Only the fries are cold this time though
     optionsToLoad: []
     defaultDialogue: 202
@@ -6176,6 +6579,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: You could almost say Marcey looks happy
     optionsToLoad: []
     defaultDialogue: 203
@@ -6186,6 +6591,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: 'Hal: Marcey told me to come and get you after my pool game ended'
     optionsToLoad: []
     defaultDialogue: 204
@@ -6196,6 +6603,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: 'Marcey: And?'
     optionsToLoad: []
     defaultDialogue: 205
@@ -6206,6 +6615,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: 'Hal: Well Marcey and I might be around here a little less now'
     optionsToLoad: []
     defaultDialogue: 206
@@ -6216,6 +6627,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: "Hal: We\u2019re gonna go down to the billiards hall downtown instead,
       on my own terms"
     optionsToLoad: []
@@ -6227,6 +6640,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: Then she whispers
     optionsToLoad: []
     defaultDialogue: 208
@@ -6237,6 +6652,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: "Hal: But between you and me\u2026 I might sneak around here sometimes\u2026"
     optionsToLoad: []
     defaultDialogue: 209
@@ -6247,6 +6664,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: 'Hal: Oh, time for my last pool game in the High Roller! The best bar in
       town!'
     optionsToLoad: []
@@ -6258,6 +6677,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: She leaves to grab her pool cue
     optionsToLoad: []
     defaultDialogue: 211
@@ -6268,6 +6689,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: "Marcey: Yeah, I know I\u2019m going back on what I said, but I realize
       that Hal can\u2019t \u201Cjust quit\u201D"
     optionsToLoad: []
@@ -6279,6 +6702,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: "Marcey: But I need to support her because I\u2019m her proud, little sister"
     optionsToLoad: []
     defaultDialogue: 213
@@ -6289,6 +6714,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: "Marcey: It won\u2019t be easy, but we\u2019ll take it one step at a time"
     optionsToLoad: []
     defaultDialogue: 214
@@ -6299,6 +6726,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: You both look on as Hal duels, pool cue in hand
     optionsToLoad: []
     defaultDialogue: 38
@@ -6309,6 +6738,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: A young looking man with a peculiar backpack, adorned with an enormous
       amount of various pins sits in one of the booths near the pool table
     optionsToLoad: []
@@ -6320,6 +6751,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: "You can\u2019t help but question if he is even old enough to be drinking
       the ale he is sipping from"
     optionsToLoad: []
@@ -6331,6 +6764,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: Trinkets of all sorts are scattered across the table
     optionsToLoad:
     - optionText: What are these
@@ -6361,6 +6796,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: Oh, you were meant to think that, not say it aloud
     optionsToLoad: []
     defaultDialogue: 219
@@ -6371,6 +6808,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: 'Three: These are my good luck charms for winning the sixshooter bonus
       payout tommorrow'
     optionsToLoad: []
@@ -6382,6 +6821,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: "Three: I know what your\u2019re thinking, I\u2019m a nutcase"
     optionsToLoad: []
     defaultDialogue: 221
@@ -6392,6 +6833,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: 'Three: But I lost every round I played today'
     optionsToLoad: []
     defaultDialogue: 222
@@ -6402,6 +6845,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: "Three: That plus these charms means I can\u2019t lose tommorrow"
     optionsToLoad:
     - optionText: Wow, these are really cool
@@ -6514,6 +6959,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: "I know right, I\u2019ll give you a hundo when I win tommorrow"
     optionsToLoad: []
     defaultDialogue: 225
@@ -6524,6 +6971,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: "You can\u2019t win with an attitude like that!"
     optionsToLoad: []
     defaultDialogue: 225
@@ -6534,6 +6983,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: "He starts to get into the nitty gritty of the different methods he\u2019s
       employing"
     optionsToLoad: []
@@ -6545,6 +6996,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: Three is just as you found him the other day, studying his charms
     optionsToLoad: []
     defaultDialogue: 227
@@ -6555,6 +7008,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: 'Three: If you are just going to laugh at me, go awa-'
     optionsToLoad: []
     defaultDialogue: 228
@@ -6565,6 +7020,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: "Three: Oh it\u2019s you"
     optionsToLoad: []
     defaultDialogue: 229
@@ -6575,6 +7032,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: 'Three: Here, I won yesterday'
     optionsToLoad:
     - optionText: Thanks (accept 100 dollars)
@@ -6625,6 +7084,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: 'Three: I already got my eyes locked on the next big haul'
     optionsToLoad: []
     defaultDialogue: 231
@@ -6635,6 +7096,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: Nope, no questions for you, just a college level lecture on his game plan
       for next Friday
     optionsToLoad: []
@@ -6646,6 +7109,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: Three is giving a 101 course to One
     optionsToLoad: []
     defaultDialogue: 233
@@ -6656,6 +7121,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: One on One
     optionsToLoad: []
     defaultDialogue: 234
@@ -6666,6 +7133,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: "Three: Well if I account for his birthday\u2026 and the origin of his
       middle name\u2026 And his interest in board games\u2026"
     optionsToLoad: []
@@ -6677,6 +7146,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: Ok, maybe a 201 course
     optionsToLoad: []
     defaultDialogue: 236
@@ -6687,6 +7158,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: 'One: Well, Ace does really like dice, maybe one of those?'
     optionsToLoad: []
     defaultDialogue: 237
@@ -6697,6 +7170,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: "Three: That could work\u2026"
     optionsToLoad: []
     defaultDialogue: 238
@@ -6707,6 +7182,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: "One: Do you see these? I\u2019m always telling him that he could make
       a fortune selling these, plus he loves making them"
     optionsToLoad: []
@@ -6718,6 +7195,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: "One: Shouldn\u2019t he?"
     optionsToLoad:
     - optionText: One-hundred percent yes
@@ -6848,6 +7327,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: 'One: Thank you again though, I know Ace will love whatever you come up
       with'
     optionsToLoad: []
@@ -6859,6 +7340,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: 'Three: No problem at all'
     optionsToLoad: []
     defaultDialogue: 242
@@ -6869,6 +7352,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: "Three: And thank you for being the one person that takes my work seriously,
       I\u2019ll take your advice about my charms serious into consideration"
     optionsToLoad: []
@@ -6880,6 +7365,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: "You can\u2019t help but think about the properties of luck for the rest
       of the night"
     optionsToLoad: []
@@ -6891,6 +7378,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: Again, Three hits there intently drawing up sketches and etching small
       trinkets
     optionsToLoad: []
@@ -6902,6 +7391,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: 'Three: I lost 10,000 dollars today'
     optionsToLoad: []
     defaultDialogue: 246
@@ -6912,6 +7403,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: He says it without even looking up
     optionsToLoad: []
     defaultDialogue: 247
@@ -6922,6 +7415,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: "Three: Want to see the charm I\u2019m designing?"
     optionsToLoad: []
     defaultDialogue: 248
@@ -6932,6 +7427,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: Behind the charm mockups, you catch a glimpse of some loan documents with
       some less than flattering negative numbers on them
     optionsToLoad: []
@@ -6943,6 +7440,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: Maybe he wanted you to see them
     optionsToLoad: []
     defaultDialogue: 250
@@ -6953,6 +7452,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: "Three: I fear I\u2019ll never be able to escape this torment"
     optionsToLoad:
     - optionText: You can't give up hope
@@ -7003,6 +7504,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: You watch him  workfor a bit without saying a word to each other
     optionsToLoad: []
     defaultDialogue: 38
@@ -7013,6 +7516,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: 'Three: I want you to have this'
     optionsToLoad:
     - optionText: Accept the 10 dollars
@@ -7063,6 +7568,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: Those are the first 10 dollars I've gotten selling my charms
     optionsToLoad: []
     defaultDialogue: 254
@@ -7073,6 +7580,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: "Three: I\u2019m going to repay my debts, starting with yours for letting
       me share some of my worries"
     optionsToLoad: []
@@ -7084,6 +7593,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: 'Three: Regardless of if you agree with me seeling my charms, or regardless
       of if they work or not, I think people will benefit from feeling they have
       something to protect them'
@@ -7096,6 +7607,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: 'Three: Plus, karma always comes around'
     optionsToLoad: []
     defaultDialogue: 38
@@ -7106,6 +7619,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: "A lady with glasses sits at the far end of the bar in silence, likely
       eavesdropping in on other\u2019s conversations. She looks simultaneously youthful
       and aged."
@@ -7118,6 +7633,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: She could be 22 or 52 just as easily. There is a look on her face that
       you think could put even the ice queen in the blue suit sitting in the booths
       into a panic attack.
@@ -7130,6 +7647,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: "If it weren\u2019t for her glasses being sleightly tinted, her stare could
       burn a hole in your forehead."
     optionsToLoad: []
@@ -7141,6 +7660,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: It takes all your strength to even approach her
     optionsToLoad: []
     defaultDialogue: 261
@@ -7151,6 +7672,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: 'Five: Your the one going around psycho analyzing everyone right? Because
       everyone loves a self declared therapist.'
     optionsToLoad:
@@ -7283,6 +7806,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: She may have a point though
     optionsToLoad: []
     defaultDialogue: 263
@@ -7293,6 +7818,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: "Five: Regardless, why are you talking to me, the only one stupid enough
       to is the \u201Ccool guy\u201D that can\u2019t stop talking about his wife
       and kid"
@@ -7325,6 +7852,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: 'Five: No answer? Answer me this then'
     optionsToLoad: []
     defaultDialogue: 265
@@ -7335,6 +7864,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: 'Five: When you wake up every morning, what are the chances of you doing
       something meaningful that day?'
     optionsToLoad: []
@@ -7346,6 +7877,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: "Five: Don\u2019t answer me now, think about it for a day or two, then
       come back"
     optionsToLoad: []
@@ -7357,6 +7890,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: I guess you have a question to think about then
     optionsToLoad: []
     defaultDialogue: 38
@@ -7367,6 +7902,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: 'Five: So what''s your answer?'
     optionsToLoad:
     - optionText: A hundo percent
@@ -7497,6 +8034,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: 'Five: Well It''s Zero for me'
     optionsToLoad: []
     defaultDialogue: 270
@@ -7507,6 +8046,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: '???: And it''s Zero for you too...'
     optionsToLoad: []
     defaultDialogue: 38
@@ -7517,6 +8058,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: You on a wooden sit on the stool with Five to your right
     optionsToLoad: []
     defaultDialogue: 272
@@ -7527,6 +8070,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: 'Five: You see the kid over there?'
     optionsToLoad: []
     defaultDialogue: 273
@@ -7537,6 +8082,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: 'Five: The baby face with the backpack and the junk all over the table'
     optionsToLoad: []
     defaultDialogue: 274
@@ -7547,6 +8094,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: 'Five: I overheard him talking to the wife guy about him making some kind
       of good luck charms'
     optionsToLoad: []
@@ -7558,6 +8107,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: 'Five: How incredibly idiotic'
     optionsToLoad: []
     defaultDialogue: 276
@@ -7568,6 +8119,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: 'Five: But you know'
     optionsToLoad: []
     defaultDialogue: 277
@@ -7578,6 +8131,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: "Five: I\u2019m jealous of people like him"
     optionsToLoad: []
     defaultDialogue: 278
@@ -7588,6 +8143,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: "Five: He\u2019s too dumb to know fate and luck don\u2019t exist"
     optionsToLoad: []
     defaultDialogue: 279
@@ -7598,6 +8155,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: 'Five: He has an out to blame all his problems on'
     optionsToLoad: []
     defaultDialogue: 280
@@ -7608,7 +8167,9 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
-  - text: ' Five: You can play ignorant, criticize society, curse your boring life,
+    overrideWithDate: 0
+    EndGame: 0
+  - text: 'Five: You can play ignorant, criticize society, curse your boring life,
       and blame luck '
     optionsToLoad: []
     defaultDialogue: 281
@@ -7619,6 +8180,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: 'Five: But once you wise up'
     optionsToLoad: []
     defaultDialogue: 282
@@ -7629,6 +8192,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: 'Five: You only have yourself to blame'
     optionsToLoad:
     - optionText: "You can\u2019t think like that"
@@ -7740,6 +8305,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: There is no response from Five
     optionsToLoad: []
     defaultDialogue: 284
@@ -7750,6 +8317,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: The discussion is over
     optionsToLoad: []
     defaultDialogue: 38
@@ -7760,6 +8329,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: You talk amogst others in the bar until it gets very late
     optionsToLoad: []
     defaultDialogue: 286
@@ -7770,6 +8341,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: "It\u2019s silent compared to just a few hours ago"
     optionsToLoad: []
     defaultDialogue: 287
@@ -7780,6 +8353,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: Everyone has either gone home or is drunkenly sleeping
     optionsToLoad: []
     defaultDialogue: 288
@@ -7790,6 +8365,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: Everyone except Five, at the end of the bar
     optionsToLoad: []
     defaultDialogue: 289
@@ -7800,6 +8377,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: "Five: I\u2019m always on my high horse"
     optionsToLoad: []
     defaultDialogue: 290
@@ -7810,6 +8389,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: 'Five: I go to a bar to pay for water'
     optionsToLoad: []
     defaultDialogue: 291
@@ -7820,6 +8401,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: 'Five: Make light of other people''s problems'
     optionsToLoad: []
     defaultDialogue: 292
@@ -7830,6 +8413,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: "Five: But I\u2019m just like everyone else here"
     optionsToLoad: []
     defaultDialogue: 293
@@ -7840,6 +8425,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: 'Five: I wake up'
     optionsToLoad: []
     defaultDialogue: 294
@@ -7850,6 +8437,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: "Five: And I go out onto that Casino floor\u2026"
     optionsToLoad: []
     defaultDialogue: 295
@@ -7860,6 +8449,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: "Five: I just can\u2019t help myself"
     optionsToLoad: []
     defaultDialogue: 296
@@ -7870,6 +8461,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: Then she leaves
     optionsToLoad: []
     defaultDialogue: 38
@@ -7880,6 +8473,8 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
   - text: An empty bar seat sits vacant at the end of the bar
     optionsToLoad: []
     defaultDialogue: 38
@@ -7890,6 +8485,547 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
+  - text: 6/1
+    optionsToLoad: []
+    defaultDialogue: 299
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
+  - text: 'Six: So did you make it big?'
+    optionsToLoad: []
+    defaultDialogue: 300
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
+  - text: 'Six: Regardless, you know we have to do'
+    optionsToLoad:
+    - optionText: Bet it all
+      textNodeToLoad: 301
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+      setBetNumber: 0
+      setBetAmount: 0
+    defaultDialogue: 301
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
+  - text: 'Six: I lied last time, but I am positive it will be a 6 this time'
+    optionsToLoad: []
+    defaultDialogue: 302
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
+  - text: 'Six: There is no other possibilty, I swear on my life'
+    optionsToLoad: []
+    defaultDialogue: 303
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
+  - text: 'Six: Just bet on the 6......'
+    optionsToLoad: []
+    defaultDialogue: 304
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
+  - text: What will you bet on?
+    optionsToLoad:
+    - optionText: 1
+      textNodeToLoad: 305
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 6
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+      setBetNumber: 0
+      setBetAmount: 0
+    - optionText: 2
+      textNodeToLoad: 308
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 6
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+      setBetNumber: 0
+      setBetAmount: 0
+    - optionText: 3
+      textNodeToLoad: 311
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 6
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+      setBetNumber: 0
+      setBetAmount: 0
+    - optionText: 4
+      textNodeToLoad: 314
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 6
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+      setBetNumber: 0
+      setBetAmount: 0
+    - optionText: 5
+      textNodeToLoad: 317
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 6
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+      setBetNumber: 0
+      setBetAmount: 0
+    - optionText: 6
+      textNodeToLoad: 326
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+      setBetNumber: 0
+      setBetAmount: 0
+    defaultDialogue: 305
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
+  - text: The die tumbles onto the felt
+    optionsToLoad: []
+    defaultDialogue: 306
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
+  - text: But you couldn't care less, you know what is important to you
+    optionsToLoad: []
+    defaultDialogue: 307
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
+  - text: Happiness
+    optionsToLoad: []
+    defaultDialogue: 321
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
+  - text: The die tumbles onto the felt
+    optionsToLoad: []
+    defaultDialogue: 309
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
+  - text: You leave before it stops to remember all the great expereinces you had
+      at the High Roller
+    optionsToLoad: []
+    defaultDialogue: 310
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
+  - text: You have friends and dignity
+    optionsToLoad: []
+    defaultDialogue: 321
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
+  - text: The die tumbles onto the felt
+    optionsToLoad: []
+    defaultDialogue: 312
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
+  - text: You look at a hand carved die you bought for good luck from a friend and
+      leave
+    optionsToLoad: []
+    defaultDialogue: 313
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
+  - text: Leaving now is luckier than any outcome the die could roll
+    optionsToLoad: []
+    defaultDialogue: 321
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
+  - text: The die tumbles onto the felt...
+    optionsToLoad: []
+    defaultDialogue: 315
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
+  - text: It was a fun distraction, but you can't run from everything
+    optionsToLoad: []
+    defaultDialogue: 316
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
+  - text: You walk out the door to face your next challenge
+    optionsToLoad: []
+    defaultDialogue: 321
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
+  - text: The die tumbles onto the felt
+    optionsToLoad: []
+    defaultDialogue: 321
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
+  - text: Yes, it's a 1 in 6 chance
+    optionsToLoad: []
+    defaultDialogue: 319
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
+  - text: A 1 in 6 chance to get more money to lose
+    optionsToLoad: []
+    defaultDialogue: 320
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
+  - text: Time to think about more important things
+    optionsToLoad: []
+    defaultDialogue: 321
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
+  - text: End
+    optionsToLoad: []
+    defaultDialogue: 322
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
+  - text: 'If you are struggling with gambling addiction, know there are resources
+      available to help such as: https://www.ncpgambling.org/help-treatment/national-helpline-1-800-522-4700/'
+    optionsToLoad: []
+    defaultDialogue: 323
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
+  - text: A game (shoddily) created by Potassio for the GMTK Game Jam 2022
+    optionsToLoad: []
+    defaultDialogue: 324
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
+  - text: A game inspired by Disco Elysium
+    optionsToLoad: []
+    defaultDialogue: 325
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
+  - text: SIX
+    optionsToLoad: []
+    defaultDialogue: 330
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
+  - text: The die tumbles onto the felt
+    optionsToLoad: []
+    defaultDialogue: 327
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
+  - text: You watch it's every movement
+    optionsToLoad: []
+    defaultDialogue: 328
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
+  - text: Six jet black dots crest over the side of the die
+    optionsToLoad: []
+    defaultDialogue: 329
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
+  - text: A six
+    optionsToLoad: []
+    defaultDialogue: 321
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
+  - text: Close Game
+    optionsToLoad: []
+    defaultDialogue: 0
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 1
 --- !u!4 &873542898
 Transform:
   m_ObjectHideFlags: 0

@@ -149,7 +149,7 @@ public class TextManager : MonoBehaviour
         CheatingText.text = "Cheating: " + cheating;
     }
 
-    public void UpdateDay(int day)
+    public string UpdateDay(int day)
     {
         string dayString = "";
         if (day < 7)
@@ -161,5 +161,7 @@ public class TextManager : MonoBehaviour
         else
             Debug.LogError("Invalid Day Update");
         dateText.text = dayString;
+
+        return dayString;
     }
 }

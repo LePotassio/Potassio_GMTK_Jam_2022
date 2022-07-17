@@ -171,19 +171,19 @@ public class Option
             res += " -$" + moneyReq / 100 + "." + (moneyReq % 100).ToString("00") + " ";
 
         if (happinessReq > 0)
-            res += " " + happinessReq + " Happiness ";
+            res += " " + GameManager.Instance.PlayerInfo.Happiness + "/" + happinessReq + " Happiness ";
 
         if (dignityReq > 0)
-            res += " " + dignityReq + " Dignity ";
+            res += " " + GameManager.Instance.PlayerInfo.Dignity + "/" + dignityReq + " Dignity ";
 
         if (luckReq > 0)
-            res += " " + luckReq + " Luck ";
+            res += " " + GameManager.Instance.PlayerInfo.Luck + "/" + luckReq + " Luck ";
 
         if (workerReq > 0)
-            res += " " + workerReq + " Worker ";
+            res += " " + GameManager.Instance.PlayerInfo.Worker + "/" + workerReq + " Worker ";
 
         if (smartsReq > 0)
-            res += " " + smartsReq + " Smarts ";
+            res += " " + +GameManager.Instance.PlayerInfo.Smarts + "/" + smartsReq + " Smarts ";
 
         if (cheatingReq > 0)
             res += " " + cheatingReq + " Cheating ";

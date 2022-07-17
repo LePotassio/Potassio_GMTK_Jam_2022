@@ -190,13 +190,18 @@ public class GameManager : MonoBehaviour
 
         currentDialogue = node;
 
+        if (node.EndGame)
+            Application.Quit();
+
         if (node.ChangeBackground)
             yield return brManager.SwitchBackground(node.NewBackgroundIndex, brSwitchSpeed);
 
         if (node.ChangePortrait)
             yield return portraitManager.SwitchPortrait(node.NewPortraitIndex, portraitSwitchSpeed);
 
-        if (!node.OverrideWithRoll)
+        if (node.OverrideWithDate)
+            textManager.SetText(textManager.UpdateDay(playerInfo.Day));
+        else if (!node.OverrideWithRoll)
             textManager.SetText(node.Text);
         else
             textManager.SetText(gamblerStats.PlaySixShooter());

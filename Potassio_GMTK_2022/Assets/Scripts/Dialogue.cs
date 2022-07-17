@@ -38,6 +38,9 @@ public class Dialogue
     [SerializeField]
     private bool overrideWithRoll = false;
 
+    [SerializeField]
+    private bool overrideWithDate = false;
+
     public string Text
     {
         get { return text; }
@@ -82,6 +85,13 @@ public class Dialogue
     {
         get { return overrideWithRoll; }
     }
+
+    public bool OverrideWithDate
+    {
+        get { return overrideWithDate; }
+    }
+
+    public bool EndGame;
 
     // Honestly a terrible way to code this but least taxing brain wise, Prioritizes in order of iteration
     public int CheckForAlts()
