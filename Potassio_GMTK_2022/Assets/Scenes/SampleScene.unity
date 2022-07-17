@@ -895,9 +895,11 @@ MonoBehaviour:
     - alt: 1
       characterProgressionNeeded: -1
       characterProgressionLevel: -1
+      characterProgressionLevelMax: -1
       exactDayRequirement: 1
       chance: 100
       chanceCode: 
+      chanceChangePerDay: 0
     changeBackground: 0
     newBackgroundIndex: 0
     changePortrait: 0
@@ -2496,7 +2498,7 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
-  - text: Another day ends...
+  - text: It's time to go home and sleep...
     optionsToLoad: []
     defaultDialogue: 39
     advanceDay: 1
@@ -2514,45 +2516,59 @@ MonoBehaviour:
     - alt: 40
       characterProgressionNeeded: -1
       characterProgressionLevel: -1
+      characterProgressionLevelMax: -1
       exactDayRequirement: 7
       chance: 100
       chanceCode: 
+      chanceChangePerDay: 0
     - alt: 45
       characterProgressionNeeded: -1
       characterProgressionLevel: -1
+      characterProgressionLevelMax: -1
       exactDayRequirement: 13
       chance: 100
       chanceCode: 
+      chanceChangePerDay: 0
     - alt: 51
       characterProgressionNeeded: -1
       characterProgressionLevel: -1
+      characterProgressionLevelMax: -1
       exactDayRequirement: 19
       chance: 100
       chanceCode: 
+      chanceChangePerDay: 0
     - alt: 57
       characterProgressionNeeded: -1
       characterProgressionLevel: -1
+      characterProgressionLevelMax: -1
       exactDayRequirement: 25
       chance: 100
       chanceCode: 
+      chanceChangePerDay: 0
     - alt: 63
       characterProgressionNeeded: -1
       characterProgressionLevel: -1
+      characterProgressionLevelMax: -1
       exactDayRequirement: 31
       chance: 100
       chanceCode: 
+      chanceChangePerDay: 0
     - alt: 69
       characterProgressionNeeded: -1
       characterProgressionLevel: -1
+      characterProgressionLevelMax: -1
       exactDayRequirement: 37
       chance: 100
       chanceCode: 
+      chanceChangePerDay: 0
     - alt: -1
       characterProgressionNeeded: -1
       characterProgressionLevel: -1
+      characterProgressionLevelMax: -1
       exactDayRequirement: 38
       chance: 100
       chanceCode: 
+      chanceChangePerDay: 0
     changeBackground: 0
     newBackgroundIndex: 0
     changePortrait: 0
@@ -3461,7 +3477,7 @@ MonoBehaviour:
       setBetNumber: -1
       setBetAmount: -1
     - optionText: High Roller Bar
-      textNodeToLoad: -1
+      textNodeToLoad: 84
       dayReq: 7
       moneyReq: 0
       happinessReq: 0
@@ -3871,6 +3887,1094 @@ MonoBehaviour:
   - text: No, you NEED to go to the Casino today
     optionsToLoad: []
     defaultDialogue: 76
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: The sounds of light conversation fill your ears as you scan the room
+    optionsToLoad:
+    - optionText: Look at the close end of the bar
+      textNodeToLoad: 85
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 1
+      setBetNumber: 0
+      setBetAmount: 0
+    - optionText: Scan the far booths
+      textNodeToLoad: 86
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 2
+      setBetNumber: 0
+      setBetAmount: 0
+    - optionText: Examine the booths near the billiards table
+      textNodeToLoad: 87
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 3
+      setBetNumber: 0
+      setBetAmount: 0
+    - optionText: Glance at the center of the bar
+      textNodeToLoad: 88
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 4
+      setBetNumber: 0
+      setBetAmount: 0
+    - optionText: Observe the end of the bar
+      textNodeToLoad: 89
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 5
+      setBetNumber: 0
+      setBetAmount: 0
+    - optionText: Back
+      textNodeToLoad: 76
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+      setBetNumber: 0
+      setBetAmount: 0
+    defaultDialogue: 85
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: No one is there
+    optionsToLoad: []
+    defaultDialogue: 0
+    advanceDay: 0
+    alts:
+    - alt: 90
+      characterProgressionNeeded: 1
+      characterProgressionLevel: 1
+      characterProgressionLevelMax: 1
+      exactDayRequirement: -1
+      chance: 100
+      chanceCode: 
+      chanceChangePerDay: 0
+    - alt: 101
+      characterProgressionNeeded: 1
+      characterProgressionLevel: 2
+      characterProgressionLevelMax: 2
+      exactDayRequirement: -1
+      chance: 100
+      chanceCode: 
+      chanceChangePerDay: 0
+    - alt: 104
+      characterProgressionNeeded: 1
+      characterProgressionLevel: 3
+      characterProgressionLevelMax: 3
+      exactDayRequirement: -1
+      chance: 100
+      chanceCode: 
+      chanceChangePerDay: 0
+    - alt: 115
+      characterProgressionNeeded: 1
+      characterProgressionLevel: 4
+      characterProgressionLevelMax: 4
+      exactDayRequirement: -1
+      chance: 100
+      chanceCode: 
+      chanceChangePerDay: 0
+    - alt: 120
+      characterProgressionNeeded: 1
+      characterProgressionLevel: 5
+      characterProgressionLevelMax: 5
+      exactDayRequirement: -1
+      chance: 100
+      chanceCode: 
+      chanceChangePerDay: 0
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: No one is there
+    optionsToLoad: []
+    defaultDialogue: 0
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: No one is there
+    optionsToLoad: []
+    defaultDialogue: 0
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: No one is there
+    optionsToLoad: []
+    defaultDialogue: 0
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: No one is there
+    optionsToLoad: []
+    defaultDialogue: 0
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: "You spot a tall, sleek man seated at the close end of the bar, perhaps
+      the only one in the room that emanates \u201Ccool\u201D"
+    optionsToLoad: []
+    defaultDialogue: 91
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: "He can\u2019t be more than 30 years old"
+    optionsToLoad: []
+    defaultDialogue: 92
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: "He caught you scanning the room and comes up to you\u2026"
+    optionsToLoad: []
+    defaultDialogue: 93
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: 'One: And you are?'
+    optionsToLoad:
+    - optionText: Uh...
+      textNodeToLoad: 94
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+      setBetNumber: 0
+      setBetAmount: 0
+    - optionText: Umm...
+      textNodeToLoad: 95
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+      setBetNumber: 0
+      setBetAmount: 0
+    - optionText: No one
+      textNodeToLoad: 96
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+      setBetNumber: 0
+      setBetAmount: 0
+    - optionText: Who's Asking?
+      textNodeToLoad: 97
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+      setBetNumber: 0
+      setBetAmount: 0
+    defaultDialogue: 94
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: 'One: Mhm'
+    optionsToLoad: []
+    defaultDialogue: 98
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: 'One: Mhm'
+    optionsToLoad: []
+    defaultDialogue: 98
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: 'One: Ha! Right'
+    optionsToLoad: []
+    defaultDialogue: 98
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: 'One: Just someone trying to relax'
+    optionsToLoad: []
+    defaultDialogue: 98
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: "One: Well, my name is One, remember it well, it\u2019s pretty hard to
+      forget it, Ha!"
+    optionsToLoad: []
+    defaultDialogue: 99
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: 'One: Have a drink on me, can I recommend something off non-alcoholic menu,
+      Chance here makes a mean Shirley Temple'
+    optionsToLoad:
+    - optionText: Shirley Temple
+      textNodeToLoad: 100
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+      setBetNumber: 0
+      setBetAmount: 0
+    - optionText: Wine
+      textNodeToLoad: 100
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+      setBetNumber: 0
+      setBetAmount: 0
+    - optionText: Cocktail
+      textNodeToLoad: 100
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+      setBetNumber: 0
+      setBetAmount: 0
+    - optionText: Tap Beer
+      textNodeToLoad: 100
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+      setBetNumber: 0
+      setBetAmount: 0
+    - optionText: Water
+      textNodeToLoad: 100
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+      setBetNumber: 0
+      setBetAmount: 0
+    - optionText: SHOTS
+      textNodeToLoad: 100
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+      setBetNumber: 0
+      setBetAmount: 0
+    defaultDialogue: 100
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: You spend the night chatting with One, moreso just admiring the suaveness
+      he emanates
+    optionsToLoad: []
+    defaultDialogue: 38
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: 'One: My beverage friend is back!'
+    optionsToLoad: []
+    defaultDialogue: 102
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: 'One: Having more fun at the Six Shooter table?'
+    optionsToLoad: []
+    defaultDialogue: 103
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: 'One: Well sorry to cut our convo short today but I gotta get back to the
+      family, they were pretty pissed after our last convo lasted so long! Ha!'
+    optionsToLoad: []
+    defaultDialogue: 38
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: "One: Hey hey! You already made eye contact! It\u2019s too late now! Ha!"
+    optionsToLoad: []
+    defaultDialogue: 105
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: "One: I was talking with Fives here and we were discussin\u2019 those Roulette
+      tables downstairs"
+    optionsToLoad: []
+    defaultDialogue: 106
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: "Five: It\u2019s FIVE not Fives"
+    optionsToLoad: []
+    defaultDialogue: 107
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: "Five: More precisely, we were disagreeing about why people play such an
+      obviously rigged game, There\u2019s a green ZERO right on the wheel! How much
+      more obvious could it get?"
+    optionsToLoad: []
+    defaultDialogue: 108
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: "Five: He thinks people just play it because it\u2019s fun"
+    optionsToLoad: []
+    defaultDialogue: 109
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: 'Five: But really, people are just blind to the zero, off the atmosphere,
+      drinks, and the illusion the wheel can make them rich'
+    optionsToLoad:
+    - optionText: Aren't those the things that make it fun though?
+      textNodeToLoad: 110
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+      setBetNumber: 0
+      setBetAmount: 0
+    - optionText: "Yeah, people can\u2019t help themselves"
+      textNodeToLoad: 111
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+      setBetNumber: 0
+      setBetAmount: 0
+    - optionText: "I don\u2019t think it\u2019s right to be so judgy, everyone\u2019s
+        different"
+      textNodeToLoad: 112
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+      setBetNumber: 0
+      setBetAmount: 0
+    defaultDialogue: 110
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: "I wasn\u2019t asking for your opinion"
+    optionsToLoad: []
+    defaultDialogue: 113
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: "I know, people are so dumb\u2026 (he takes a sip of his water)"
+    optionsToLoad: []
+    defaultDialogue: 113
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: Sure
+    optionsToLoad: []
+    defaultDialogue: 113
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: "One: Hey come on now Fives! I mean Five! It\u2019s just a game. You watch
+      the ball go round and round and sometimes it lands on green! Ha!"
+    optionsToLoad: []
+    defaultDialogue: 114
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: "Neither side budges as the discussion ages, It\u2019s Exhausting"
+    optionsToLoad: []
+    defaultDialogue: 38
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: 'One: Hey I just wanted to say sorry for dragging you into our yapping
+      the other day'
+    optionsToLoad: []
+    defaultDialogue: 116
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: 'One: I was thinking we could discuss something a little more uplifting'
+    optionsToLoad: []
+    defaultDialogue: 117
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: 'One: What makes you happy?'
+    optionsToLoad:
+    - optionText: Being myself
+      textNodeToLoad: 118
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+      setBetNumber: 0
+      setBetAmount: 0
+    - optionText: Going out with my friends
+      textNodeToLoad: 118
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+      setBetNumber: 0
+      setBetAmount: 0
+    - optionText: Achieving the extraordinary
+      textNodeToLoad: 118
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+      setBetNumber: 0
+      setBetAmount: 0
+    - optionText: Being useful
+      textNodeToLoad: 118
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+      setBetNumber: 0
+      setBetAmount: 0
+    - optionText: Gaining Knowledge
+      textNodeToLoad: 118
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+      setBetNumber: 0
+      setBetAmount: 0
+    - optionText: Winning
+      textNodeToLoad: 118
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+      setBetNumber: 0
+      setBetAmount: 0
+    defaultDialogue: 118
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: 'One: Hmm, A drink for two of us Chance! '
+    optionsToLoad: []
+    defaultDialogue: 119
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: The two of you talk about the sweet things in life (mostly his wife and
+      son) for hours
+    optionsToLoad: []
+    defaultDialogue: 38
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: 'One: Hey! Come over! I want you to meet my beautiful wife and son Una
+      and Ace.'
+    optionsToLoad: []
+    defaultDialogue: 121
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: He escorts you to the kid-friendly pub area
+    optionsToLoad: []
+    defaultDialogue: 122
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: "Ace: Nice to meet you Dad\u2019s friend!"
+    optionsToLoad: []
+    defaultDialogue: 123
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: 'Una: Indoor voice Ace!'
+    optionsToLoad: []
+    defaultDialogue: 124
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: 'Una: Nice to meet you'
+    optionsToLoad: []
+    defaultDialogue: 125
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: One slides away, getting caught up in another conversation
+    optionsToLoad: []
+    defaultDialogue: 126
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: 'Una: One says you remind him of me '
+    optionsToLoad:
+    - optionText: Really? I haven't known him that long
+      textNodeToLoad: 127
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+      setBetNumber: 0
+      setBetAmount: 0
+    defaultDialogue: 127
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: 'Una: I know I just met you too, but I think I get it'
+    optionsToLoad: []
+    defaultDialogue: 128
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: "Una: As cool as One tries to look all the time, he\u2019s really a dumb,
+      loveable goofball underneath it all"
+    optionsToLoad: []
+    defaultDialogue: 129
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: 'Una: When I first met him, it was difficult for me to comprehend his view
+      on things'
+    optionsToLoad: []
+    defaultDialogue: 130
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: 'Una: I though he was just Naive'
+    optionsToLoad: []
+    defaultDialogue: 131
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: 'Una: But the more I got to know him, he just cherishes everything that
+      makes him happy'
+    optionsToLoad: []
+    defaultDialogue: 132
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: "Una: Playing card games, being with his family, making complete strangers\u2019
+      days just a little bit better"
+    optionsToLoad: []
+    defaultDialogue: 133
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: One comes back with an assortment of various colored drinks
+    optionsToLoad: []
+    defaultDialogue: 134
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: The four of you talk all night
+    optionsToLoad: []
+    defaultDialogue: 38
     advanceDay: 0
     alts: []
     changeBackground: 0

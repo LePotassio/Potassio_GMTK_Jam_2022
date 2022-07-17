@@ -91,7 +91,7 @@ public class Dialogue
         {
             if (p.Day == alt.ExactDayRequirement || alt.ExactDayRequirement == -1)
             {
-                if (alt.CharacterProgressionNeeded == -1 || p.GetProgression(alt.CharacterProgressionNeeded) >= alt.CharacterProgressionLevel)
+                if (alt.CharacterProgressionNeeded == -1 || (p.GetProgression(alt.CharacterProgressionNeeded) >= alt.CharacterProgressionLevel && p.GetProgression(alt.CharacterProgressionNeeded) <= alt.CharacterProgressionLevelMax))
                 {
                     if (alt.Chance != 100 && !GameManager.Instance.saveCodes.Contains(alt.ChanceCode) && !GameManager.Instance.saveCodes.Contains(alt.ChanceCode + "FAIL"))
                     {
@@ -139,6 +139,9 @@ public class DialogueAlt
     int characterProgressionLevel = -1;
 
     [SerializeField]
+    int characterProgressionLevelMax = -1;
+
+    [SerializeField]
     int exactDayRequirement = -1;
 
     [SerializeField]
@@ -162,6 +165,11 @@ public class DialogueAlt
     public int CharacterProgressionLevel
     {
         get { return characterProgressionLevel; }
+    }
+
+    public int CharacterProgressionLevelMax
+    {
+        get { return characterProgressionLevelMax; }
     }
 
     public int ExactDayRequirement
