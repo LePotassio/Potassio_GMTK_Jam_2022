@@ -6,6 +6,10 @@ using UnityEngine;
 public class PlayerInfo : MonoBehaviour
 {
     [SerializeField]
+    private int startingDayOverride;
+
+
+    [SerializeField]
     private int money;
 
     // #3 (Magic)
@@ -151,6 +155,11 @@ public class PlayerInfo : MonoBehaviour
     {
         get { return sixProgression; }
         set { sixProgression = value; }
+    }
+
+    private void Start()
+    {
+        Day = startingDayOverride;
     }
 
     public int GetProgression(int i)

@@ -4026,7 +4026,7 @@ MonoBehaviour:
     overrideWithRoll: 0
   - text: No one is there
     optionsToLoad: []
-    defaultDialogue: 0
+    defaultDialogue: 84
     advanceDay: 0
     alts:
     - alt: 90
@@ -4076,7 +4076,67 @@ MonoBehaviour:
     overrideWithRoll: 0
   - text: No one is there
     optionsToLoad: []
-    defaultDialogue: 0
+    defaultDialogue: 84
+    advanceDay: 0
+    alts:
+    - alt: 135
+      characterProgressionNeeded: 2
+      characterProgressionLevel: 1
+      characterProgressionLevelMax: 1
+      exactDayRequirement: -1
+      chance: 100
+      chanceCode: 
+      chanceChangePerDay: 0
+    - alt: 146
+      characterProgressionNeeded: 2
+      characterProgressionLevel: 2
+      characterProgressionLevelMax: 2
+      exactDayRequirement: -1
+      chance: 100
+      chanceCode: 
+      chanceChangePerDay: 0
+    - alt: 158
+      characterProgressionNeeded: 2
+      characterProgressionLevel: 3
+      characterProgressionLevelMax: 3
+      exactDayRequirement: -1
+      chance: 100
+      chanceCode: 
+      chanceChangePerDay: 0
+    - alt: 184
+      characterProgressionNeeded: 2
+      characterProgressionLevel: 4
+      characterProgressionLevelMax: 4
+      exactDayRequirement: -1
+      chance: 100
+      chanceCode: 
+      chanceChangePerDay: 0
+    - alt: 200
+      characterProgressionNeeded: 2
+      characterProgressionLevel: 5
+      characterProgressionLevelMax: 5
+      exactDayRequirement: -1
+      chance: 100
+      chanceCode: 
+      chanceChangePerDay: 0
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: No one is there
+    optionsToLoad: []
+    defaultDialogue: 84
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: CUT CONTENT (I ran out of time for Four)
+    optionsToLoad: []
+    defaultDialogue: 84
     advanceDay: 0
     alts: []
     changeBackground: 0
@@ -4086,27 +4146,7 @@ MonoBehaviour:
     overrideWithRoll: 0
   - text: No one is there
     optionsToLoad: []
-    defaultDialogue: 0
-    advanceDay: 0
-    alts: []
-    changeBackground: 0
-    newBackgroundIndex: 0
-    changePortrait: 0
-    newPortraitIndex: 0
-    overrideWithRoll: 0
-  - text: No one is there
-    optionsToLoad: []
-    defaultDialogue: 0
-    advanceDay: 0
-    alts: []
-    changeBackground: 0
-    newBackgroundIndex: 0
-    changePortrait: 0
-    newPortraitIndex: 0
-    overrideWithRoll: 0
-  - text: No one is there
-    optionsToLoad: []
-    defaultDialogue: 0
+    defaultDialogue: 84
     advanceDay: 0
     alts: []
     changeBackground: 0
@@ -4584,7 +4624,7 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
-  - text: "I wasn\u2019t asking for your opinion"
+  - text: "Five: I wasn\u2019t asking for your opinion"
     optionsToLoad: []
     defaultDialogue: 113
     advanceDay: 0
@@ -4594,7 +4634,7 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
-  - text: "I know, people are so dumb\u2026 (he takes a sip of his water)"
+  - text: "Five: I know, people are so dumb\u2026 (he takes a sip of his water)"
     optionsToLoad: []
     defaultDialogue: 113
     advanceDay: 0
@@ -4604,7 +4644,7 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
-  - text: Sure
+  - text: 'Marcey: Sure'
     optionsToLoad: []
     defaultDialogue: 113
     advanceDay: 0
@@ -4982,6 +5022,1213 @@ MonoBehaviour:
     changePortrait: 0
     newPortraitIndex: 0
     overrideWithRoll: 0
+  - text: A young lady, in her early 20s sits at one of the tables across the room
+    optionsToLoad: []
+    defaultDialogue: 136
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: She takes a couple sips from some exquisiteltly shaped glass, and darts
+      her eyes across the room in a repetitive cycle
+    optionsToLoad: []
+    defaultDialogue: 137
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: Not to you, but a girl with a remarkably similar face chatting up some
+      others at the pool table
+    optionsToLoad: []
+    defaultDialogue: 138
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: "It\u2019s remarkable she hasn\u2019t spilled any juice on her classy,
+      blue suit when darting her head back and forth"
+    optionsToLoad: []
+    defaultDialogue: 139
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: The face is where the similarities end
+    optionsToLoad: []
+    defaultDialogue: 140
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: "Notably, billiards girl\u2019s hair is in a long ponytail and wears what
+      looks like a punk rock jacket with a turtle neck underneath, whilst suit girl
+      has a short military cut"
+    optionsToLoad: []
+    defaultDialogue: 141
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: You strike up your best conversation starter
+    optionsToLoad:
+    - optionText: Who's that?
+      textNodeToLoad: 142
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+      setBetNumber: 0
+      setBetAmount: 0
+    - optionText: Stare much?
+      textNodeToLoad: 142
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+      setBetNumber: 0
+      setBetAmount: 0
+    - optionText: Something on your mind?
+      textNodeToLoad: 142
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+      setBetNumber: 0
+      setBetAmount: 0
+    defaultDialogue: 142
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: "Marcey: Yeah, that\u2019s Hal Two, my sister over there getting all the
+      attention, I\u2019m Marcy and my last name is Two too, And no, I\u2019m not
+      jealous"
+    optionsToLoad:
+    - optionText: Why the stares then?
+      textNodeToLoad: 143
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+      setBetNumber: 0
+      setBetAmount: 0
+    defaultDialogue: 143
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: 'Marcey: Its more of a glare. Hal, is what we call a gambling addict, and
+      she always drags me along to this casino just so she can occasionally point
+      at me when she meets new people'
+    optionsToLoad: []
+    defaultDialogue: 144
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: 'Marcey: Now you know, so now you can leave me alone'
+    optionsToLoad: []
+    defaultDialogue: 145
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: That was cold. Colder than the ice cubes in her fancy glass
+    optionsToLoad: []
+    defaultDialogue: 38
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: "Hal: Hey! Yoo hoo! Aren\u2019t you the one that was talking up Marcey
+      when I was focusing on destroying some fools in pool?"
+    optionsToLoad: []
+    defaultDialogue: 147
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: "Hal: Are you trying to scam her or something? I love Marcey, but no one
+      ever comes up to talk to her, she\u2019s too intimidating"
+    optionsToLoad: []
+    defaultDialogue: 148
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: "Marcey: I\u2019m right here you know"
+    optionsToLoad: []
+    defaultDialogue: 149
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: 'Hal: Give me a break, I know you were probably just whining to him about
+      being here'
+    optionsToLoad: []
+    defaultDialogue: 150
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: It seems she answered her own question
+    optionsToLoad: []
+    defaultDialogue: 151
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: 'Marcey: Watch your mouth, if you want to be playing Sixes later tonight'
+    optionsToLoad: []
+    defaultDialogue: 152
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: "Hal: Oh oh, sorry sis, I didn\u2019t mean it"
+    optionsToLoad: []
+    defaultDialogue: 153
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: 'Marcey: When are you going to stop this Hal?'
+    optionsToLoad: []
+    defaultDialogue: 154
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: "Hal goes silent, completely the opposite of everything you\u2019ve seen
+      of her before, you need to break the silence"
+    optionsToLoad:
+    - optionText: "You don\u2019t need to rain on her parade constantly"
+      textNodeToLoad: 155
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+      setBetNumber: 0
+      setBetAmount: 0
+    - optionText: Why are you so mean to your own sister?
+      textNodeToLoad: 155
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+      setBetNumber: 0
+      setBetAmount: 0
+    - optionText: She seems pretty good at pool through, and probably gambling too
+      textNodeToLoad: 155
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+      setBetNumber: 0
+      setBetAmount: 0
+    - optionText: You must have a decent job if you're paying for all this...
+      textNodeToLoad: 155
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+      setBetNumber: 0
+      setBetAmount: 0
+    - optionText: It's not healthy to support her addition like this
+      textNodeToLoad: 155
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+      setBetNumber: 0
+      setBetAmount: 0
+    defaultDialogue: 155
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: 'Marcey: You don''t know her like I do'
+    optionsToLoad: []
+    defaultDialogue: 157
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: -Ignore this line-
+    optionsToLoad: []
+    defaultDialogue: 0
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: "It\u2019s getting real awkward in here, too awkward, like sweating six
+      shooter bullets awkward, how is she remaining so cold? You basically run for
+      the door."
+    optionsToLoad: []
+    defaultDialogue: 38
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: You avoid making anything to suggest you want to talk to Marcey
+    optionsToLoad: []
+    defaultDialogue: 159
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: "Hal has her you in her sights though and she\u2019s bringing someone with
+      her, she seems to have recovered from last time\u2026"
+    optionsToLoad: []
+    defaultDialogue: 160
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: 'Hal: This is FOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO'
+    optionsToLoad: []
+    defaultDialogue: 161
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: 'Hal: -ur'
+    optionsToLoad: []
+    defaultDialogue: 162
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: 'Four: She means Four'
+    optionsToLoad: []
+    defaultDialogue: 163
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: 'Hal: Care to join us for some FRIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII'
+    optionsToLoad: []
+    defaultDialogue: 164
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: 'Hal: -es?'
+    optionsToLoad: []
+    defaultDialogue: 165
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: "Hal: Come on, don\u2019t worry about last time"
+    optionsToLoad: []
+    defaultDialogue: 166
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: She seems to have answered her question for you again
+    optionsToLoad: []
+    defaultDialogue: 167
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: Off to the Fry table with you
+    optionsToLoad: []
+    defaultDialogue: 168
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: You try to not make eye contact with Marcey
+    optionsToLoad: []
+    defaultDialogue: 169
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: The atmosphere is below freezing
+    optionsToLoad: []
+    defaultDialogue: 170
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: "It\u2019s so cold, it feels like the fries and going to unfry and turn
+      back into potatoes at any second"
+    optionsToLoad: []
+    defaultDialogue: 171
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: Ice potatoes
+    optionsToLoad: []
+    defaultDialogue: 172
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: "Four: So uh, how\u2019s your project going at the office?"
+    optionsToLoad: []
+    defaultDialogue: 173
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: 'Marcey: You never talk about work out of the office Four'
+    optionsToLoad: []
+    defaultDialogue: 174
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: "Four: Hahaha, yeah, i guess I don\u2019t"
+    optionsToLoad: []
+    defaultDialogue: 175
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: "He\u2019s picking up on the tenseness too\u2026"
+    optionsToLoad: []
+    defaultDialogue: 176
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: Awkward Silence
+    optionsToLoad: []
+    defaultDialogue: 177
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: 'Four: Um, why do you think they sell these fancy fries here?'
+    optionsToLoad:
+    - optionText: They taste good!
+      textNodeToLoad: 178
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+      setBetNumber: 0
+      setBetAmount: 0
+    - optionText: It's conversation food
+      textNodeToLoad: 178
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+      setBetNumber: 0
+      setBetAmount: 0
+    - optionText: Can't roll dice on a full stomach
+      textNodeToLoad: 178
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+      setBetNumber: 0
+      setBetAmount: 0
+    - optionText: To get us back to the card tables!
+      textNodeToLoad: 178
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+      setBetNumber: 0
+      setBetAmount: 0
+    - optionText: It's a bar, bars usually sell food too
+      textNodeToLoad: 178
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+      setBetNumber: 0
+      setBetAmount: 0
+    - optionText: I'm not the fry police
+      textNodeToLoad: 178
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+      setBetNumber: 0
+      setBetAmount: 0
+    defaultDialogue: 178
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: "Four: Yeah, ha\u2026 ha\u2026"
+    optionsToLoad: []
+    defaultDialogue: 179
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: She is much more concerned with not succumbing to frostbite from staying
+      too close to the Ice Queen, Marcey
+    optionsToLoad: []
+    defaultDialogue: 180
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: 'Hal: FAAAAAAAAAAAAANNNNNNNNNNNNNNCCCCCCCCCCCCCYYYYYYYYYYYYYYYYYYYYYY FRIIIIIIIIIIIIIIIIIIIIIII-'
+    optionsToLoad: []
+    defaultDialogue: 181
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: At least Hal seems to be shaking it off
+    optionsToLoad: []
+    defaultDialogue: 182
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: "Four: Soooo, what else can we talk about\u2026"
+    optionsToLoad: []
+    defaultDialogue: 183
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: You only feel pain, for the next 30 minutes as you stumble through a rigid
+      conversation, then you leave with 3/4ths a basket of cold fries
+    optionsToLoad: []
+    defaultDialogue: 38
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: Marcey surprisingly comes over to you, looking around to make sure Hal
+      is lost in an intense billiards duel
+    optionsToLoad: []
+    defaultDialogue: 185
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: She invites you to sit down in a cold, yet almost apologetic fashion
+    optionsToLoad: []
+    defaultDialogue: 186
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: "Marcey: I\u2019ll keep this brief"
+    optionsToLoad: []
+    defaultDialogue: 187
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: 'Marcey: I know we got off on the wrong foot '
+    optionsToLoad: []
+    defaultDialogue: 188
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: 'Marcey: But I just wanted to clarify some things'
+    optionsToLoad: []
+    defaultDialogue: 189
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: 'Marcey: I really care about Haley'
+    optionsToLoad: []
+    defaultDialogue: 190
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: "She\u2019s refering to Hal"
+    optionsToLoad: []
+    defaultDialogue: 191
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: "Marcey: I know I\u2019m not helping things by giving her money or even
+      by agreeing to come here with her"
+    optionsToLoad: []
+    defaultDialogue: 192
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: 'Marcey: But I just want to see her be happy '
+    optionsToLoad: []
+    defaultDialogue: 193
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: "Marcey: This is where she\u2019s the happiest, and she can say the meanest
+      things to me when I tell her I won\u2019t do things for her"
+    optionsToLoad: []
+    defaultDialogue: 194
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: 'Marcey: Am I a bad sister?'
+    optionsToLoad:
+    - optionText: They call it tough love for a reason, you need to stop
+      textNodeToLoad: 195
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+      setBetNumber: 0
+      setBetAmount: 0
+    - optionText: "It isn\u2019t wrong to want to see her be happy"
+      textNodeToLoad: 195
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+      setBetNumber: 0
+      setBetAmount: 0
+    - optionText: "You can\u2019t blame yourself for someone else's problems"
+      textNodeToLoad: 195
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+      setBetNumber: 0
+      setBetAmount: 0
+    - optionText: 'This seems like something you need to work out with her, not me '
+      textNodeToLoad: 195
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+      setBetNumber: 0
+      setBetAmount: 0
+    defaultDialogue: 195
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: 'Marcey: Yeah'
+    optionsToLoad: []
+    defaultDialogue: 196
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: 'Hal: YES! In your face LOSER!'
+    optionsToLoad: []
+    defaultDialogue: 197
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: Even from across the room, it is evident that the pool game has concluded
+    optionsToLoad: []
+    defaultDialogue: 198
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: "Marcey: Don\u2019t go thinking you magically just fixed all of my issues
+      with your life advice"
+    optionsToLoad: []
+    defaultDialogue: 199
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: 'Marcey: But thank you for listening to me with open ears'
+    optionsToLoad: []
+    defaultDialogue: 38
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: Before you can even realize, Hal has sat you down at their booth and you
+      are staring at some quite lukewarm fries
+    optionsToLoad: []
+    defaultDialogue: 201
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: Only the fries are cold this time though
+    optionsToLoad: []
+    defaultDialogue: 202
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: You could almost say Marcey looks happy
+    optionsToLoad: []
+    defaultDialogue: 203
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: 'Hal: Marcey told me to come and get you after my pool game ended'
+    optionsToLoad: []
+    defaultDialogue: 204
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: 'Marcey: And?'
+    optionsToLoad: []
+    defaultDialogue: 205
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: 'Hal: Well Marcey and I might be around here a little less now'
+    optionsToLoad: []
+    defaultDialogue: 206
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: "Hal: We\u2019re gonna go down to the billiards hall downtown instead,
+      on my own terms"
+    optionsToLoad: []
+    defaultDialogue: 207
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: Then she whispers
+    optionsToLoad: []
+    defaultDialogue: 208
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: "Hal: But between you and me\u2026 I might sneak around here sometimes\u2026"
+    optionsToLoad: []
+    defaultDialogue: 209
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: 'Hal: Oh, time for my last pool game in the High Roller! The best bar in
+      town!'
+    optionsToLoad: []
+    defaultDialogue: 210
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: She leaves to grab her pool cue
+    optionsToLoad: []
+    defaultDialogue: 211
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: "Marcey: Yeah, I know I\u2019m going back on what I said, but I realize
+      that Hal can\u2019t \u201Cjust quit\u201D"
+    optionsToLoad: []
+    defaultDialogue: 212
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: "Marcey: But I need to support her because I\u2019m her proud, little sister"
+    optionsToLoad: []
+    defaultDialogue: 213
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: "Marcey: It won\u2019t be easy, but we\u2019ll take it one step at a time"
+    optionsToLoad: []
+    defaultDialogue: 214
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: You both look on as Hal duels, pool cue in hand
+    optionsToLoad: []
+    defaultDialogue: 38
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
 --- !u!4 &873542898
 Transform:
   m_ObjectHideFlags: 0
@@ -5008,6 +6255,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c105fee0b1059e7478e64ba15a212172, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  startingDayOverride: 7
   money: 1000
   luck: 1
   dignity: 1

@@ -104,6 +104,7 @@ public class GameManager : MonoBehaviour
 
     private void Start()
     {
+
         State = GameState.Dialogue;
         textManager.MainText.text = "";
         Instance = this;
