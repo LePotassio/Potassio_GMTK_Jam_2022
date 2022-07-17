@@ -4188,7 +4188,47 @@ MonoBehaviour:
     optionsToLoad: []
     defaultDialogue: 84
     advanceDay: 0
-    alts: []
+    alts:
+    - alt: 257
+      characterProgressionNeeded: 5
+      characterProgressionLevel: 1
+      characterProgressionLevelMax: 1
+      exactDayRequirement: -1
+      chance: 100
+      chanceCode: 
+      chanceChangePerDay: 0
+    - alt: 268
+      characterProgressionNeeded: 5
+      characterProgressionLevel: 2
+      characterProgressionLevelMax: 2
+      exactDayRequirement: -1
+      chance: 100
+      chanceCode: 
+      chanceChangePerDay: 0
+    - alt: 271
+      characterProgressionNeeded: 5
+      characterProgressionLevel: 3
+      characterProgressionLevelMax: 3
+      exactDayRequirement: -1
+      chance: 100
+      chanceCode: 
+      chanceChangePerDay: 0
+    - alt: 285
+      characterProgressionNeeded: 5
+      characterProgressionLevel: 4
+      characterProgressionLevelMax: 4
+      exactDayRequirement: -1
+      chance: 100
+      chanceCode: 
+      chanceChangePerDay: 0
+    - alt: 297
+      characterProgressionNeeded: 5
+      characterProgressionLevel: 5
+      characterProgressionLevelMax: 5
+      exactDayRequirement: -1
+      chance: 100
+      chanceCode: 
+      chanceChangePerDay: 0
     changeBackground: 0
     newBackgroundIndex: 0
     changePortrait: 0
@@ -7057,6 +7097,790 @@ MonoBehaviour:
     newPortraitIndex: 0
     overrideWithRoll: 0
   - text: 'Three: Plus, karma always comes around'
+    optionsToLoad: []
+    defaultDialogue: 38
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: "A lady with glasses sits at the far end of the bar in silence, likely
+      eavesdropping in on other\u2019s conversations. She looks simultaneously youthful
+      and aged."
+    optionsToLoad: []
+    defaultDialogue: 258
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: She could be 22 or 52 just as easily. There is a look on her face that
+      you think could put even the ice queen in the blue suit sitting in the booths
+      into a panic attack.
+    optionsToLoad: []
+    defaultDialogue: 259
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: "If it weren\u2019t for her glasses being sleightly tinted, her stare could
+      burn a hole in your forehead."
+    optionsToLoad: []
+    defaultDialogue: 260
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: It takes all your strength to even approach her
+    optionsToLoad: []
+    defaultDialogue: 261
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: 'Five: Your the one going around psycho analyzing everyone right? Because
+      everyone loves a self declared therapist.'
+    optionsToLoad:
+    - optionText: I'm just trying to cheer them up
+      textNodeToLoad: 262
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+      setBetNumber: 0
+      setBetAmount: 0
+    - optionText: I want helping in any way I can
+      textNodeToLoad: 262
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+      setBetNumber: 0
+      setBetAmount: 0
+    - optionText: I know I can help though
+      textNodeToLoad: 262
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+      setBetNumber: 0
+      setBetAmount: 0
+    - optionText: In this world, could use someone to talk to
+      textNodeToLoad: 262
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+      setBetNumber: 0
+      setBetAmount: 0
+    - optionText: Everyone does that in their head anyways
+      textNodeToLoad: 262
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+      setBetNumber: 0
+      setBetAmount: 0
+    - optionText: "I know my boundaries and don\u2019t insert myself when not asked
+        to"
+      textNodeToLoad: 262
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+      setBetNumber: 0
+      setBetAmount: 0
+    defaultDialogue: 262
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: She may have a point though
+    optionsToLoad: []
+    defaultDialogue: 263
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: "Five: Regardless, why are you talking to me, the only one stupid enough
+      to is the \u201Ccool guy\u201D that can\u2019t stop talking about his wife
+      and kid"
+    optionsToLoad:
+    - optionText: Uh, umm
+      textNodeToLoad: 264
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+      setBetNumber: 0
+      setBetAmount: 0
+    defaultDialogue: 264
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: 'Five: No answer? Answer me this then'
+    optionsToLoad: []
+    defaultDialogue: 265
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: 'Five: When you wake up every morning, what are the chances of you doing
+      something meaningful that day?'
+    optionsToLoad: []
+    defaultDialogue: 266
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: "Five: Don\u2019t answer me now, think about it for a day or two, then
+      come back"
+    optionsToLoad: []
+    defaultDialogue: 267
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: I guess you have a question to think about then
+    optionsToLoad: []
+    defaultDialogue: 38
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: 'Five: So what''s your answer?'
+    optionsToLoad:
+    - optionText: A hundo percent
+      textNodeToLoad: 269
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+      setBetNumber: 0
+      setBetAmount: 0
+    - optionText: Depends
+      textNodeToLoad: 269
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+      setBetNumber: 0
+      setBetAmount: 0
+    - optionText: I belive in luck, not chance
+      textNodeToLoad: 269
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+      setBetNumber: 0
+      setBetAmount: 0
+    - optionText: Depends on if I have to work that day or not
+      textNodeToLoad: 269
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+      setBetNumber: 0
+      setBetAmount: 0
+    - optionText: Zero
+      textNodeToLoad: 269
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+      setBetNumber: 0
+      setBetAmount: 0
+    - optionText: I don't remember the question
+      textNodeToLoad: 269
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+      setBetNumber: 0
+      setBetAmount: 0
+    defaultDialogue: 269
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: 'Five: Well It''s Zero for me'
+    optionsToLoad: []
+    defaultDialogue: 270
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: '???: And it''s Zero for you too...'
+    optionsToLoad: []
+    defaultDialogue: 38
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: You on a wooden sit on the stool with Five to your right
+    optionsToLoad: []
+    defaultDialogue: 272
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: 'Five: You see the kid over there?'
+    optionsToLoad: []
+    defaultDialogue: 273
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: 'Five: The baby face with the backpack and the junk all over the table'
+    optionsToLoad: []
+    defaultDialogue: 274
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: 'Five: I overheard him talking to the wife guy about him making some kind
+      of good luck charms'
+    optionsToLoad: []
+    defaultDialogue: 275
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: 'Five: How incredibly idiotic'
+    optionsToLoad: []
+    defaultDialogue: 276
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: 'Five: But you know'
+    optionsToLoad: []
+    defaultDialogue: 277
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: "Five: I\u2019m jealous of people like him"
+    optionsToLoad: []
+    defaultDialogue: 278
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: "Five: He\u2019s too dumb to know fate and luck don\u2019t exist"
+    optionsToLoad: []
+    defaultDialogue: 279
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: 'Five: He has an out to blame all his problems on'
+    optionsToLoad: []
+    defaultDialogue: 280
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: ' Five: You can play ignorant, criticize society, curse your boring life,
+      and blame luck '
+    optionsToLoad: []
+    defaultDialogue: 281
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: 'Five: But once you wise up'
+    optionsToLoad: []
+    defaultDialogue: 282
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: 'Five: You only have yourself to blame'
+    optionsToLoad:
+    - optionText: "You can\u2019t think like that"
+      textNodeToLoad: 283
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+      setBetNumber: 0
+      setBetAmount: 0
+    - optionText: "There\u2019s a difference between taking responsibility and just
+        being pessimistic"
+      textNodeToLoad: 283
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+      setBetNumber: 0
+      setBetAmount: 0
+    - optionText: "Don\u2019t give up hope"
+      textNodeToLoad: 283
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+      setBetNumber: 0
+      setBetAmount: 0
+    - optionText: Everything isn't your fault
+      textNodeToLoad: 283
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+      setBetNumber: 0
+      setBetAmount: 0
+    - optionText: .....
+      textNodeToLoad: 283
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+      setBetNumber: 0
+      setBetAmount: 0
+    defaultDialogue: 283
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: There is no response from Five
+    optionsToLoad: []
+    defaultDialogue: 284
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: The discussion is over
+    optionsToLoad: []
+    defaultDialogue: 38
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: You talk amogst others in the bar until it gets very late
+    optionsToLoad: []
+    defaultDialogue: 286
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: "It\u2019s silent compared to just a few hours ago"
+    optionsToLoad: []
+    defaultDialogue: 287
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: Everyone has either gone home or is drunkenly sleeping
+    optionsToLoad: []
+    defaultDialogue: 288
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: Everyone except Five, at the end of the bar
+    optionsToLoad: []
+    defaultDialogue: 289
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: "Five: I\u2019m always on my high horse"
+    optionsToLoad: []
+    defaultDialogue: 290
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: 'Five: I go to a bar to pay for water'
+    optionsToLoad: []
+    defaultDialogue: 291
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: 'Five: Make light of other people''s problems'
+    optionsToLoad: []
+    defaultDialogue: 292
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: "Five: But I\u2019m just like everyone else here"
+    optionsToLoad: []
+    defaultDialogue: 293
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: 'Five: I wake up'
+    optionsToLoad: []
+    defaultDialogue: 294
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: "Five: And I go out onto that Casino floor\u2026"
+    optionsToLoad: []
+    defaultDialogue: 295
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: "Five: I just can\u2019t help myself"
+    optionsToLoad: []
+    defaultDialogue: 296
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: Then she leaves
+    optionsToLoad: []
+    defaultDialogue: 38
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: An empty bar seat sits vacant at the end of the bar
     optionsToLoad: []
     defaultDialogue: 38
     advanceDay: 0
