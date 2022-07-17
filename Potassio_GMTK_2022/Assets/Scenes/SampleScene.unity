@@ -4128,7 +4128,47 @@ MonoBehaviour:
     optionsToLoad: []
     defaultDialogue: 84
     advanceDay: 0
-    alts: []
+    alts:
+    - alt: 215
+      characterProgressionNeeded: 3
+      characterProgressionLevel: 1
+      characterProgressionLevelMax: 1
+      exactDayRequirement: -1
+      chance: 100
+      chanceCode: 
+      chanceChangePerDay: 0
+    - alt: 226
+      characterProgressionNeeded: 3
+      characterProgressionLevel: 2
+      characterProgressionLevelMax: 2
+      exactDayRequirement: -1
+      chance: 100
+      chanceCode: 
+      chanceChangePerDay: 0
+    - alt: 232
+      characterProgressionNeeded: 3
+      characterProgressionLevel: 3
+      characterProgressionLevelMax: 3
+      exactDayRequirement: -1
+      chance: 100
+      chanceCode: 
+      chanceChangePerDay: 0
+    - alt: 244
+      characterProgressionNeeded: 3
+      characterProgressionLevel: 4
+      characterProgressionLevelMax: 4
+      exactDayRequirement: -1
+      chance: 100
+      chanceCode: 
+      chanceChangePerDay: 0
+    - alt: 252
+      characterProgressionNeeded: 3
+      characterProgressionLevel: 5
+      characterProgressionLevelMax: 5
+      exactDayRequirement: -1
+      chance: 100
+      chanceCode: 
+      chanceChangePerDay: 0
     changeBackground: 0
     newBackgroundIndex: 0
     changePortrait: 0
@@ -6220,6 +6260,803 @@ MonoBehaviour:
     newPortraitIndex: 0
     overrideWithRoll: 0
   - text: You both look on as Hal duels, pool cue in hand
+    optionsToLoad: []
+    defaultDialogue: 38
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: A young looking man with a peculiar backpack, adorned with an enormous
+      amount of various pins sits in one of the booths near the pool table
+    optionsToLoad: []
+    defaultDialogue: 216
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: "You can\u2019t help but question if he is even old enough to be drinking
+      the ale he is sipping from"
+    optionsToLoad: []
+    defaultDialogue: 217
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: Trinkets of all sorts are scattered across the table
+    optionsToLoad:
+    - optionText: What are these
+      textNodeToLoad: 218
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+      setBetNumber: 0
+      setBetAmount: 0
+    defaultDialogue: 218
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: Oh, you were meant to think that, not say it aloud
+    optionsToLoad: []
+    defaultDialogue: 219
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: 'Three: These are my good luck charms for winning the sixshooter bonus
+      payout tommorrow'
+    optionsToLoad: []
+    defaultDialogue: 220
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: "Three: I know what your\u2019re thinking, I\u2019m a nutcase"
+    optionsToLoad: []
+    defaultDialogue: 221
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: 'Three: But I lost every round I played today'
+    optionsToLoad: []
+    defaultDialogue: 222
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: "Three: That plus these charms means I can\u2019t lose tommorrow"
+    optionsToLoad:
+    - optionText: Wow, these are really cool
+      textNodeToLoad: 223
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+      setBetNumber: 0
+      setBetAmount: 0
+    - optionText: People give you a lot of flak for these don't they
+      textNodeToLoad: 224
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+      setBetNumber: 0
+      setBetAmount: 0
+    - optionText: "ou forgot the fact that tomorrow is a Friday, you literally can\u2019t
+        lose with that much luck"
+      textNodeToLoad: 223
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+      setBetNumber: 0
+      setBetAmount: 0
+    - optionText: I wish I had time to do stuff like this
+      textNodeToLoad: 224
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+      setBetNumber: 0
+      setBetAmount: 0
+    - optionText: "Ever head of the gambler\u2019s fallacy? Also charms are for crazy
+        people"
+      textNodeToLoad: 224
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+      setBetNumber: 0
+      setBetAmount: 0
+    defaultDialogue: 223
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: "I know right, I\u2019ll give you a hundo when I win tommorrow"
+    optionsToLoad: []
+    defaultDialogue: 225
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: "You can\u2019t win with an attitude like that!"
+    optionsToLoad: []
+    defaultDialogue: 225
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: "He starts to get into the nitty gritty of the different methods he\u2019s
+      employing"
+    optionsToLoad: []
+    defaultDialogue: 38
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: Three is just as you found him the other day, studying his charms
+    optionsToLoad: []
+    defaultDialogue: 227
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: 'Three: If you are just going to laugh at me, go awa-'
+    optionsToLoad: []
+    defaultDialogue: 228
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: "Three: Oh it\u2019s you"
+    optionsToLoad: []
+    defaultDialogue: 229
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: 'Three: Here, I won yesterday'
+    optionsToLoad:
+    - optionText: Thanks (accept 100 dollars)
+      textNodeToLoad: 230
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 10000
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+      setBetNumber: 0
+      setBetAmount: 0
+    - optionText: I don't need it
+      textNodeToLoad: 230
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+      setBetNumber: 0
+      setBetAmount: 0
+    defaultDialogue: 230
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: 'Three: I already got my eyes locked on the next big haul'
+    optionsToLoad: []
+    defaultDialogue: 231
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: Nope, no questions for you, just a college level lecture on his game plan
+      for next Friday
+    optionsToLoad: []
+    defaultDialogue: 38
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: Three is giving a 101 course to One
+    optionsToLoad: []
+    defaultDialogue: 233
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: One on One
+    optionsToLoad: []
+    defaultDialogue: 234
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: "Three: Well if I account for his birthday\u2026 and the origin of his
+      middle name\u2026 And his interest in board games\u2026"
+    optionsToLoad: []
+    defaultDialogue: 235
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: Ok, maybe a 201 course
+    optionsToLoad: []
+    defaultDialogue: 236
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: 'One: Well, Ace does really like dice, maybe one of those?'
+    optionsToLoad: []
+    defaultDialogue: 237
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: "Three: That could work\u2026"
+    optionsToLoad: []
+    defaultDialogue: 238
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: "One: Do you see these? I\u2019m always telling him that he could make
+      a fortune selling these, plus he loves making them"
+    optionsToLoad: []
+    defaultDialogue: 239
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: "One: Shouldn\u2019t he?"
+    optionsToLoad:
+    - optionText: One-hundred percent yes
+      textNodeToLoad: 240
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+      setBetNumber: 0
+      setBetAmount: 0
+    - optionText: Would there even be enough of a market for it?
+      textNodeToLoad: 240
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+      setBetNumber: 0
+      setBetAmount: 0
+    - optionText: If everyone is lucky then no one is though
+      textNodeToLoad: 240
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+      setBetNumber: 0
+      setBetAmount: 0
+    - optionText: Why should money be the motivator
+      textNodeToLoad: 240
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+      setBetNumber: 0
+      setBetAmount: 0
+    - optionText: "It\u2019s not right to deceive people like that"
+      textNodeToLoad: 240
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+      setBetNumber: 0
+      setBetAmount: 0
+    - optionText: I guess?
+      textNodeToLoad: 240
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+      setBetNumber: 0
+      setBetAmount: 0
+    defaultDialogue: 240
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: 'One: Thank you again though, I know Ace will love whatever you come up
+      with'
+    optionsToLoad: []
+    defaultDialogue: 241
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: 'Three: No problem at all'
+    optionsToLoad: []
+    defaultDialogue: 242
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: "Three: And thank you for being the one person that takes my work seriously,
+      I\u2019ll take your advice about my charms serious into consideration"
+    optionsToLoad: []
+    defaultDialogue: 243
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: "You can\u2019t help but think about the properties of luck for the rest
+      of the night"
+    optionsToLoad: []
+    defaultDialogue: 38
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: Again, Three hits there intently drawing up sketches and etching small
+      trinkets
+    optionsToLoad: []
+    defaultDialogue: 245
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: 'Three: I lost 10,000 dollars today'
+    optionsToLoad: []
+    defaultDialogue: 246
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: He says it without even looking up
+    optionsToLoad: []
+    defaultDialogue: 247
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: "Three: Want to see the charm I\u2019m designing?"
+    optionsToLoad: []
+    defaultDialogue: 248
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: Behind the charm mockups, you catch a glimpse of some loan documents with
+      some less than flattering negative numbers on them
+    optionsToLoad: []
+    defaultDialogue: 249
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: Maybe he wanted you to see them
+    optionsToLoad: []
+    defaultDialogue: 250
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: "Three: I fear I\u2019ll never be able to escape this torment"
+    optionsToLoad:
+    - optionText: You can't give up hope
+      textNodeToLoad: 251
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+      setBetNumber: 0
+      setBetAmount: 0
+    - optionText: At least die trying
+      textNodeToLoad: 251
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+      setBetNumber: 0
+      setBetAmount: 0
+    defaultDialogue: 251
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: You watch him  workfor a bit without saying a word to each other
+    optionsToLoad: []
+    defaultDialogue: 38
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: 'Three: I want you to have this'
+    optionsToLoad:
+    - optionText: Accept the 10 dollars
+      textNodeToLoad: 253
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 1000
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+      setBetNumber: 0
+      setBetAmount: 0
+    - optionText: Decline
+      textNodeToLoad: 253
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+      setBetNumber: 0
+      setBetAmount: 0
+    defaultDialogue: 253
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: Those are the first 10 dollars I've gotten selling my charms
+    optionsToLoad: []
+    defaultDialogue: 254
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: "Three: I\u2019m going to repay my debts, starting with yours for letting
+      me share some of my worries"
+    optionsToLoad: []
+    defaultDialogue: 255
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: 'Three: Regardless of if you agree with me seeling my charms, or regardless
+      of if they work or not, I think people will benefit from feeling they have
+      something to protect them'
+    optionsToLoad: []
+    defaultDialogue: 256
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+  - text: 'Three: Plus, karma always comes around'
     optionsToLoad: []
     defaultDialogue: 38
     advanceDay: 0

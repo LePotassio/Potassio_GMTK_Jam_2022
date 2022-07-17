@@ -95,17 +95,35 @@ public class Option
 
         PlayerInfo p = GameManager.Instance.PlayerInfo;
         if (advanceProgression == 1)
+        {
             p.OneProgression++;
+            p.Happiness++;
+        }
         if (advanceProgression == 2)
+        {
             p.TwoProgression++;
+            p.Dignity++;
+        }
         if (advanceProgression == 3)
+        {
             p.ThreeProgression++;
+            p.Luck++;
+        }
         if (advanceProgression == 4)
+        {
             p.FourProgression++;
+            p.Worker++;
+        }
         if (advanceProgression == 5)
+        {
             p.FiveProgression++;
+            p.Smarts++;
+        }
         if (advanceProgression == 6)
+        {
             p.SixProgression++;
+            p.Cheating++;
+        }
 
         if (setBetNumber > -1)
             GameManager.Instance.GamblerStats.Guess = setBetNumber;
