@@ -494,9 +494,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 519420028}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e0fda5ca161f2c141be7225bf78394b2, type: 3}
+  m_Script: {fileID: 11500000, guid: 9420f5aea32df7646ab1a75a6346d5df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  matteColor: {r: 0, g: 0, b: 0, a: 1}
+  referenceMode: 0
+  x: 16
+  y: 10
+  width: 960
+  height: 540
+  onAwake: 1
+  onUpdate: 1
 --- !u!20 &519420031
 Camera:
   m_ObjectHideFlags: 0
@@ -588,7 +596,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 89.475006, y: -25.414}
+  m_AnchoredPosition: {x: 89.475006, y: -25.414001}
   m_SizeDelta: {x: 298.95, y: 50.828}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &653176241
@@ -1074,9 +1082,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   state: 0
-  doTextTransitions: 1
+  doTextTransitions: 0
   mainTextSpeed: 0.25
-  optionTextSpeed: 0.4
+  optionTextSpeed: 0.3
   optionTextIntermissionSpeed: 0.4
   optionMainIntermissionSpeed: 0
   brSwitchSpeed: 0.5
@@ -2705,7 +2713,7 @@ MonoBehaviour:
       workerReq: 0
       smartsReq: 0
       cheatingReq: 0
-      adjustMoney: 0
+      adjustMoney: -1000
       adjustHappiness: 0
       adjustDignity: 0
       adjustLuck: 0
@@ -3047,7 +3055,7 @@ MonoBehaviour:
     EndGame: 0
   - text: '???: Thanks for your honesty, I really mean it'
     optionsToLoad:
-    - optionText: Take extra "gift"
+    - optionText: Take extra monetary "gift"
       textNodeToLoad: 0
       dayReq: 0
       moneyReq: 0
@@ -3713,7 +3721,7 @@ MonoBehaviour:
     overrideWithRoll: 0
     overrideWithDate: 0
     EndGame: 0
-  - text: 'Six: Until you BREAK'
+  - text: 'Six: Until you break'
     optionsToLoad: []
     defaultDialogue: 0
     advanceDay: 0
@@ -4553,11 +4561,51 @@ MonoBehaviour:
     overrideWithRoll: 0
     overrideWithDate: 0
     EndGame: 0
-  - text: CUT CONTENT (I ran out of time for Four)
+  - text: No one is there
     optionsToLoad: []
-    defaultDialogue: 84
+    defaultDialogue: 331
     advanceDay: 0
-    alts: []
+    alts:
+    - alt: 331
+      characterProgressionNeeded: 4
+      characterProgressionLevel: 1
+      characterProgressionLevelMax: 1
+      exactDayRequirement: -1
+      chance: 100
+      chanceCode: 
+      chanceChangePerDay: 0
+    - alt: 336
+      characterProgressionNeeded: 4
+      characterProgressionLevel: 2
+      characterProgressionLevelMax: 2
+      exactDayRequirement: -1
+      chance: 100
+      chanceCode: 
+      chanceChangePerDay: 0
+    - alt: 339
+      characterProgressionNeeded: 4
+      characterProgressionLevel: 3
+      characterProgressionLevelMax: 3
+      exactDayRequirement: -1
+      chance: 100
+      chanceCode: 
+      chanceChangePerDay: 0
+    - alt: 342
+      characterProgressionNeeded: 4
+      characterProgressionLevel: 4
+      characterProgressionLevelMax: 4
+      exactDayRequirement: -1
+      chance: 100
+      chanceCode: 
+      chanceChangePerDay: 0
+    - alt: 346
+      characterProgressionNeeded: 4
+      characterProgressionLevel: 5
+      characterProgressionLevelMax: 5
+      exactDayRequirement: -1
+      chance: 100
+      chanceCode: 
+      chanceChangePerDay: 0
     changeBackground: 0
     newBackgroundIndex: 0
     changePortrait: 0
@@ -4830,7 +4878,7 @@ MonoBehaviour:
       advanceProgression: 0
       setBetNumber: 0
       setBetAmount: 0
-    - optionText: Wine
+    - optionText: Grape Juice
       textNodeToLoad: 100
       dayReq: 0
       moneyReq: 0
@@ -4850,7 +4898,7 @@ MonoBehaviour:
       advanceProgression: 0
       setBetNumber: 0
       setBetAmount: 0
-    - optionText: Cocktail
+    - optionText: Fruity Thing
       textNodeToLoad: 100
       dayReq: 0
       moneyReq: 0
@@ -4870,7 +4918,7 @@ MonoBehaviour:
       advanceProgression: 0
       setBetNumber: 0
       setBetAmount: 0
-    - optionText: Tap Beer
+    - optionText: Root Beer
       textNodeToLoad: 100
       dayReq: 0
       moneyReq: 0
@@ -4910,7 +4958,7 @@ MonoBehaviour:
       advanceProgression: 0
       setBetNumber: 0
       setBetAmount: 0
-    - optionText: SHOTS
+    - optionText: SHOTS (of apple juice)
       textNodeToLoad: 100
       dayReq: 0
       moneyReq: 0
@@ -5053,7 +5101,7 @@ MonoBehaviour:
     overrideWithRoll: 0
     overrideWithDate: 0
     EndGame: 0
-  - text: 'Five: But really, people are just blind to the zero, off the atmosphere,
+  - text: 'Five: But really, people are just blind to the zero,because the atmosphere,
       drinks, and the illusion the wheel can make them rich'
     optionsToLoad:
     - optionText: Aren't those the things that make it fun though?
@@ -6956,9 +7004,9 @@ MonoBehaviour:
     overrideWithDate: 0
     EndGame: 0
   - text: "You can\u2019t help but question if he is even old enough to be drinking
-      the ale he is sipping from. But as if he's already been asked a million times,
-      he has his ID out on the table pointed towards the isle with an age well over
-      25"
+      the root beer he is sipping from. But as if he's already been asked a million
+      times, he has his ID out on the table pointed towards the isle with an age
+      well over 25"
     optionsToLoad: []
     defaultDialogue: 217
     advanceDay: 0
@@ -7774,7 +7822,8 @@ MonoBehaviour:
     overrideWithRoll: 0
     overrideWithDate: 0
     EndGame: 0
-  - text: Those are the first 10 dollars I've gotten selling my charms
+  - text: Those are the first 10 dollars I've gotten selling my charms, have this
+      special charm I made for you too
     optionsToLoad: []
     defaultDialogue: 254
     advanceDay: 0
@@ -8535,7 +8584,7 @@ MonoBehaviour:
     overrideWithRoll: 0
     overrideWithDate: 0
     EndGame: 0
-  - text: You talk amogst others in the bar until it gets very late
+  - text: You talk amongst others in the bar until it gets very late
     optionsToLoad: []
     defaultDialogue: 286
     advanceDay: 0
@@ -8559,7 +8608,7 @@ MonoBehaviour:
     overrideWithRoll: 0
     overrideWithDate: 0
     EndGame: 0
-  - text: Everyone has either gone home or is drunkenly sleeping
+  - text: Everyone has either gone home or silently dozing off
     optionsToLoad: []
     defaultDialogue: 288
     advanceDay: 0
@@ -8747,7 +8796,7 @@ MonoBehaviour:
     overrideWithRoll: 0
     overrideWithDate: 0
     EndGame: 0
-  - text: 'Six: I lied last time, but I am positive it will be a 6 this time'
+  - text: 'Six: I lied last time, but I guarantee it will land on 6 this time'
     optionsToLoad: []
     defaultDialogue: 302
     advanceDay: 0
@@ -8759,7 +8808,7 @@ MonoBehaviour:
     overrideWithRoll: 0
     overrideWithDate: 0
     EndGame: 0
-  - text: 'Six: There is no other possibilty, I swear on my life'
+  - text: 'Six: There is no other possibilty, I swear on my soul'
     optionsToLoad: []
     defaultDialogue: 303
     advanceDay: 0
@@ -8963,7 +9012,7 @@ MonoBehaviour:
     overrideWithRoll: 0
     overrideWithDate: 0
     EndGame: 0
-  - text: You leave before it stops to remember all the great expereinces you had
+  - text: You leave before it stops to remember all the great experiences you had
       at the High Roller
     optionsToLoad: []
     defaultDialogue: 310
@@ -9037,7 +9086,8 @@ MonoBehaviour:
     overrideWithRoll: 0
     overrideWithDate: 0
     EndGame: 0
-  - text: It was a fun distraction, but you can't run from everything
+  - text: It was a fun distraction, someday you'll be ready to get well, maybe it's
+      today
     optionsToLoad: []
     defaultDialogue: 316
     advanceDay: 0
@@ -9063,7 +9113,7 @@ MonoBehaviour:
     EndGame: 0
   - text: The die tumbles onto the felt
     optionsToLoad: []
-    defaultDialogue: 321
+    defaultDialogue: 318
     advanceDay: 0
     alts: []
     changeBackground: 0
@@ -9109,7 +9159,7 @@ MonoBehaviour:
     overrideWithRoll: 0
     overrideWithDate: 0
     EndGame: 0
-  - text: End
+  - text: THE END
     optionsToLoad: []
     defaultDialogue: 322
     advanceDay: 0
@@ -9122,7 +9172,9 @@ MonoBehaviour:
     overrideWithDate: 0
     EndGame: 0
   - text: 'If you are struggling with gambling addiction, know there are resources
-      available to help such as: https://www.ncpgambling.org/help-treatment/national-helpline-1-800-522-4700/'
+      available to help such as: https://www.ncpgambling.org/help-treatment/national-helpline-1-800-522-4700/.
+      The characters in this game while created in an attempt to be relatable, are
+      merely charicatures of the real life hardships of addiction.'
     optionsToLoad: []
     defaultDialogue: 323
     advanceDay: 0
@@ -9146,7 +9198,7 @@ MonoBehaviour:
     overrideWithRoll: 0
     overrideWithDate: 0
     EndGame: 0
-  - text: A game inspired by Disco Elysium
+  - text: A game inspired by Disco Elysium.
     optionsToLoad: []
     defaultDialogue: 325
     advanceDay: 0
@@ -9230,6 +9282,313 @@ MonoBehaviour:
     overrideWithRoll: 0
     overrideWithDate: 0
     EndGame: 1
+  - text: A middle aged man with the most peculiar, pink hat has marked his territory
+      with multiple empty glasses
+    optionsToLoad: []
+    defaultDialogue: 332
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
+  - text: 'Four: Before you start talking to me, please just don''t bring up my addictions
+      or issues'
+    optionsToLoad: []
+    defaultDialogue: 333
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
+  - text: 'Four: I know you just want to help, but I''m exhausted'
+    optionsToLoad:
+    - optionText: Of course
+      textNodeToLoad: 335
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+      setBetNumber: 0
+      setBetAmount: 0
+    defaultDialogue: 334
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
+  - text: 'Four: Sorry for being so upfront, let''s talk about something fun!'
+    optionsToLoad: []
+    defaultDialogue: 335
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
+  - text: You talk with Four for hours about what the difference between vegetable
+      and carrots are
+    optionsToLoad: []
+    defaultDialogue: 38
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
+  - text: 'Four: Hello again!'
+    optionsToLoad: []
+    defaultDialogue: 337
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
+  - text: 'Four: It turns out corn is a fruit, vegetable AND a grain'
+    optionsToLoad: []
+    defaultDialogue: 338
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
+  - text: What begins as a discussion of plant classification quickly turns into
+      a debate on if powered spray toilets are cool or not
+    optionsToLoad: []
+    defaultDialogue: 38
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
+  - text: 'Four: Ok, hear me out'
+    optionsToLoad: []
+    defaultDialogue: 340
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
+  - text: 'Four: "Cactus Olympics"'
+    optionsToLoad:
+    - optionText: That is the stupidest thing I have ever heard
+      textNodeToLoad: 341
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+      setBetNumber: 0
+      setBetAmount: 0
+    - optionText: You've piqued my interest...
+      textNodeToLoad: 341
+      dayReq: 0
+      moneyReq: 0
+      happinessReq: 0
+      dignityReq: 0
+      luckReq: 0
+      workerReq: 0
+      smartsReq: 0
+      cheatingReq: 0
+      adjustMoney: 0
+      adjustHappiness: 0
+      adjustDignity: 0
+      adjustLuck: 0
+      adjustWorker: 0
+      adjustSmarts: 0
+      adjustCheating: 0
+      advanceProgression: 0
+      setBetNumber: 0
+      setBetAmount: 0
+    defaultDialogue: 341
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
+  - text: Would that be people doing cactus sports? People watching cacti compete?
+      Or people trying to immitate a cactus?
+    optionsToLoad: []
+    defaultDialogue: 38
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
+  - text: 'Four: Hey, before we talk about the Nugget Paradox...'
+    optionsToLoad: []
+    defaultDialogue: 343
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
+  - text: 'Four: I just wanted to say thanks for talking with me'
+    optionsToLoad: []
+    defaultDialogue: 344
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
+  - text: 'Four: It takes my mind off of things I''d rather not think about'
+    optionsToLoad: []
+    defaultDialogue: 345
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
+  - text: You both proceed to begin your theories on the Nugget Paradox
+    optionsToLoad: []
+    defaultDialogue: 38
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
+  - text: Before you know it you have already been discussing with Four for hours
+    optionsToLoad: []
+    defaultDialogue: 347
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
+  - text: 'Four: Thanks again friend'
+    optionsToLoad: []
+    defaultDialogue: 348
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
+  - text: 'Four: I know I have some things to iron out in the future'
+    optionsToLoad: []
+    defaultDialogue: 349
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
+  - text: 'Four: I know I''ll have you there to help me when I''m ready to take that
+      step'
+    optionsToLoad: []
+    defaultDialogue: 350
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
+  - text: The both of you head home knowing that one less mystery in the universe
+      has been solved
+    optionsToLoad: []
+    defaultDialogue: 38
+    advanceDay: 0
+    alts: []
+    changeBackground: 0
+    newBackgroundIndex: 0
+    changePortrait: 0
+    newPortraitIndex: 0
+    overrideWithRoll: 0
+    overrideWithDate: 0
+    EndGame: 0
 --- !u!4 &873542898
 Transform:
   m_ObjectHideFlags: 0
@@ -9351,8 +9710,8 @@ Canvas:
   m_GameObject: {fileID: 910665454}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 0
-  m_Camera: {fileID: 0}
+  m_RenderMode: 1
+  m_Camera: {fileID: 519420031}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
@@ -10209,8 +10568,8 @@ Canvas:
   m_GameObject: {fileID: 1522992498}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 0
-  m_Camera: {fileID: 0}
+  m_RenderMode: 1
+  m_Camera: {fileID: 519420031}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
@@ -10890,8 +11249,8 @@ Canvas:
   m_GameObject: {fileID: 2098703531}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 0
-  m_Camera: {fileID: 0}
+  m_RenderMode: 1
+  m_Camera: {fileID: 519420031}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1

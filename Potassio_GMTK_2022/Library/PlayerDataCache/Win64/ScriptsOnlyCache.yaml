@@ -1,10 +1,10 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
-    - AspectForce
     - BRManager
     - GamblerStats
     - GameManager
+    - LetterBoxer
     - OptionManager
     - OptionUI
     - PlayerInfo
@@ -58,41 +58,41 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1516}
+      Script: {instanceID: 1518}
     - Class: 114
-      Script: {instanceID: 1652}
+      Script: {instanceID: 1654}
     - Class: 114
-      Script: {instanceID: 2254}
+      Script: {instanceID: 2258}
     - Class: 114
-      Script: {instanceID: 2684}
+      Script: {instanceID: 2688}
     - Class: 114
-      Script: {instanceID: 2828}
+      Script: {instanceID: 2832}
     - Class: 114
-      Script: {instanceID: 2856}
+      Script: {instanceID: 2860}
     - Class: 114
-      Script: {instanceID: 3092}
+      Script: {instanceID: 3096}
     - Class: 114
-      Script: {instanceID: 3160}
+      Script: {instanceID: 3164}
     - Class: 114
-      Script: {instanceID: 3342}
+      Script: {instanceID: 3346}
     - Class: 114
-      Script: {instanceID: 3864}
+      Script: {instanceID: 3622}
     - Class: 114
-      Script: {instanceID: 4290}
+      Script: {instanceID: 3870}
     - Class: 114
-      Script: {instanceID: 4736}
+      Script: {instanceID: 4296}
     - Class: 114
-      Script: {instanceID: 5078}
+      Script: {instanceID: 4742}
     - Class: 114
-      Script: {instanceID: 5182}
+      Script: {instanceID: 5084}
     - Class: 114
-      Script: {instanceID: 5582}
+      Script: {instanceID: 5188}
     - Class: 114
-      Script: {instanceID: 5860}
+      Script: {instanceID: 5588}
     - Class: 114
-      Script: {instanceID: 35738}
+      Script: {instanceID: 5866}
     - Class: 114
-      Script: {instanceID: 39690}
+      Script: {instanceID: 17528}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -164,6 +164,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: LayoutElement
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: AspectForce
   - hash:
       serializedVersion: 2
       Hash: 6bc76e17f0d5e93f3eea7f5a2fe227f3
@@ -380,6 +386,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TextContainer
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Tutorializer
   - hash:
       serializedVersion: 2
       Hash: 8aa3d6ccbcb54ee8db6c1229854adaaa
@@ -670,17 +682,23 @@ ScriptsOnlyBuild:
     className: PlayerInfo
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+      Hash: 005b5e2f7f77d4df5389eb1e231c4501
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: AspectForce
+    className: PingPongMove
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+      Hash: f20e9fc1cf83f9662a90221d089fafee
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: Tutorializer
+    className: LetterBoxer
+  - hash:
+      serializedVersion: 2
+      Hash: d3d1df6490c8d5e8e6e6f95a54c77a07
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: TrackMouse
   platform: 19
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: C:/Users/furuk/Documents/GMTK_Jam_Builds/Build1/Potassio_GMTK_2022.exe
+  playerPath: C:/Users/furuk/Documents/GMTK_Jam_Builds/SixGameExpress/Potassio_GMTK_2022.exe
